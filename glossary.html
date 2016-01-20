@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+	<!-- http://getbootstrap.com/customize/?id=90eefd2995654c9117b7 -->
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="robots" content="" />
+	<meta name="author" content="Elizabeth Wetton" />
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+	<title>Pira's WoW Guides</title>
+	<!-- Additional CSS to make thumbnails work -->
+	<style>
+	.sq_thumb {
+		position:relative;
+		overflow:hidden;
+		padding-bottom:100%;
+	}
+	.sq_thumb img{
+		position:absolute;
+	}
+	</style>
+</head>
+<body>
+
+	<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>	
+	<script src="/js/jquery.min.js" type="text/javascript"></script>
+	<script src="/js/bootstrap.js"></script>
+	<script src="/js/npm.js"></script>	
+
+	<!-- Here is where the Navbar starts -->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html">Pira's WoW Guides</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a data-toggle="dropdown" class="dropdown-toggle" href="#">PvE Guides<b class="caret"></b></a>
+						<ul class="dropdown-menu">  
+							<li><a href="/pve/dk.html"><img src="/img/icons/Icon_DK.gif"> Death Knight</a></li>
+							<li class="disabled"><a href="/pve/druid.html"><img src="/img/icons/Icon_Druid.gif"> Druid</a></li>
+							<li><a href="/pve/hunter.html"><img src="/img/icons/Icon_Hunter.gif"> Hunter</a></li>
+							<li><a href="/pve/mage.html"><img src="/img/icons/Icon_Mage.gif"> Mage</a></li>
+							<li class="disabled"><a href="/pve/paladin.html"><img src="/img/icons/Icon_Paladin.gif"> Paladin</a></li>
+							<li><a href="/pve/priest.html"><img src="/img/icons/Icon_Priest.gif"> Priest</a></li>
+							<li class="disabled"><a href="/pve/rogue.html"><img src="/img/icons/Icon_Rogue.gif"> Rogue</a></li>
+							<li class="disabled"><a href="/pve/shaman.html"><img src="/img/icons/Icon_Shaman.gif"> Shaman</a></li>
+							<li class="disabled"><a href="/pve/warlock.html"><img src="/img/icons/Icon_Warlock.gif"> Warlock</a></li>
+							<li><a href="/pve/warrior.html"><img src="/img/icons/Icon_Warrior.gif"> Warrior</a></li>				
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a data-toggle="dropdown" class="dropdown-toggle" href="#">PvP Guides<b class="caret"></b></a>
+						<ul class="dropdown-menu">  
+							<li class="disabled"><a href="/pvp/dk.html"><img src="/img/icons/Icon_DK.gif"> Death Knight</a></li>
+							<li class="disabled"><a href="/pvp/druid.html"><img src="/img/icons/Icon_Druid.gif"> Druid</a></li>
+							<li class="disabled"><a href="/pvp/hunter.html"><img src="/img/icons/Icon_Hunter.gif"> Hunter</a></li>
+							<li class="disabled"><a href="/pvp/mage.html"><img src="/img/icons/Icon_Mage.gif"> Mage</a></li>
+							<li class="disabled"><a href="/pvp/paladin.html"><img src="/img/icons/Icon_Paladin.gif"> Paladin</a></li>
+							<li class="disabled"><a href="/pvp/priest.html"><img src="/img/icons/Icon_Priest.gif"> Priest</a></li>
+							<li class="disabled"><a href="/pvp/rogue.html"><img src="/img/icons/Icon_Rogue.gif"> Rogue</a></li>
+							<li class="disabled"><a href="/pvp/shaman.html"><img src="/img/icons/Icon_Shaman.gif"> Shaman</a></li>
+							<li class="disabled"><a href="/pvp/warlock.html"><img src="/img/icons/Icon_Warlock.gif"> Warlock</a></li>
+							<li class="disabled"><a href="/pvp/warrior.html"><img src="/img/icons/Icon_Warrior.gif"> Warrior</a></li>				
+						</ul>
+					</li>
+					<li><a href="addons.html">Addon Packs</a></li>
+					<li><a href="glossary.html">Additional Information</a></li>
+					<li><a href="submit.html">Submit a Guide</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<!-- Here is where the Navbar ends -->
+	<div class="row">
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-6">
+			<h1>Additional Information</h1>
+			<h2>Contents</h2>
+			<ol>
+				<li>
+					<a href="#primary-stats">Primary Stats</a>
+				</li>
+				<li>
+					<a href="#secondary-stats">Secondary Stats</a>
+				</li>
+				<li>
+					<a href="#roles">Roles</a>
+				</li>
+				<li>
+					<a href="#raidspeak">Raidspeak</a>
+				</li>
+				<li>
+					<a href="#relative-dps">Relative DPS</a>
+				</li>
+			</ol>
+			<h2>Glossary of Terms</h2>
+			<h3 id="primary-stats">Primary Stats:</h3>
+			<dl>
+				<dt>Strength</dt>
+				<dd>
+					Increases attack power and parry. Scales better for plate users
+					(Paladin, Death Knight, Warrior) and for feral tank.
+				</dd>
+				<br>
+				<dt>Agility</dt>
+				<dd>
+					Increases critical strike, armor, and dodge. For mail and leather
+					classes, it always increases attack power.
+				</dd>
+				<br>
+				<dt>Stamina</dt>
+				<dd>
+					Increases health pool.
+				</dd>
+				<br>
+				<dt>Intellect</dt>
+				<dd>
+					Increases mana pool and spell critical chance.
+				</dd>
+				<br>
+				<dt>Spirit</dt>
+				<dd>
+					Increases both health regeneration and mana regeneration. Favoured regen
+					stat for Priests and Druids.
+				</dd>
+				<br>
+				<dt>Armour</dt>
+				<dd>
+					Decreases physical damage taken.
+				</dd>
+				<br>
+			</dl>
+			<h3 id="secondary-stats">Secondary Stats:</h3>
+			<dl>
+				<dt>Critical Strike Rating</dt>
+				<dd>
+					Increases your chance to critically strike, doing increased damage for
+					an attack. Most DPS specs will have a critical bonus for certain types
+					of attacks so critical strikes can do anywhere between 50% and 100%
+					increased damage.
+				</dd>
+				<br>
+				<dt>Haste Rating</dt>
+				<dd>
+					Increases the speed at which you cast or attack. Some specs benefit from this way more than others.
+				</dd>
+				<br>
+				<dt>Armor Penetration Rating</dt>
+				<dd>
+					Decreases the efect of enemy armor, meaning that your physical damage
+					will increase. This stat is exponential for specs relying on heavy
+					physical damage. The more ArPen you have, the higher the stat weight
+					is until 100% is achieved.
+				</dd>
+				<br>
+				<dt>Hit Rating</dt>
+				<dd>
+					Increases your chance to hit against mobs or other players. Melee specs
+					will often have a soft hit cap of 8% while for ranged specs it varies
+					between 11% and 17%. Note: Melee hit and spell hit scale differently, so
+					check the one applicable to your spec.
+				</dd>
+				<br>
+				<dt>Expertise Rating</dt>
+				<dd>
+					Decreses the likelyhood of enemies dodging or parrying attacks. The
+					Dodge cap on expertise is 26. For melee dps, this is what you aim for.
+				</dd>
+				<br>
+				<dt>Defense Rating</dt>
+				<dd>
+					Decreases the likilihood of being critically hit by mobs. Decreases the
+					likilihood of being hit by mobs. Increases Dodge, Parry, and Block%
+					slightly. The soft cap for defense is 540, no more, no less. Many guides
+					erroneously report this as 550 for 535 but they're completely wrong.
+					Read <a href="http://wowwiki.wikia.com/wiki/Defense">this page</a> if
+					you're not a believer in he 540 defense cap, or are curious how the
+					mecanics work.
+				</dd>
+				<br>
+				<dt>Dodge Rating</dt>
+				<dd>
+					Increases dodge change. This has diminishing returns so don't invest too
+					heavily.
+				</dd>
+				<br>
+				<dt>Parry Rating</dt>
+				<dd>
+					Increases parry change. This has diminishing returns so don't invest too
+					heavily. Scales lower than dodge but has the added benefit of Parry
+					Haste, which reduces the defender's next melee swing by 40%.
+				</dd>
+				<br>
+				<dt>Block Rating</dt>
+				<dd>
+					Increases block chance for shield users.
+				</dd>
+				<br>
+				<dt>Block Value</dt>
+				<dd>
+					Increases the damage mitigated when blocking an attack.
+				</dd>
+				<br>
+				<dt>Mana Regeneration (Mp5)</dt>
+				<dd>
+					Increases the raw mana renegeration. This is the preferred regeneration
+					stat for shaman and paladins.
+				</dd>
+				<br>
+			</dl>
+			<h3 id="roles">Roles:</h3>
+			<dl>
+				<dt>Tank</dt>
+				<dd>
+					This is the individual in charge of getting smacked around by the boss. Often also leads the encounter if there are any movements.
+				</dd>
+				<bR>
+				<dt>DPS (Damage Per Second)</dt>
+				<dd>
+					These are individuals charged with doing damage to the boss. They make up most of the raid and are also responsible for the most wipes.
+				</dd>
+				<br>
+				<dt>Healers</dt>
+				<dd>
+					This infallible little group of lovelies is charged with keeping the raid alive. Often underapperciated, healers are the backbone of the entire raid and carry a lot of the dead weight around on their shoulders.
+				</dd>
+				<br>
+			</dl>
+			<h3 id="raidspeak">Raidspeak:</h3>
+			<dl>
+				<dt>Boss</dt>
+				<dd>
+					This is the central fixture of the encounter. Often denoted by the Skull where a level should be.
+				</dd>
+				<br>
+				<dt>Adds</dt>
+				<dd>
+					Additional monsters that are spawned during encounters.
+				</dd>
+				<br>
+				<dt>Trash</dt>
+				<dd>
+					Monsters found between encounters.
+				</dd>
+				<br>
+				<dt>Crowd Control (CC)</dt>
+				<dd>
+					The act of putting a control spell on a monster or mind controlled player so do not interfere with the encoutner or can be saved until higher priority targets are killed. 
+				</dd>
+				<br>
+				<dt>Area of Effect (AOE)</dt>
+				<dd>
+					Using spells that deal smaller damage per hit to a larger number of mobs in order to clear these mobs en masse. 
+				</dd>
+				<br>
+				<dt>Peel</dt>
+				<dd>
+					The act of dps pulling stray mobs off of healers or squishy ranged dps.
+				</dd>
+				<br>
+				<dt>Buff/Debuff</dt>
+				<dd>
+					Buffs are helpful spells, you apply them to your friends in the raid group. Debuffs are harmfull spells that bosses or adds put on raid members during an encounter.
+				</dd>
+				<br>
+				<dt>Clease</dt>
+				<dd>
+					Cleansing is the act of removing a debuff with a debuff removal spell. There are four categories that can be removed: Magic, Curse, Poison, Disease. Not all debuffs can be cleansed.
+				</dd>
+				<br>
+				<dt>Tactics</dt>
+				<dd>
+					This is the group's game plan for the boss as explained by a member in the group. Often they will describe how certain roles handle certain situations so pay very mindful attention to your role.
+				</dd>
+				<br>
+				<dt>Wipe</dt>
+				<dd>
+					The result of a failed encounter.
+				</dd>
+				<br>
+				<dt>Loot</dt>
+				<dd>
+					Spoils of victory or treasure from an encounter.
+				</dd>
+				<br>
+			</dl>
+			<hr>
+			<h2 id="relative-dps">Relative DPS</h2>
+			<p>Below is the relative, normalized dps, for 3.3.5. Depending on custom content available on he server, this may change. However, below is the general relative dps for retail/stock 3.3.5. Bear in mind this was a snapshot of relaive normalized dps taken from averaging several bosses of ICC25HC. Take it with a grain of salt, and don't send me emails being like "I'm a Survival Hunter and I was top dps."</p>
+			<br>
+			<h3>Average ICC25HC DPS on 8 bosses<br><small>Marrowgar/Deathwhisper/Saurfang/Festergut/Rotface/Putricide/Blood Prince/Sindragosa</small></h3>
+			<!-- Progress bar table -->
+			<div class="progress">
+				<div class="progress-bar progress-bar-warrior" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+					Fury: 100%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-mage" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+					Fire: 95%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-rogue" role="progressbar" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100" style="width: 91%;">
+					Combat: 91%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-paladin" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%;">
+					Retribution: 88%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-hunter" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%;">
+					Marksman: 88%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-warlock" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%;">
+					Affliction: 88%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-deathknight" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
+					Unholy: 86%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-priest" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
+					Shadow: 86%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-druid" role="progressbar" aria-valuenow="84" aria-valuemin="0" aria-valuemax="100" style="width: 84%;">
+					Feral: 84%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-rogue" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100" style="width: 83%;">
+					Assassination: 83%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-warlock" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style="width: 82%;">
+					Demonology: 82%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-deathknight" role="progressbar" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100" style="width: 81%;">
+					Frost: 81%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-druid" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+					Balance: 80%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-shaman" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%;">
+					Elemental: 78%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-mage" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%;">
+					Arcane: 78%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-shaman" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+					Enhancement: 75%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-deathknight" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+					Blood: 75%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-warlock" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100" style="width: 73%;">
+					Destruction: 73%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-hunter" role="progressbar" aria-valuenow="71" aria-valuemin="0" aria-valuemax="100" style="width: 71%;">
+					Survival: 71%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-warrior" role="progressbar" aria-valuenow="69" aria-valuemin="0" aria-valuemax="100" style="width: 69%;">
+					Arms: 69%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-hunter" role="progressbar" aria-valuenow="59" aria-valuemin="0" aria-valuemax="100" style="width: 59%;">
+					Beastmastery: 59%
+				</div>
+			</div>
+			<div class="progress">
+				<div class="progress-bar progress-bar-rogue" role="progressbar" aria-valuenow="54" aria-valuemin="0" aria-valuemax="100" style="width: 54%;">
+					Subtlety: 54%
+				</div>
+			</div>
+			<h3>You're a liar! My spec is way higher!</h3>
+			<p>Possibly, and you are possibly running on a private server with custom content and unique bugs. We'll never know if you could out dps the data points in that chart because it's not 2010 and you're not playing retail.</p>
+			<p>DPS ranking data is collated from <a href="https://web.archive.org/web/20100912034313/http://www.worldoflogs.com/rankings/players/Icecrown_Citadel/dps">World of Logs</a> and if you click on that link and look on ICC25HC dps ranking, you will see it's consisitent with the relative dps posted above.</p>
+			<p>Again, grain of salt. This chart should only apply to the most blizzlike of servers but it also provides a basic understanding of what dps was like in 3.3.5.</p>
+		</div>
+		<div class="col-md-3">
+		</div>
+	</div>
+</body>
+</html>
