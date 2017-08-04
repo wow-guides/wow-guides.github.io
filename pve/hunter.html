@@ -1,479 +1,477 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
-	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
-	<!-- http://getbootstrap.com/customize/?id=90eefd2995654c9117b7 -->
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="robots" content="" />
-	<meta name="author" content="Elizabeth Wetton" />
-	<link rel="shortcut icon" href="img/favicon.png" type="image/png" />
-	<title>Pira's WoW Guides</title>
-	<!-- Additional CSS to make thumbnails work -->
-	<style>
-		.sq_thumb {
-			position:relative;
-			overflow:hidden;
-			padding-bottom:100%;
-		}
-		.sq_thumb img{
-			position:absolute;
-		}
-		</style>
-	</head>
-	<body>
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+<!-- http://getbootstrap.com/customize/?id=90eefd2995654c9117b7 -->
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="" />
+<meta name="author" content="Elizabeth Wetton" />
+<link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+<title>Pira's WoW Guides</title>
+<!-- Additional CSS to make thumbnails work -->
+<style type="text/css">
+	.sq_thumb {
+		position:relative;
+		overflow:hidden;
+		padding-bottom:100%;
+	}
+	.sq_thumb img{
+		position:absolute;
+	}
+	</style>
+</head>
+<body>
 
-		<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>	
-		<script src="/js/jquery.min.js" type="text/javascript"></script>
-		<script src="/js/bootstrap.js"></script>
-		<script src="/js/npm.js"></script>	
-		<!-- Here is where the Navbar starts -->
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="/index.html">Pira's WoW Guides</a>
-				</div>
+	<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>	
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/js/npm.js"></script>	
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li class="dropdown">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#">PvE Guides<b class="caret"></b></a>
-							<ul class="dropdown-menu">  
-								<li><a href="/pve/dk.html"><img src="/img/icons/Icon_DK.gif"> Death Knight</a></li>
-								<li class="disabled"><a href="/pve/druid.html"><img src="/img/icons/Icon_Druid.gif"> Druid</a></li>
-								<li><a href="/pve/hunter.html"><img src="/img/icons/Icon_Hunter.gif"> Hunter</a></li>
-								<li><a href="/pve/mage.html"><img src="/img/icons/Icon_Mage.gif"> Mage</a></li>
-								<li class="disabled"><a href="/pve/paladin.html"><img src="/img/icons/Icon_Paladin.gif"> Paladin</a></li>
-								<li><a href="/pve/priest.html"><img src="/img/icons/Icon_Priest.gif"> Priest</a></li>
-								<li class="disabled"><a href="/pve/rogue.html"><img src="/img/icons/Icon_Rogue.gif"> Rogue</a></li>
-								<li class="disabled"><a href="/pve/shaman.html"><img src="/img/icons/Icon_Shaman.gif"> Shaman</a></li>
-								<li class="disabled"><a href="/pve/warlock.html"><img src="/img/icons/Icon_Warlock.gif"> Warlock</a></li>
-								<li><a href="/pve/warrior.html"><img src="/img/icons/Icon_Warrior.gif"> Warrior</a></li>				
-							</ul>
-						</li>
-						<!-- 
-							<li class="dropdown">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#">PvP Guides<b class="caret"></b></a>
-							<ul class="dropdown-menu">  
-							<li class="disabled"><a href="/pvp/dk.html"><img src="/img/icons/Icon_DK.gif"> Death Knight</a></li>
-							<li class="disabled"><a href="/pvp/druid.html"><img src="/img/icons/Icon_Druid.gif"> Druid</a></li>
-							<li class="disabled"><a href="/pvp/hunter.html"><img src="/img/icons/Icon_Hunter.gif"> Hunter</a></li>
-							<li class="disabled"><a href="/pvp/mage.html"><img src="/img/icons/Icon_Mage.gif"> Mage</a></li>
-							<li class="disabled"><a href="/pvp/paladin.html"><img src="/img/icons/Icon_Paladin.gif"> Paladin</a></li>
-							<li class="disabled"><a href="/pvp/priest.html"><img src="/img/icons/Icon_Priest.gif"> Priest</a></li>
-							<li class="disabled"><a href="/pvp/rogue.html"><img src="/img/icons/Icon_Rogue.gif"> Rogue</a></li>
-							<li class="disabled"><a href="/pvp/shaman.html"><img src="/img/icons/Icon_Shaman.gif"> Shaman</a></li>
-							<li class="disabled"><a href="/pvp/warlock.html"><img src="/img/icons/Icon_Warlock.gif"> Warlock</a></li>
-							<li class="disabled"><a href="/pvp/warrior.html"><img src="/img/icons/Icon_Warrior.gif"> Warrior</a></li>				
-							</ul>
-							</li> -->
-							<li><a href="addons.html">Addon Packs</a></li>
-							<li><a href="glossary.html">Additional Information</a></li>
-							<li><a href="submit.html">Submit a Guide</a></li>
+	<!-- Here is where the Navbar starts -->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html">Pira's WoW Guides</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a data-toggle="dropdown" class="dropdown-toggle" href="#">PvE Guides<b class="caret"></b></a>
+						<ul class="dropdown-menu">  
+							<li><a href="/pve/dk.html"><img src="/img/icons/Icon_DK.gif" alt="Death Knight Icon"> Death Knight</a></li>
+							<li class="disabled"><a href="/pve/druid.html"><img src="/img/icons/Icon_Druid.gif" alt="Druid Icon"> Druid</a></li>
+							<li><a href="/pve/hunter.html"><img src="/img/icons/Icon_Hunter.gif" alt="Hunter Icon"> Hunter</a></li>
+							<li><a href="/pve/mage.html"><img src="/img/icons/Icon_Mage.gif" alt="Mage Icon"> Mage</a></li>
+							<li class="disabled"><a href="/pve/paladin.html"><img src="/img/icons/Icon_Paladin.gif" alt="Paladin Icon"> Paladin</a></li>
+							<li><a href="/pve/priest.html"><img src="/img/icons/Icon_Priest.gif" alt="Priest Icon"> Priest</a></li>
+							<li class="disabled"><a href="/pve/rogue.html"><img src="/img/icons/Icon_Rogue.gif" alt="Rogue Icon"> Rogue</a></li>
+							<li class="disabled"><a href="/pve/shaman.html"><img src="/img/icons/Icon_Shaman.gif" alt="Shaman Icon"> Shaman</a></li>
+							<li class="disabled"><a href="/pve/warlock.html"><img src="/img/icons/Icon_Warlock.gif" alt="Warlock Icon"> Warlock</a></li>
+							<li><a href="/pve/warrior.html"><img src="/img/icons/Icon_Warrior.gif" alt="Warrior Icon"> Warrior</a></li>				
 						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-			</nav>
-			<!-- Here is where the Navbar ends -->
-			<div class="row">
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-6">
-					<center><h1>3.3.5 Hunter PvE Guides</h1></center>
-					<br>
-					<ul class="nav nav-pills nav-justified">
-						<li role="presentation" class="active"><a data-toggle="tab" href="#beastmastery"><img src="/img/icons/Hunter/Beastmastery.png"> Beastmastery</a></li>
-						<li role="presentation"><a data-toggle="tab" href="#marksman"><img src="/img/icons/Hunter/Marksman.png"> Marksmanship</a></li>
-						<li role="presentation"><a data-toggle="tab" href="#survival"><img src="/img/icons/Hunter/Survival.png"> Survival</a></li>
+					</li>
+					<!-- 
+						<li class="dropdown">
+						<a data-toggle="dropdown" class="dropdown-toggle" href="#">PvP Guides<b class="caret"></b></a>
+						<ul class="dropdown-menu">  
+						<li class="disabled"><a href="/pvp/dk.html"><img src="/img/icons/Icon_DK.gif"> Death Knight</a></li>
+						<li class="disabled"><a href="/pvp/druid.html"><img src="/img/icons/Icon_Druid.gif"> Druid</a></li>
+						<li class="disabled"><a href="/pvp/hunter.html"><img src="/img/icons/Icon_Hunter.gif"> Hunter</a></li>
+						<li class="disabled"><a href="/pvp/mage.html"><img src="/img/icons/Icon_Mage.gif"> Mage</a></li>
+						<li class="disabled"><a href="/pvp/paladin.html"><img src="/img/icons/Icon_Paladin.gif"> Paladin</a></li>
+						<li class="disabled"><a href="/pvp/priest.html"><img src="/img/icons/Icon_Priest.gif"> Priest</a></li>
+						<li class="disabled"><a href="/pvp/rogue.html"><img src="/img/icons/Icon_Rogue.gif"> Rogue</a></li>
+						<li class="disabled"><a href="/pvp/shaman.html"><img src="/img/icons/Icon_Shaman.gif"> Shaman</a></li>
+						<li class="disabled"><a href="/pvp/warlock.html"><img src="/img/icons/Icon_Warlock.gif"> Warlock</a></li>
+						<li class="disabled"><a href="/pvp/warrior.html"><img src="/img/icons/Icon_Warrior.gif"> Warrior</a></li>				
+						</ul>
+						</li> -->
+						<li><a href="addons.html">Addon Packs</a></li>
+						<li><a href="glossary.html">Additional Information</a></li>
+						<li><a href="submit.html">Submit a Guide</a></li>
 					</ul>
-					<div class="tab-content">
-						<!-- Guide 1 Starts Here -->
-						<div id="beastmastery" class="tab-pane fade in active">
-							<br>
-							<br>
-							<center>
-								<h2>Beastmastery<small><br>Written by: FluffyPira</small></h2>
-							</center>
-							<br>
-							<h5>Contents</h5>
-							<div class="tab-content">
-								<ol>
-									<li><a href="#bm-disclaimer">Disclaimer</a></li>
-									<li><a href="#bm-intro">Introduction</a></li>
-									<li><a href="#bm-build">Build</a></li>
-									<li><a href="#bm-spells">Spells</a></li>
-									<li><a href="#bm-gearing">Gearing</a></li>
-									<li><a href="#bm-macros">Macros</a></li>
-								</ol>
-							</div>
-							<br>
-							<h3 id="bm-intro"><u>Disclaimer</u></h3>
-							<p>While Beastmastery hunter can be a great build for sole pve content and world exploration, it is not recommended as a pve build. The damage is simply too low to be considered viable in a raid, doing 67% of the damage a Marksman hunter can do in the same gear. That said, if you still wish to play beastmastery because of preference or desire to experiment, there is nothing stopping you.</p>
-							<br>
-							<h3 id="bm-intro"><u>Introduction</u></h3>
-							<p>Beastmastery is a unique hunter build that focuses largely on buffing the hunter's pet to deal damage. As such it is much more dependant on the hunter's pet being survivable and dealing the most damage it can.</p>
-							<p>By the end of this guide you should be able to understand the basics of playing a Beastmastery Hunter.</p>
-							<hr>
-							<h3 id="bm-build"><u>Build</u></h3>
-							<h4>Talent:</h4>
-							<p>This is your standard MM hunter talent setup, everything you need to succeed is right here. The only modification is when you get to the point where arcane shot is a dps loss, you will want to move those talent points somewhere else.</p>
-							<div class="list-group">
-								<a href="http://wotlk.evowow.com/?talent#ctbMzttRfu0eRt0eVoZx" class="list-group-item">Standard Build (52/14/5)</a>
-							</div>
-							<h4>Glyphs:</h4>
-							<p>Major:
-								<ul>
-									<li>Glyph of Bestial Wrath</li>
-									<li>Glyph of Steady Shot</li>
-									<li>Glyph of the Hawk</li>
-								</ul>
-								Minor:
-								<ul>
-									<li>Fairly unimportant. Take whatever</li>
-								</ul>
-							</p>
-							<h4>Pets:</h4>
-							<p>For pets, you've basically two options.</p>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+		<!-- Here is where the Navbar ends -->
+		<div class="row">
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-6">
+				<center><h1>3.3.5 Hunter PvE Guides</h1></center>
+				<br>
+				<ul class="nav nav-pills nav-justified">
+					<li role="presentation" class="active"><a data-toggle="tab" href="#beastmastery"><img src="/img/icons/Hunter/Beastmastery.png"> Beastmastery</a></li>
+					<li role="presentation"><a data-toggle="tab" href="#marksman"><img src="/img/icons/Hunter/Marksman.png"> Marksmanship</a></li>
+					<li role="presentation"><a data-toggle="tab" href="#survival"><img src="/img/icons/Hunter/Survival.png"> Survival</a></li>
+				</ul>
+				<div class="tab-content">
+					<!-- Guide 1 Starts Here -->
+					<div id="beastmastery" class="tab-pane fade in active">
+						<br>
+						<br>
+						<center>
+							<h2>Beastmastery<small><br>Written by: FluffyPira</small></h2>
+						</center>
+						<br>
+						<h5>Contents</h5>
+						<div class="tab-content">
 							<ol>
-								<li>Devilsaur: Highest pet dps in the game; only available to Beastmastery Hunters.</li>
-								<li>Wolf: Very good option due to the Furious Howl buff.</li>
+								<li><a href="#bm-disclaimer">Disclaimer</a></li>
+								<li><a href="#bm-intro">Introduction</a></li>
+								<li><a href="#bm-build">Build</a></li>
+								<li><a href="#bm-spells">Spells</a></li>
+								<li><a href="#bm-gearing">Gearing</a></li>
+								<li><a href="#bm-macros">Macros</a></li>
 							</ol>
-							<hr>
-							<h3 id="bm-spells"><u>Spells</u></h3>
-							<p>Hunters use quite a few abilities, but it shouldn't be too hard to keep up with because there aren't any surprise procs in this build.</p>
-							<h5><strong>Damage:</strong></h5>
-							<dl>
-								<dt>Kill Shot (KS):</dt>
-								<dd>Execution ability, does massive damage if your target is below 20% hp, this is what gives you a dps spike at the end of fights.</dd><br>
-								<dt>Serpent Sting (SS):</dt>
-								<dd>You will always open with this, and it should always stay on your target for the entirety of any fight.</dd><br>
-								<dt>Arcane Shot:</dt>
-								<dd>This is about the only shot you will be using during the fight apart from steady shot. Use this as much as possible.</dd><br>
-								<dt>Steady Shot:</dt>
-								<dd>This is your filler. Any time your other attacks are on cooldown, fill with this.</dd><br>
-								<dt>Kill Command:</dt>
-								<dd>This attack is not tied to your global cooldown, so it should be macroed onto your shots.</dd><br>
-							</dl>
-							<h5><strong>Cooldowns:</strong></h5>
-							<dl>
-								<dt>Hunter's Mark:</dt>
-								<dd>Free damage. If this isn't up at all times, then you are playing hunter wrong.</dd><br>
-								<dt>Rapid Fire (RF):</dt>
-								<dd>Attack speed buff, very useful for heavy burst.</dd><br>
-								<dt>Misdirection:</dt>
-								<dd>This transfers your aggro to someone else of your choosing for the next 4 seconds. Can be used to help your tank if they are having aggro issues.</dd><br>
-								<dt>Aspect of the (Dragon)Hawk:</dt>
-								<dd>This is your dps aspect, keep it on during all boss fights.</dd><br>
-								<dt>Aspect of the Viper:</dt>
-								<dd>If you run out of mana switch to this temporarily. Your dps will drop, but you will quickly regain mana. Switch back immediately to Hawk/Dragonhawk when your mana is at a sufficient amount.</dd><br>
-							</dl>
-					
-							<h4>Single Target</h4>
-							<p>Always apply Hunter's Mark ahead of time before the fight starts. Also, to help with the pull try to apply misdirection to the main tank of the fight as the fight starts. Beyond this, beastmastery follows a very simple priority </p>
-							<h5>Single Target:</h5>
-							<pre>KS > SS > Arcane Shot > Steady Shot</pre><br>
-							<h4>Multi Target</h4>
-							<p>Not much to say here, standard priority but replace aimed with multi-shot. Volley for 4+ targets.</p>
-							<h5>Simplified:</h5>
-							<pre>Volley & Multi-Shot</pre>
-							<hr>
-							
-							<h3 id="bm-gearing"><u>Gearing</u></h3>
-							<h4>Damage:</h4>
-							<p>Get hit capped. After that you'll want to focus on agi and crit as much as possible.</p>
-							<br>
-							<h5>Simplified:</h5>
-							<pre>Hit Cap (8%) > Crit > Haste > Armor Penetration</pre><br>
-							<h4>Itemization:</h4>
-							<p>
-								You'll want to find either a single two hand weapon with agility on it or two one handed weapons. Ranged weapon however is the most imporant thing to worry about. Try to chase after gear you think enhancement shaman would love. Crit/Haste while trying to avoid Armor Penetration, although some Arpen isn't bad.
-							</p>
-							<br>
-							<h4>Gemming:</h4>
-							<p>You'll want to focus on maximizing agility here for attack power and crit reasons.</p><br>
-							<dl>
-								<dt>Meta:</dt>
-								<dd><a href="http://wotlk.evowow.com/?item=41398">Relentless Earthsiege Diamond</a></dd><br>
-								<dt>Red:</dt>
-								<dd><a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
-								<dt>Yellow:</dt>
-								<dd>At least one <a href="http://wotlk.evowow.com/?item=49110">Nightmare Tear</a> in yellow or blue. <a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
-								<dt>Blue:</dt>
-								<dd>At least one <a href="http://wotlk.evowow.com/?item=49110">Nightmare Tear</a> in yellow or blue. <a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
-							</dl>
-							<h3 id="bm-macros"><u>Useful Macros</u></h3>
-							<p>Misdirection</p>
-							<pre>#showtooltip<br>/cast [@focus,help][help][@pet,exists] Misdirection</pre>
-							<p>Steady Shot</p>
-							<pre>#showtooltip<br>/cast Steady Shot<br>/cast ![target=pettarget,exists] Kill Command<br>/script UIErrorsFrame:Clear()</pre>
 						</div>
-						<!-- Guide 1 Ends Here -->
-						<!-- Guide 2 Starts Here -->
-						<div id="marksman" class="tab-pane fade">
-							<br>
-							<br>
-							<center>
-								<h2>Marksmanship<small><br>Written by: Fiery</small></h2>
-							</center>
-							<br>
-							<h5>Contents</h5>
-							<div class="tab-content">
-								<ol>
-									<li><a href="#mm-intro">Introduction</a></li>
-									<li><a href="#mm-build">Build</a></li>
-									<li><a href="#mm-spells">Spells</a></li>
-									<li><a href="#mm-gearing">Gearing</a></li>
-									<li><a href="#mm-macros">Macros</a></li>
-								</ol>
-							</div>
-							<br>
-							<h3 id="mm-intro"><u>Introduction</u></h3>
-							<p>Marksmanship Hunter is one of the highest dps specializations in the game. They provide heavy physical damage from a safe range, can help with pulling certain mobs, and can help with tanks who are having an issues building aggro.</p>
-							<p>By the end of this guide you should be able to understand the basics of playing a Marksman Hunter, so you can provide both excellent dps and strong utility for your raids and dungeons.
-							</p>
-							<hr>
-							<h3 id="mm-build"><u>Build</u></h3>
-							<h4>Talent:</h4>
-							<p>This is your standard MM hunter talent setup, everything you need to succeed is right here. The only modification is when you get to the point where arcane shot is a dps loss, you will want to move those talent points somewhere else.</p>
-							<div class="list-group">
-								<a href="http://wotlk.evowow.com/?talent#cxbZ0eAsRhzGIoguqox00b" class="list-group-item">Standard Build (7/57/7)</a>
-							</div>
-							<h4>Glyphs:</h4>
-							<p>Major:
-								<ul>
-									<li>Glyph of Serpent Sting</li>
-									<li>Glyph of Kill Shot</li>
-									<li>Glyph of Chimera Shot</li>
-								</ul>
-								Minor:
-								<ul>
-									<li>Fairly unimportant. Take whatever</li>
-								</ul>
-							</p>
-							<h4>Pets:</h4>
-							<p>For pets, if you want to be serious about it, you only have really 4 options.</p>
-							<ol>
-								<li>Wolf: Best overall option due to the Furious Howl buff.</li>
-								<li>Wasp: Good dps, and an armor debuff if you don't have anyone with faerie fire in your party.</li>
-								<li>Raptor: A decent option for DPS.</li>
-								<li>Cat: Almost as good as raptor</li>
-							</ol>
-							<hr>
-							<h3 id="mm-spells"><u>Spells</u></h3>
-							<p>Hunters use quite a few abilities, but it shouldn't be too hard to keep up with because there aren't any surprise procs in this build.</p>
-							<h5><strong>Damage:</strong></h5>
-							<dl>
-								<dt>Kill Shot (KS):</dt>
-								<dd>Execution ability, does massive damage if your target is below 20% hp, this is what gives you a dps spike at the end of fights.</dd><br>
-								<dt>Serpent Sting (SS):</dt>
-								<dd>You will always open with this, and it should always stay on your target for the entirety of any fight.</dd><br>
-								<dt>Chimera Shot:</dt>
-								<dd>Will refresh your serpent sting and deal a lot of damage.</dd><br>
-								<dt>Aimed Shot:</dt>
-								<dd>Decreases target's healing recieved by 50%, but that's not important to us, its just another attack to help us pump out more damage.</dd><br>
-								<dt>Arcane Shot:</dt>
-								<dd>Because this spell uses arcane damage, there is actually a point where if you have enough armor penetration using this will become a dps loss. Test it from time to time to make sure it is still good to use for you.</dd><br>
-								<dt>Steady Shot:</dt>
-								<dd>This is your filler. Any time your other attacks are on cooldown, fill with this.</dd><br>
-								<dt>Silencing Shot:</dt>
-								<dd>This attack is not tied to your global cooldown, so it will be macroed onto all of your attacks so it can be cast ASAP. An example will be provided in the macro section.</dd><br>
-							</dl>
-							<h5><strong>Cooldowns:</strong></h5>
-							<dl>
-								<dt>Hunter's Mark:</dt>
-								<dd>Free damage. If this isn't up at all times, then you are playing hunter wrong.</dd><br>
-								<dt>Rapid Fire (RF):</dt>
-								<dd>Attack speed buff, very useful for heavy burst.</dd><br>
-								<dt>Readiness:</dt>
-								<dd>Resets the cooldown on every skill.</dd><br>
-								<dt>Misdirection:</dt>
-								<dd>This transfers your aggro to someone else of your choosing for the next 4 seconds. Can be used to help your tank if they are having aggro issues.</dd><br>
-								<dt>Trueshot Aura:</dt>
-								<dd>Raidwide attack power buff. Make sure it's always on.</dd><br>
-								<dt>Aspect of the (Dragon)Hawk:</dt>
-								<dd>This is your dps aspect, keep it on during all boss fights.</dd><br>
-								<dt>Aspect of the Viper:</dt>
-								<dd>If you run out of mana switch to this temporarily. Your dps will drop, but you will quickly regain mana. Switch back immediately to Hawk/Dragonhawk when your mana is at a sufficient amount.</dd><br>
-							</dl>
-					
-							<h4>Single Target</h4>
-							<p>Always apply Hunter's Mark ahead of time before the fight starts. After that opening rotation, you will go to your standard priority. Other than that the only other thing you need to know is how to pull targets for your tank. Note, do not do this unless you already have permission from your tank, or it will probably piss them off and get you kicked from your raid.</p>
-							<p>To help a tank pull a mob you will want to apply misdirection on them and then attack the mob with a ranged attack so they will receive the aggro without having to get close to the target and risk pulling extra enemies. There are macros that can help you with this and I will include one in the macro section.</p>
-							<h5>Opener:</h5>
-							<pre>SS -> RF -> Chimera -> Aimed -> Arcane -> Readiness -></br>Chimera Shot -> Arcane Shot -> Rapid Fire (when first falls off)</pre><br>
-							<h5>Simplified:</h5>
-							<pre>KS > SS > Chimera > Aimed > Arcane > Steady</pre><br>
-							<h4>Multi Target</h4>
-							<p>Not much to say here, standard priority but replace aimed with multi-shot. Volley for 4+ targets.</p>
-							<h5>Simplified:</h5>
-							<pre>Volley & Multi-Shot</pre>
-							<hr>
-							<h3 id="mm-gearing"><u>Gearing</u></h3>
-							<h4>Damage:</h4>
-							<p>The first thing you need to do, absolutely, is to get hit capped. After that it's all Armor Penetration, all the way.
-							</p>
-							<br>
-							<h5>Simplified:</h5>
-							<pre>Hit Cap > Armor Penetration Cap > Crit > Haste</pre><br>
-							<h4>Itemization:</h4>
-							<p>
-								You'll want to find either a single two hand weapon with agility on it or two one handed weapons. Ranged weapon however is the most imporant thing to worry about. 
-							</p>
-							<br>
-							<h4>Gemming:</h4>
-							<p>Do not gem armor penetration unless you already have at least 50% armor penetration from your gear, otherwise ALWAYS gem strength. Armor Penetration scales exponentially, meaning the more you have the higher the stat weight. It becomes better than Strength at about 50%.</p><br>
-							<dl>
-								<dt>Meta:</dt>
-								<dd><a href="http://wotlk.evowow.com/?item=41398">Relentless Earthsiege Diamond</a></dd><br>
-								<dt>Red:</dt>
-								<dd><a href="http://wotlk.evowow.com/?item=40117">Fractured Cardinal Ruby</a>, or <a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
-								<dt>Yellow:</dt>
-								<dd>At least one <a href="http://wotlk.evowow.com/?item=49110">Nightmare Tear</a> in yellow or blue. <a href="http://wotlk.evowow.com/?item=40117">Fractured Cardinal Ruby</a>, or <a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
-								<dt>Blue:</dt>
-								<dd>At least one <a href="http://wotlk.evowow.com/?item=49110">Nightmare Tear</a> in yellow or blue. <a href="http://wotlk.evowow.com/?item=40117">Fractured Cardinal Ruby</a>, or <a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
-							</dl>
-							<h3 id="mm-macros"><u>Useful Macros</u></h3>
-							<p>Misdirection</p>
-							<small>Pulling a mob for the tank: Be sure for this you have your focus set on the tank, to do so, right click them in the raid page, and click "set focus."</small>
-							<pre>#showtooltip Misdirection<br>/cast [target=focus] Misdirection</pre>
-							<p>Silencing Shot</p>
-							<small>This is how you macro silencing shot into your spells.</small>
-							<pre>#showtooltip Steady Shot<br>/cast Silencing Shot<br>/cast Steady Shot</pre>
+						<br>
+						<h3 id="bm-intro"><u>Disclaimer</u></h3>
+						<p>While Beastmastery hunter can be a great build for sole pve content and world exploration, it is not recommended as a pve build. The damage is simply too low to be considered viable in a raid, doing 67% of the damage a Marksman hunter can do in the same gear. That said, if you still wish to play beastmastery because of preference or desire to experiment, there is nothing stopping you.</p>
+						<br>
+						<h3 id="bm-intro"><u>Introduction</u></h3>
+						<p>Beastmastery is a unique hunter build that focuses largely on buffing the hunter's pet to deal damage. As such it is much more dependant on the hunter's pet being survivable and dealing the most damage it can.</p>
+						<p>By the end of this guide you should be able to understand the basics of playing a Beastmastery Hunter.</p>
+						<hr>
+						<h3 id="bm-build"><u>Build</u></h3>
+						<h4>Talent:</h4>
+						<p>This is your standard MM hunter talent setup, everything you need to succeed is right here. The only modification is when you get to the point where arcane shot is a dps loss, you will want to move those talent points somewhere else.</p>
+						<div class="list-group">
+							<a href="http://wotlk.evowow.com/?talent#ctbMzttRfu0eRt0eVoZx" class="list-group-item">Standard Build (52/14/5)</a>
 						</div>
-						<!-- Guide 2 Ends Here -->
-						<!-- Guide 3 Starts Here -->
-						<div id="survival" class="tab-pane fade">
-							<br>
-							<br>
-							<center>
-								<h2>Survival<small><br>Written by: FluffyPira</small></h2>
-							</center>
-							<br>
-							<h5>Contents</h5>
-							<div class="tab-content">
-								<ol>
-									<li><a href="#surv-intro">Introduction</a></li>
-									<li><a href="#surv-build">Build</a></li>
-									<li><a href="#surv-spells">Spells</a></li>
-									<li><a href="#surv-gearing">Gearing</a></li>
-									<li><a href="#surv-macros">Macros</a></li>
-								</ol>
-							</div>
-							<br>
-							<h3 id="surv-intro"><u>Introduction</u></h3>
-							<p>If you're looking for high dps, you've come to the wrong place. You'll want to look up the guide for Marksmanship Hunter. If the prospect of crap damage hasn't purturbed you, you're WAY into the mechanics of explosive shot, or you're lookng to settle a bet with some Fury warrior who is like "omg that spec isn't viable," you've come to the right place.</p>
-							<p>Welcome to Survival Hunter, where the DPS is crap but the mechanics are super fun. Here you will find all the information you need to succeed as best as you can given the limitations of the spec. You will never be the highest dps, even in the same gear MM hunters will outpace you. Get used to that, you're not here to worry about top dps but to enjoy playing a spec you like.</p>
-							<hr>
-							<h3 id="surv-build"><u>Build</u></h3>
-							<h4>Talent:</h4>
-							<p>This is your standard talent setup. There's a bit of leeway in points, as you can see many talents are left unfilled or fillde partially, but whenever I look for a spec this is what I find. You do want at least 11 if not the full 15 into marksmanship because of Aimed Shot.</p>
-							<div class="list-group">
-								<a href="http://wotlk.evowow.com/?talent#chZctV0oZx0ci0cIhtdAhsk" class="list-group-item">Standard Build (3/15/53)</a>
-								<a href="http://wotlk.evowow.com/?talent#cbZ0eVoohZx0ci0cIhgdqhsz" class="list-group-item">Alternate Build (2/18/51)</a>
-							</div>
-							<h4>Glyphs:</h4>
-							<p>Major:
-								<ul>
-									<li>Glyph of Explosive Shot</li>
-									<li>Glyph of Kill Shot</li>
-									<li>Glyph of Aimed Shot</li>
-								</ul>
-								Minor:
-								<ul>
-									<li>Fairly unimportant. Take whatever</li>
-								</ul>
-							</p>
-							<h4>Pets:</h4>
-							<p>For pets, if you want to be serious about it, you only have really 4 options.</p>
-							<ol>
-								<li>Wolf: Best overall option due to the Furious Howl buff.</li>
-								<li>Wasp: Good dps, and an armor debuff if you don't have anyone with faerie fire in your party.</li>
-								<li>Raptor: A decent option for DPS.</li>
-								<li>Cat: Almost as good as raptor</li>
-							</ol>
-							<hr>
-							<h3 id="surv-spells"><u>Spells</u></h3>
-							<h5><strong>Damage:</strong></h5>
+						<h4>Glyphs:</h4>
+						<p>Major:
 							<ul>
-								<li>Explosive Shot</li>
-								<li>Kill Shot</li>
-								<li>Serpent Sting</li>
-								<li>Black Arrow</li>
-								<li>Steady Shot</li>
-								<li>Aimed Shot</li>
-								<li>Kill Command</li>
+								<li>Glyph of Bestial Wrath</li>
+								<li>Glyph of Steady Shot</li>
+								<li>Glyph of the Hawk</li>
 							</ul>
-							<h5><strong>Cooldowns:</strong></h5>
-							<dl>
-								<dt>Hunter's Mark:</dt>
-								<dd>Keep this mark on the target at all times. If you have another hunter, talk to them before hand and see whose responsibility it is.</dd><br>
-								<dt>Rapid Fire (RF):</dt>
-								<dd>Personal attack speed buff. Use it 5-10 seconds into a fight when your trinkets proc and shmana use BL/Hero.</dd><br>
-								<dt>Misdirection:</dt>
-								<dd>This skill transfers aggro, use it with a macro to make it easy and more effective.</dd><br>
-								<dt>Aspect of the Dragonhawk:</dt>
-								<dd>This is your main aspect. Keep it up as much as you can unless you're critically low on mana than switch to...</dd><br>
-								<dt>Aspect of the Viper:</dt>
-								<dd>This aspect is when you run out of mana. You will deal considerably less damage but regain mana. Switch back once you think you have enough.</dd><br>
-							</dl>
-							<br>
-							<h4>Single Target</h4>
-							<p>Survival has a few procs, and I've read guides that say the rotation can be "hard." I've never really seen that as the case. The only important thing to note really is to keep Serpent Sting up at all times if possible and when Lock and Load procs, use Explosive shot and wait a sec for the first one to clear before firing a second.</p>
-							<p>When other shots are on cooldown, always fill in with Steady Shot. Macro Kill Command to Steady Shot so it will cast as you spam.</p>
-							<h5>Simplified</h5>
-							<pre>Serpent Sting > Kill > Explosive > Black Arrow > Aimed Shot</pre>
-							<h4>Multi Target</h4>
-							<p>Not much to say here, standard priority but replace aimed with multi-shot. Volley for 4+ targets.</p>
-							<h5>Simplified:</h5>
-							<pre>Volley & Multi-Shot</pre>
-							<hr>
-							<h3 id="surv-gearing"><u>Gearing</u></h3>
-							<h4>Damage:</h4>
-							<p>Get hit capped. After that you'll want to focus on agi and crit as much as possible. Most of your damage should come by way of explosive shot, so armor penetration is realtively useless compared to crit and haste.</p>
-							<br>
-							<h5>Simplified:</h5>
-							<pre>Hit Cap (8%) > Crit > Haste > Armor Penetration</pre><br>
-							<h4>Itemization:</h4>
-							<p>
-								You'll want to find either a single two hand weapon with agility on it or two one handed weapons. Ranged weapon however is the most imporant thing to worry about. Try to chase after gear you think enhancement shaman would love. Crit/Haste while trying to avoid Armor Penetration, although some Arpen isn't bad.
-							</p>
-							<br>
-							<h4>Gemming:</h4>
-							<p>You'll want to focus on maximizing agility here for attack power and crit reasons.</p><br>
-							<dl>
-								<dt>Meta:</dt>
-								<dd><a href="http://wotlk.evowow.com/?item=41398">Relentless Earthsiege Diamond</a></dd><br>
-								<dt>Red:</dt>
-								<dd><a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
-								<dt>Yellow:</dt>
-								<dd>At least one <a href="http://wotlk.evowow.com/?item=49110">Nightmare Tear</a> in yellow or blue. <a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
-								<dt>Blue:</dt>
-								<dd>At least one <a href="http://wotlk.evowow.com/?item=49110">Nightmare Tear</a> in yellow or blue. <a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
-							</dl>
-							<h3 id="surv-macros"><u>Useful Macros</u></h3>
-							<p>Misdirection</p>
-							<pre>#showtooltip<br>/cast [@focus,help][help][@pet,exists] Misdirection</pre>
-							<p>Explosive Shot</p>
-							<pre>#showtooltip<br>/cast Explosive Shot<br>/cast ![target=pettarget,exists] Kill Command<br>/script UIErrorsFrame:Clear()</pre>
-							<p>Steady Shot</p>
-							<pre>#showtooltip<br>/cast Steady Shot<br>/cast ![target=pettarget,exists] Kill Command<br>/script UIErrorsFrame:Clear()</pre>
-						</div>
+							Minor:
+							<ul>
+								<li>Fairly unimportant. Take whatever</li>
+							</ul>
+						</p>
+						<h4>Pets:</h4>
+						<p>For pets, you've basically two options.</p>
+						<ol>
+							<li>Devilsaur: Highest pet dps in the game; only available to Beastmastery Hunters.</li>
+							<li>Wolf: Very good option due to the Furious Howl buff.</li>
+						</ol>
+						<hr>
+						<h3 id="bm-spells"><u>Spells</u></h3>
+						<p>Hunters use quite a few abilities, but it shouldn't be too hard to keep up with because there aren't any surprise procs in this build.</p>
+						<h5><strong>Damage:</strong></h5>
+						<dl>
+							<dt>Kill Shot (KS):</dt>
+							<dd>Execution ability, does massive damage if your target is below 20% hp, this is what gives you a dps spike at the end of fights.</dd><br>
+							<dt>Serpent Sting (SS):</dt>
+							<dd>You will always open with this, and it should always stay on your target for the entirety of any fight.</dd><br>
+							<dt>Arcane Shot:</dt>
+							<dd>This is about the only shot you will be using during the fight apart from steady shot. Use this as much as possible.</dd><br>
+							<dt>Steady Shot:</dt>
+							<dd>This is your filler. Any time your other attacks are on cooldown, fill with this.</dd><br>
+							<dt>Kill Command:</dt>
+							<dd>This attack is not tied to your global cooldown, so it should be macroed onto your shots.</dd><br>
+						</dl>
+						<h5><strong>Cooldowns:</strong></h5>
+						<dl>
+							<dt>Hunter's Mark:</dt>
+							<dd>Free damage. If this isn't up at all times, then you are playing hunter wrong.</dd><br>
+							<dt>Rapid Fire (RF):</dt>
+							<dd>Attack speed buff, very useful for heavy burst.</dd><br>
+							<dt>Misdirection:</dt>
+							<dd>This transfers your aggro to someone else of your choosing for the next 4 seconds. Can be used to help your tank if they are having aggro issues.</dd><br>
+							<dt>Aspect of the (Dragon)Hawk:</dt>
+							<dd>This is your dps aspect, keep it on during all boss fights.</dd><br>
+							<dt>Aspect of the Viper:</dt>
+							<dd>If you run out of mana switch to this temporarily. Your dps will drop, but you will quickly regain mana. Switch back immediately to Hawk/Dragonhawk when your mana is at a sufficient amount.</dd><br>
+						</dl>
+					
+						<h4>Single Target</h4>
+						<p>Always apply Hunter's Mark ahead of time before the fight starts. Also, to help with the pull try to apply misdirection to the main tank of the fight as the fight starts. Beyond this, beastmastery follows a very simple priority </p>
+						<h5>Single Target:</h5>
+						<pre>KS > SS > Arcane Shot > Steady Shot</pre><br>
+						<h4>Multi Target</h4>
+						<p>Not much to say here, standard priority but replace aimed with multi-shot. Volley for 4+ targets.</p>
+						<h5>Simplified:</h5>
+						<pre>Volley & Multi-Shot</pre>
+						<hr>
+							
+						<h3 id="bm-gearing"><u>Gearing</u></h3>
+						<h4>Damage:</h4>
+						<p>Get hit capped. After that you'll want to focus on agi and crit as much as possible.</p>
+						<br>
+						<h5>Simplified:</h5>
+						<pre>Hit Cap (8%) > Crit > Haste > Armor Penetration</pre><br>
+						<h4>Itemization:</h4>
+						<p>
+							You'll want to find either a single two hand weapon with agility on it or two one handed weapons. Ranged weapon however is the most imporant thing to worry about. Try to chase after gear you think enhancement shaman would love. Crit/Haste while trying to avoid Armor Penetration, although some Arpen isn't bad.
+						</p>
+						<br>
+						<h4>Gemming:</h4>
+						<p>You'll want to focus on maximizing agility here for attack power and crit reasons.</p><br>
+						<dl>
+							<dt>Meta:</dt>
+							<dd><a href="http://wotlk.evowow.com/?item=41398">Relentless Earthsiege Diamond</a></dd><br>
+							<dt>Red:</dt>
+							<dd><a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
+							<dt>Yellow:</dt>
+							<dd>At least one <a href="http://wotlk.evowow.com/?item=49110">Nightmare Tear</a> in yellow or blue. <a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
+							<dt>Blue:</dt>
+							<dd>At least one <a href="http://wotlk.evowow.com/?item=49110">Nightmare Tear</a> in yellow or blue. <a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
+						</dl>
+						<h3 id="bm-macros"><u>Useful Macros</u></h3>
+						<p>Misdirection</p>
+						<pre>#showtooltip<br>/cast [@focus,help][help][@pet,exists] Misdirection</pre>
+						<p>Steady Shot</p>
+						<pre>#showtooltip<br>/cast Steady Shot<br>/cast ![target=pettarget,exists] Kill Command<br>/script UIErrorsFrame:Clear()</pre>
 					</div>
-					<!-- Guide 3 Ends Here -->
+					<!-- Guide 1 Ends Here -->
+					<!-- Guide 2 Starts Here -->
+					<div id="marksman" class="tab-pane fade">
+						<br>
+						<br>
+						<center>
+							<h2>Marksmanship<small><br>Written by: Fiery</small></h2>
+						</center>
+						<br>
+						<h5>Contents</h5>
+						<div class="tab-content">
+							<ol>
+								<li><a href="#mm-intro">Introduction</a></li>
+								<li><a href="#mm-build">Build</a></li>
+								<li><a href="#mm-spells">Spells</a></li>
+								<li><a href="#mm-gearing">Gearing</a></li>
+								<li><a href="#mm-macros">Macros</a></li>
+							</ol>
+						</div>
+						<br>
+						<h3 id="mm-intro"><u>Introduction</u></h3>
+						<p>Marksmanship Hunter is one of the highest dps specializations in the game. They provide heavy physical damage from a safe range, can help with pulling certain mobs, and can help with tanks who are having an issues building aggro.</p>
+						<p>By the end of this guide you should be able to understand the basics of playing a Marksman Hunter, so you can provide both excellent dps and strong utility for your raids and dungeons.
+						</p>
+						<hr>
+						<h3 id="mm-build"><u>Build</u></h3>
+						<h4>Talent:</h4>
+						<p>This is your standard MM hunter talent setup, everything you need to succeed is right here. The only modification is when you get to the point where arcane shot is a dps loss, you will want to move those talent points somewhere else.</p>
+						<div class="list-group">
+							<a href="http://wotlk.evowow.com/?talent#cxbZ0eAsRhzGIoguqox00b" class="list-group-item">Standard Build (7/57/7)</a>
+						</div>
+						<h4>Glyphs:</h4>
+						<p>Major:
+							<ul>
+								<li>Glyph of Serpent Sting</li>
+								<li>Glyph of Kill Shot</li>
+								<li>Glyph of Chimera Shot</li>
+							</ul>
+							Minor:
+							<ul>
+								<li>Fairly unimportant. Take whatever</li>
+							</ul>
+						</p>
+						<h4>Pets:</h4>
+						<p>For pets, if you want to be serious about it, you only have really 4 options.</p>
+						<ol>
+							<li>Wolf: Best overall option due to the Furious Howl buff.</li>
+							<li>Wasp: Good dps, and an armor debuff if you don't have anyone with faerie fire in your party.</li>
+							<li>Raptor: A decent option for DPS.</li>
+							<li>Cat: Almost as good as raptor</li>
+						</ol>
+						<hr>
+						<h3 id="mm-spells"><u>Spells</u></h3>
+						<p>Hunters use quite a few abilities, but it shouldn't be too hard to keep up with because there aren't any surprise procs in this build.</p>
+						<h5><strong>Damage:</strong></h5>
+						<dl>
+							<dt>Kill Shot (KS):</dt>
+							<dd>Execution ability, does massive damage if your target is below 20% hp, this is what gives you a dps spike at the end of fights.</dd><br>
+							<dt>Serpent Sting (SS):</dt>
+							<dd>You will always open with this, and it should always stay on your target for the entirety of any fight.</dd><br>
+							<dt>Chimera Shot:</dt>
+							<dd>Will refresh your serpent sting and deal a lot of damage.</dd><br>
+							<dt>Aimed Shot:</dt>
+							<dd>Decreases target's healing recieved by 50%, but that's not important to us, its just another attack to help us pump out more damage.</dd><br>
+							<dt>Arcane Shot:</dt>
+							<dd>Because this spell uses arcane damage, there is actually a point where if you have enough armor penetration using this will become a dps loss. Test it from time to time to make sure it is still good to use for you.</dd><br>
+							<dt>Steady Shot:</dt>
+							<dd>This is your filler. Any time your other attacks are on cooldown, fill with this.</dd><br>
+							<dt>Silencing Shot:</dt>
+							<dd>This attack is not tied to your global cooldown, so it will be macroed onto all of your attacks so it can be cast ASAP. An example will be provided in the macro section.</dd><br>
+						</dl>
+						<h5><strong>Cooldowns:</strong></h5>
+						<dl>
+							<dt>Hunter's Mark:</dt>
+							<dd>Free damage. If this isn't up at all times, then you are playing hunter wrong.</dd><br>
+							<dt>Rapid Fire (RF):</dt>
+							<dd>Attack speed buff, very useful for heavy burst.</dd><br>
+							<dt>Readiness:</dt>
+							<dd>Resets the cooldown on every skill.</dd><br>
+							<dt>Misdirection:</dt>
+							<dd>This transfers your aggro to someone else of your choosing for the next 4 seconds. Can be used to help your tank if they are having aggro issues.</dd><br>
+							<dt>Trueshot Aura:</dt>
+							<dd>Raidwide attack power buff. Make sure it's always on.</dd><br>
+							<dt>Aspect of the (Dragon)Hawk:</dt>
+							<dd>This is your dps aspect, keep it on during all boss fights.</dd><br>
+							<dt>Aspect of the Viper:</dt>
+							<dd>If you run out of mana switch to this temporarily. Your dps will drop, but you will quickly regain mana. Switch back immediately to Hawk/Dragonhawk when your mana is at a sufficient amount.</dd><br>
+						</dl>
+					
+						<h4>Single Target</h4>
+						<p>Always apply Hunter's Mark ahead of time before the fight starts. After that opening rotation, you will go to your standard priority. Other than that the only other thing you need to know is how to pull targets for your tank. Note, do not do this unless you already have permission from your tank, or it will probably piss them off and get you kicked from your raid.</p>
+						<p>To help a tank pull a mob you will want to apply misdirection on them and then attack the mob with a ranged attack so they will receive the aggro without having to get close to the target and risk pulling extra enemies. There are macros that can help you with this and I will include one in the macro section.</p>
+						<h5>Opener:</h5>
+						<pre>SS -> RF -> Chimera -> Aimed -> Arcane -> Readiness -></br>Chimera Shot -> Arcane Shot -> Rapid Fire (when first falls off)</pre><br>
+						<h5>Simplified:</h5>
+						<pre>KS > SS > Chimera > Aimed > Arcane > Steady</pre><br>
+						<h4>Multi Target</h4>
+						<p>Not much to say here, standard priority but replace aimed with multi-shot. Volley for 4+ targets.</p>
+						<h5>Simplified:</h5>
+						<pre>Volley & Multi-Shot</pre>
+						<hr>
+						<h3 id="mm-gearing"><u>Gearing</u></h3>
+						<h4>Damage:</h4>
+						<p>The first thing you need to do, absolutely, is to get hit capped. After that it's all Armor Penetration, all the way.
+						</p>
+						<br>
+						<h5>Simplified:</h5>
+						<pre>Hit Cap > Armor Penetration Cap > Crit > Haste</pre><br>
+						<h4>Itemization:</h4>
+						<p>
+							You'll want to find either a single two hand weapon with agility on it or two one handed weapons. Ranged weapon however is the most imporant thing to worry about. 
+						</p>
+						<br>
+						<h4>Gemming:</h4>
+						<p>Do not gem armor penetration unless you already have at least 50% armor penetration from your gear, otherwise ALWAYS gem strength. Armor Penetration scales exponentially, meaning the more you have the higher the stat weight. It becomes better than Strength at about 50%.</p><br>
+						<dl>
+							<dt>Meta:</dt>
+							<dd><a href="http://wotlk.evowow.com/?item=41398">Relentless Earthsiege Diamond</a></dd><br>
+							<dt>Red:</dt>
+							<dd><a href="http://wotlk.evowow.com/?item=40117">Fractured Cardinal Ruby</a>, or <a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
+							<dt>Yellow:</dt>
+							<dd>At least one <a href="http://wotlk.evowow.com/?item=49110">Nightmare Tear</a> in yellow or blue. <a href="http://wotlk.evowow.com/?item=40117">Fractured Cardinal Ruby</a>, or <a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
+							<dt>Blue:</dt>
+							<dd>At least one <a href="http://wotlk.evowow.com/?item=49110">Nightmare Tear</a> in yellow or blue. <a href="http://wotlk.evowow.com/?item=40117">Fractured Cardinal Ruby</a>, or <a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
+						</dl>
+						<h3 id="mm-macros"><u>Useful Macros</u></h3>
+						<p>Misdirection</p>
+						<small>Pulling a mob for the tank: Be sure for this you have your focus set on the tank, to do so, right click them in the raid page, and click "set focus."</small>
+						<pre>#showtooltip Misdirection<br>/cast [target=focus] Misdirection</pre>
+						<p>Silencing Shot</p>
+						<small>This is how you macro silencing shot into your spells.</small>
+						<pre>#showtooltip Steady Shot<br>/cast Silencing Shot<br>/cast Steady Shot</pre>
+					</div>
+					<!-- Guide 2 Ends Here -->
+					<!-- Guide 3 Starts Here -->
+					<div id="survival" class="tab-pane fade">
+						<br>
+						<br>
+						<center>
+							<h2>Survival<small><br>Written by: FluffyPira</small></h2>
+						</center>
+						<br>
+						<h5>Contents</h5>
+						<div class="tab-content">
+							<ol>
+								<li><a href="#surv-intro">Introduction</a></li>
+								<li><a href="#surv-build">Build</a></li>
+								<li><a href="#surv-spells">Spells</a></li>
+								<li><a href="#surv-gearing">Gearing</a></li>
+								<li><a href="#surv-macros">Macros</a></li>
+							</ol>
+						</div>
+						<br>
+						<h3 id="surv-intro"><u>Introduction</u></h3>
+						<p>If you're looking for high dps, you've come to the wrong place. You'll want to look up the guide for Marksmanship Hunter. If the prospect of crap damage hasn't purturbed you, you're WAY into the mechanics of explosive shot, or you're lookng to settle a bet with some Fury warrior who is like "omg that spec isn't viable," you've come to the right place.</p>
+						<p>Welcome to Survival Hunter, where the DPS is crap but the mechanics are super fun. Here you will find all the information you need to succeed as best as you can given the limitations of the spec. You will never be the highest dps, even in the same gear MM hunters will outpace you. Get used to that, you're not here to worry about top dps but to enjoy playing a spec you like.</p>
+						<hr>
+						<h3 id="surv-build"><u>Build</u></h3>
+						<h4>Talent:</h4>
+						<p>This is your standard talent setup. There's a bit of leeway in points, as you can see many talents are left unfilled or fillde partially, but whenever I look for a spec this is what I find. You do want at least 11 if not the full 15 into marksmanship because of Aimed Shot.</p>
+						<div class="list-group">
+							<a href="http://wotlk.evowow.com/?talent#chZctV0oZx0ci0cIhtdAhsk" class="list-group-item">Standard Build (3/15/53)</a>
+							<a href="http://wotlk.evowow.com/?talent#cbZ0eVoohZx0ci0cIhgdqhsz" class="list-group-item">Alternate Build (2/18/51)</a>
+						</div>
+						<h4>Glyphs:</h4>
+						<p>Major:
+							<ul>
+								<li>Glyph of Explosive Shot</li>
+								<li>Glyph of Kill Shot</li>
+								<li>Glyph of Aimed Shot</li>
+							</ul>
+							Minor:
+							<ul>
+								<li>Fairly unimportant. Take whatever</li>
+							</ul>
+						</p>
+						<h4>Pets:</h4>
+						<p>For pets, if you want to be serious about it, you only have really 4 options.</p>
+						<ol>
+							<li>Wolf: Best overall option due to the Furious Howl buff.</li>
+							<li>Wasp: Good dps, and an armor debuff if you don't have anyone with faerie fire in your party.</li>
+							<li>Raptor: A decent option for DPS.</li>
+							<li>Cat: Almost as good as raptor</li>
+						</ol>
+						<hr>
+						<h3 id="surv-spells"><u>Spells</u></h3>
+						<h5><strong>Damage:</strong></h5>
+						<ul>
+							<li>Explosive Shot</li>
+							<li>Kill Shot</li>
+							<li>Serpent Sting</li>
+							<li>Black Arrow</li>
+							<li>Steady Shot</li>
+							<li>Aimed Shot</li>
+							<li>Kill Command</li>
+						</ul>
+						<h5><strong>Cooldowns:</strong></h5>
+						<dl>
+							<dt>Hunter's Mark:</dt>
+							<dd>Keep this mark on the target at all times. If you have another hunter, talk to them before hand and see whose responsibility it is.</dd><br>
+							<dt>Rapid Fire (RF):</dt>
+							<dd>Personal attack speed buff. Use it 5-10 seconds into a fight when your trinkets proc and shmana use BL/Hero.</dd><br>
+							<dt>Misdirection:</dt>
+							<dd>This skill transfers aggro, use it with a macro to make it easy and more effective.</dd><br>
+							<dt>Aspect of the Dragonhawk:</dt>
+							<dd>This is your main aspect. Keep it up as much as you can unless you're critically low on mana than switch to...</dd><br>
+							<dt>Aspect of the Viper:</dt>
+							<dd>This aspect is when you run out of mana. You will deal considerably less damage but regain mana. Switch back once you think you have enough.</dd><br>
+						</dl>
+						<br>
+						<h4>Single Target</h4>
+						<p>Survival has a few procs, and I've read guides that say the rotation can be "hard." I've never really seen that as the case. The only important thing to note really is to keep Serpent Sting up at all times if possible and when Lock and Load procs, use Explosive shot and wait a sec for the first one to clear before firing a second.</p>
+						<p>When other shots are on cooldown, always fill in with Steady Shot. Macro Kill Command to Steady Shot so it will cast as you spam.</p>
+						<h5>Simplified</h5>
+						<pre>Serpent Sting > Kill > Explosive > Black Arrow > Aimed Shot</pre>
+						<h4>Multi Target</h4>
+						<p>Not much to say here, standard priority but replace aimed with multi-shot. Volley for 4+ targets.</p>
+						<h5>Simplified:</h5>
+						<pre>Volley & Multi-Shot</pre>
+						<hr>
+						<h3 id="surv-gearing"><u>Gearing</u></h3>
+						<h4>Damage:</h4>
+						<p>Get hit capped. After that you'll want to focus on agi and crit as much as possible. Most of your damage should come by way of explosive shot, so armor penetration is realtively useless compared to crit and haste.</p>
+						<br>
+						<h5>Simplified:</h5>
+						<pre>Hit Cap (8%) > Crit > Haste > Armor Penetration</pre><br>
+						<h4>Itemization:</h4>
+						<p>
+							You'll want to find either a single two hand weapon with agility on it or two one handed weapons. Ranged weapon however is the most imporant thing to worry about. Try to chase after gear you think enhancement shaman would love. Crit/Haste while trying to avoid Armor Penetration, although some Arpen isn't bad.
+						</p>
+						<br>
+						<h4>Gemming:</h4>
+						<p>You'll want to focus on maximizing agility here for attack power and crit reasons.</p><br>
+						<dl>
+							<dt>Meta:</dt>
+							<dd><a href="http://wotlk.evowow.com/?item=41398">Relentless Earthsiege Diamond</a></dd><br>
+							<dt>Red:</dt>
+							<dd><a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
+							<dt>Yellow:</dt>
+							<dd>At least one <a href="http://wotlk.evowow.com/?item=49110">Nightmare Tear</a> in yellow or blue. <a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
+							<dt>Blue:</dt>
+							<dd>At least one <a href="http://wotlk.evowow.com/?item=49110">Nightmare Tear</a> in yellow or blue. <a href="http://wotlk.evowow.com/?item=40112">Delicate Cardinal Ruby</a></dd><br>
+						</dl>
+						<h3 id="surv-macros"><u>Useful Macros</u></h3>
+						<p>Misdirection</p>
+						<pre>#showtooltip<br>/cast [@focus,help][help][@pet,exists] Misdirection</pre>
+						<p>Explosive Shot</p>
+						<pre>#showtooltip<br>/cast Explosive Shot<br>/cast ![target=pettarget,exists] Kill Command<br>/script UIErrorsFrame:Clear()</pre>
+						<p>Steady Shot</p>
+						<pre>#showtooltip<br>/cast Steady Shot<br>/cast ![target=pettarget,exists] Kill Command<br>/script UIErrorsFrame:Clear()</pre>
+					</div>
 				</div>
-				<div class="col-md-3">
-				</div>
+				<!-- Guide 3 Ends Here -->
+			</div>
+			<div class="col-md-3">
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>

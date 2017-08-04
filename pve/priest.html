@@ -1,198 +1,457 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
-		<link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
-		<!-- http://getbootstrap.com/customize/?id=90eefd2995654c9117b7 -->
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<meta name="robots" content="" />
-		<meta name="author" content="Elizabeth Wetton" />
-		<link rel="shortcut icon" href="img/favicon.png" type="image/png" />
-		<title>Pira's WoW Guides</title>
-		<!-- Additional CSS to make thumbnails work -->
-		<style>
-			.sq_thumb {
-				position:relative;
-				overflow:hidden;
-				padding-bottom:100%;
-			}
-			.sq_thumb img{
-				position:absolute;
-			}
-		</style>
-	</head>
-	
-	<body>
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+<!-- http://getbootstrap.com/customize/?id=90eefd2995654c9117b7 -->
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="" />
+<meta name="author" content="Elizabeth Wetton" />
+<link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+<title>Pira's WoW Guides</title>
+<!-- Additional CSS to make thumbnails work -->
+<style type="text/css">
+	.sq_thumb {
+		position:relative;
+		overflow:hidden;
+		padding-bottom:100%;
+	}
+	.sq_thumb img{
+		position:absolute;
+	}
+	</style>
+</head>
+<body>
 
-		<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>	
-		<script src="/js/jquery.min.js" type="text/javascript"></script>
-		<script src="/js/bootstrap.js"></script>
-		<script src="/js/npm.js"></script>	
-		<!-- Here is where the Navbar starts -->
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="/index.html">Pira's WoW Guides</a>
-				</div>
+	<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>	
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/js/npm.js"></script>	
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li class="dropdown">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#">PvE Guides<b class="caret"></b></a>
-							<ul class="dropdown-menu">  
-								<li><a href="/pve/dk.html"><img src="/img/icons/Icon_DK.gif"> Death Knight</a></li>
-								<li class="disabled"><a href="/pve/druid.html"><img src="/img/icons/Icon_Druid.gif"> Druid</a></li>
-								<li><a href="/pve/hunter.html"><img src="/img/icons/Icon_Hunter.gif"> Hunter</a></li>
-								<li><a href="/pve/mage.html"><img src="/img/icons/Icon_Mage.gif"> Mage</a></li>
-								<li class="disabled"><a href="/pve/paladin.html"><img src="/img/icons/Icon_Paladin.gif"> Paladin</a></li>
-								<li><a href="/pve/priest.html"><img src="/img/icons/Icon_Priest.gif"> Priest</a></li>
-								<li class="disabled"><a href="/pve/rogue.html"><img src="/img/icons/Icon_Rogue.gif"> Rogue</a></li>
-								<li class="disabled"><a href="/pve/shaman.html"><img src="/img/icons/Icon_Shaman.gif"> Shaman</a></li>
-								<li class="disabled"><a href="/pve/warlock.html"><img src="/img/icons/Icon_Warlock.gif"> Warlock</a></li>
-								<li><a href="/pve/warrior.html"><img src="/img/icons/Icon_Warrior.gif"> Warrior</a></li>				
-							</ul>
-						</li>
-						<!-- 
-							<li class="dropdown">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#">PvP Guides<b class="caret"></b></a>
-							<ul class="dropdown-menu">  
-							<li class="disabled"><a href="/pvp/dk.html"><img src="/img/icons/Icon_DK.gif"> Death Knight</a></li>
-							<li class="disabled"><a href="/pvp/druid.html"><img src="/img/icons/Icon_Druid.gif"> Druid</a></li>
-							<li class="disabled"><a href="/pvp/hunter.html"><img src="/img/icons/Icon_Hunter.gif"> Hunter</a></li>
-							<li class="disabled"><a href="/pvp/mage.html"><img src="/img/icons/Icon_Mage.gif"> Mage</a></li>
-							<li class="disabled"><a href="/pvp/paladin.html"><img src="/img/icons/Icon_Paladin.gif"> Paladin</a></li>
-							<li class="disabled"><a href="/pvp/priest.html"><img src="/img/icons/Icon_Priest.gif"> Priest</a></li>
-							<li class="disabled"><a href="/pvp/rogue.html"><img src="/img/icons/Icon_Rogue.gif"> Rogue</a></li>
-							<li class="disabled"><a href="/pvp/shaman.html"><img src="/img/icons/Icon_Shaman.gif"> Shaman</a></li>
-							<li class="disabled"><a href="/pvp/warlock.html"><img src="/img/icons/Icon_Warlock.gif"> Warlock</a></li>
-							<li class="disabled"><a href="/pvp/warrior.html"><img src="/img/icons/Icon_Warrior.gif"> Warrior</a></li>				
-							</ul>
-							</li> -->
-							<li><a href="addons.html">Addon Packs</a></li>
-							<li><a href="glossary.html">Additional Information</a></li>
-							<li><a href="submit.html">Submit a Guide</a></li>
+	<!-- Here is where the Navbar starts -->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html">Pira's WoW Guides</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a data-toggle="dropdown" class="dropdown-toggle" href="#">PvE Guides<b class="caret"></b></a>
+						<ul class="dropdown-menu">  
+							<li><a href="/pve/dk.html"><img src="/img/icons/Icon_DK.gif" alt="Death Knight Icon"> Death Knight</a></li>
+							<li class="disabled"><a href="/pve/druid.html"><img src="/img/icons/Icon_Druid.gif" alt="Druid Icon"> Druid</a></li>
+							<li><a href="/pve/hunter.html"><img src="/img/icons/Icon_Hunter.gif" alt="Hunter Icon"> Hunter</a></li>
+							<li><a href="/pve/mage.html"><img src="/img/icons/Icon_Mage.gif" alt="Mage Icon"> Mage</a></li>
+							<li class="disabled"><a href="/pve/paladin.html"><img src="/img/icons/Icon_Paladin.gif" alt="Paladin Icon"> Paladin</a></li>
+							<li><a href="/pve/priest.html"><img src="/img/icons/Icon_Priest.gif" alt="Priest Icon"> Priest</a></li>
+							<li class="disabled"><a href="/pve/rogue.html"><img src="/img/icons/Icon_Rogue.gif" alt="Rogue Icon"> Rogue</a></li>
+							<li class="disabled"><a href="/pve/shaman.html"><img src="/img/icons/Icon_Shaman.gif" alt="Shaman Icon"> Shaman</a></li>
+							<li class="disabled"><a href="/pve/warlock.html"><img src="/img/icons/Icon_Warlock.gif" alt="Warlock Icon"> Warlock</a></li>
+							<li><a href="/pve/warrior.html"><img src="/img/icons/Icon_Warrior.gif" alt="Warrior Icon"> Warrior</a></li>				
 						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-			</nav>
-			<!-- Here is where the Navbar ends -->
-			<div class="row">
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-6">
-					<center><h1>3.3.5 Priest PvE Guides</h1></center>
-					<br>
-					<ul class="nav nav-pills nav-justified">
-						<li role="presentation" class="active"><a data-toggle="tab" href="#disc"><img src="/img/icons/Priest/Disc.png"> Discipline</a></li>
-						<li role="presentation"><a data-toggle="tab" href="#holy"><img src="/img/icons/Priest/Holy.png"> Holy</a></li>
-						<li role="presentation"><a data-toggle="tab" href="#shadow"><img src="/img/icons/Priest/Shadow.png"> Shadow</a></li>
+					</li>
+					<!-- 
+						<li class="dropdown">
+						<a data-toggle="dropdown" class="dropdown-toggle" href="#">PvP Guides<b class="caret"></b></a>
+						<ul class="dropdown-menu">  
+						<li class="disabled"><a href="/pvp/dk.html"><img src="/img/icons/Icon_DK.gif"> Death Knight</a></li>
+						<li class="disabled"><a href="/pvp/druid.html"><img src="/img/icons/Icon_Druid.gif"> Druid</a></li>
+						<li class="disabled"><a href="/pvp/hunter.html"><img src="/img/icons/Icon_Hunter.gif"> Hunter</a></li>
+						<li class="disabled"><a href="/pvp/mage.html"><img src="/img/icons/Icon_Mage.gif"> Mage</a></li>
+						<li class="disabled"><a href="/pvp/paladin.html"><img src="/img/icons/Icon_Paladin.gif"> Paladin</a></li>
+						<li class="disabled"><a href="/pvp/priest.html"><img src="/img/icons/Icon_Priest.gif"> Priest</a></li>
+						<li class="disabled"><a href="/pvp/rogue.html"><img src="/img/icons/Icon_Rogue.gif"> Rogue</a></li>
+						<li class="disabled"><a href="/pvp/shaman.html"><img src="/img/icons/Icon_Shaman.gif"> Shaman</a></li>
+						<li class="disabled"><a href="/pvp/warlock.html"><img src="/img/icons/Icon_Warlock.gif"> Warlock</a></li>
+						<li class="disabled"><a href="/pvp/warrior.html"><img src="/img/icons/Icon_Warrior.gif"> Warrior</a></li>				
+						</ul>
+						</li> -->
+						<li><a href="addons.html">Addon Packs</a></li>
+						<li><a href="glossary.html">Additional Information</a></li>
+						<li><a href="submit.html">Submit a Guide</a></li>
 					</ul>
-					<div class="tab-content">
-						<!-- Guide 1 Starts Here -->
-						<div id="disc" class="tab-pane fade in active">
-							<br>
-							<br>
-							<center>
-								<h2>Discipline<small><br>Written by: FluffyPira</small></h2>
-							</center>
-							<br>
-							<h5>Contents</h5>
-							<div class="tab-content">
-								<ol>
-									<li><a href="#disc-intro">Introduction</a></li>
-									<li><a href="#disc-build">Build</a></li>
-									<li><a href="#disc-spells">Spells</a></li>
-									<li><a href="#disc-gearing">Gearing</a></li>
-								</ol>
-							</div>
-							<br>
-							<h3 id="disc-intro"><u>Introduction</u></h3>
-							<p>You know what's better than healing? Preventing damage. Just imagine how easy a fight would be if you could mitigate as much of the damage as possible through use of instant cast absorption spells.</p>
-							<p>Well my friend, you are in luck because that's exactly what you will be doing as a Discipline priest. As a disc priest you're, ostensibly, a healer, but you're also a bubble bot, a preventer of damage, and an absolute god send in the Lich King fight.</p>
-							<p>By the end of this guide, you should be wondering to yourself "Why did I ever read her Holy guide?"</p>
-							<hr>
-							<h3 id="disc-build"><u>Build</u></h3>
-							<h4>Talent:</h4>
-							<p>There is a little room for variation here, so play what you feel. Personally I prefer Reflective Shield over Desperate Prayer/Improved Renew simply so I can use a similar build in pvp and register some damage in heroics.</p>
-							<div class="list-group">
-								<a href="http://wotlk.evowow.com/?talent#bVcbuhhiRhsffRtbxxc" class="list-group-item">Reflective Shield (56/15/0)</a>
-							</div>
-							<h4>Glyphs:</h4>
-							<p>Adjust according to your spec and what spells you prefer to use. I do highly recommend Power Word: Shield and Pennance however.</p>
-							<p>
-								<br>Major:
-								<ul>
-									<li>Glyph of Power Word: Shield</li>
-									<li>Glyph of Penance</li>
-									<li>Glyph of Prayer of Healing</li>
-								</ul>
-								Minor:
-								<ul>
-									<li>Glyph of Shadow Fiend</li>
-									<li>Glyph of Levitate</li>
-									<li>Glyph of Shadow Protection</li>
-								</ul><br>
-							</p>
-							<hr>
-							<h3 id="disc-spells"><u>Spells</u></h3>
-							<h5><strong>Healing:</strong></h5>
-							<ul class="list-unstyled">
-								<li>Power Word: Shield</li>
-								<li>Penance</li>
-								<li>Flash Heal</li>
-								<li>Greater Heal</li>
-								<li>Renew</li>
-								<li>Binding Heal</li>
-								<li>Prayer of Healing</li>
-								<li>Prayer of Mending</li>
-								<li>Divine Hymn</li>
-								<li>Dispel Magic</li>
-								<li>Abolish Disease</li>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+		<!-- Here is where the Navbar ends -->
+		<div class="row">
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-6">
+				<center><h1>3.3.5 Priest PvE Guides</h1></center>
+				<br>
+				<ul class="nav nav-pills nav-justified">
+					<li role="presentation" class="active"><a data-toggle="tab" href="#disc"><img src="/img/icons/Priest/Disc.png"> Discipline</a></li>
+					<li role="presentation"><a data-toggle="tab" href="#holy"><img src="/img/icons/Priest/Holy.png"> Holy</a></li>
+					<li role="presentation"><a data-toggle="tab" href="#shadow"><img src="/img/icons/Priest/Shadow.png"> Shadow</a></li>
+				</ul>
+				<div class="tab-content">
+					<!-- Guide 1 Starts Here -->
+					<div id="disc" class="tab-pane fade in active">
+						<br>
+						<br>
+						<center>
+							<h2>Discipline<small><br>Written by: FluffyPira</small></h2>
+						</center>
+						<br>
+						<h5>Contents</h5>
+						<div class="tab-content">
+							<ol>
+								<li><a href="#disc-intro">Introduction</a></li>
+								<li><a href="#disc-build">Build</a></li>
+								<li><a href="#disc-spells">Spells</a></li>
+								<li><a href="#disc-gearing">Gearing</a></li>
+							</ol>
+						</div>
+						<br>
+						<h3 id="disc-intro"><u>Introduction</u></h3>
+						<p>You know what's better than healing? Preventing damage. Just imagine how easy a fight would be if you could mitigate as much of the damage as possible through use of instant cast absorption spells.</p>
+						<p>Well my friend, you are in luck because that's exactly what you will be doing as a Discipline priest. As a disc priest you're, ostensibly, a healer, but you're also a bubble bot, a preventer of damage, and an absolute god send in the Lich King fight.</p>
+						<p>By the end of this guide, you should be wondering to yourself "Why did I ever read her Holy guide?"</p>
+						<hr>
+						<h3 id="disc-build"><u>Build</u></h3>
+						<h4>Talent:</h4>
+						<p>There is a little room for variation here, so play what you feel. Personally I prefer Reflective Shield over Desperate Prayer/Improved Renew simply so I can use a similar build in pvp and register some damage in heroics.</p>
+						<div class="list-group">
+							<a href="http://wotlk.evowow.com/?talent#bVcbuhhiRhsffRtbxxc" class="list-group-item">Reflective Shield (56/15/0)</a>
+						</div>
+						<h4>Glyphs:</h4>
+						<p>Adjust according to your spec and what spells you prefer to use. I do highly recommend Power Word: Shield and Pennance however.</p>
+						<p>
+							<br>Major:
+							<ul>
+								<li>Glyph of Power Word: Shield</li>
+								<li>Glyph of Penance</li>
+								<li>Glyph of Prayer of Healing</li>
 							</ul>
+							Minor:
+							<ul>
+								<li>Glyph of Shadow Fiend</li>
+								<li>Glyph of Levitate</li>
+								<li>Glyph of Shadow Protection</li>
+							</ul><br>
+						</p>
+						<hr>
+						<h3 id="disc-spells"><u>Spells</u></h3>
+						<h5><strong>Healing:</strong></h5>
+						<ul class="list-unstyled">
+							<li>Power Word: Shield</li>
+							<li>Penance</li>
+							<li>Flash Heal</li>
+							<li>Greater Heal</li>
+							<li>Renew</li>
+							<li>Binding Heal</li>
+							<li>Prayer of Healing</li>
+							<li>Prayer of Mending</li>
+							<li>Divine Hymn</li>
+							<li>Dispel Magic</li>
+							<li>Abolish Disease</li>
+						</ul>
+						<br>
+						<h5><strong>Cooldowns:</strong></h5>
+						<ul class="list-unstyled">
+							<li>Inner Focus</li>
+							<li>Power Infusion</li>
+							<li>Pain Suppression</li>
+							<li>Hymn of Hope</li>
+							<li>Psychic Scream</li>
+							<li>Fade</li>
+							<li>Fear Ward</li>
+						</ul>
+						<br>
+						<h4>Buffs:</h4>
+						<p>Before you even consider doing damage there are several spells you need to do.
+							<ol>
+								<li>Inner Fire</li>
+								<li>Prayer of Fortitude</li>
+								<li>Prayer of Spirit</li>
+								<li>Prayer of Shadow Protection</li>
+							</ol>
 							<br>
-							<h5><strong>Cooldowns:</strong></h5>
-							<ul class="list-unstyled">
-								<li>Inner Focus</li>
-								<li>Power Infusion</li>
-								<li>Pain Suppression</li>
-								<li>Hymn of Hope</li>
-								<li>Psychic Scream</li>
-								<li>Fade</li>
-								<li>Fear Ward</li>
+							Make sure you're running all of those before you run into a fight. Trust me, all of those are important to your personal damage and raid survivability.
+						</p>
+						<br>
+						<h4>Single Target</h4>
+						<p>For single target healing, focus on using Power Word: Shield on cooldown, Prayer of Mending on cooldown, Penance on cooldown, and filling in with Flash Heal, Greater Heal, and Renew as needed. If your tank is getting hit hard, and has a fair amount on threat on the target, Pain Suppression is basically a tanking cooldown that the priest can apply to them. 40% damage reduction for 8 seconds can go a long way in mitigating damage spikes and helping you catch up if your healing is behind. Similarly Inner Focus combined with a Greater Heal can provide massive healing in a pinch for literally no cost. Lastly, Power Infusion is great for spamming heals if your tank is taking heavy damage but will cost a great deal of mana. It should be used sparingly for that reason.</p><br>
+						<h4>Multi Target</h4>
+						<p>There is a high degree of flexibility as to how a discipline priest can approach multi-target healing. Prayer of Mending should be first and foremost as it will just bounce around passively to targets that require healing. Beyond that, the most common approach to healing is to use Power Word: Shield on individuals that need it and cover with flash heal or prayer of healing depending on the situation. While it is possible to heal through renew ticks, that does require waiting a few seconds. Because discipline priests do not have Empowered Renew, it is prudent to make sure the target has a shield before using a GCD to cast renew.</p>
+						<h5>Explanation:</h5>
+						<p>Healing is fluid moreso than any other role in the game. It is important that you understand what your spells do and their relative costs to others. There is no set in stone approach to healing and certain situations call for different approaches. For instance, constant light aoe such as on Festergut can be handled by casting power word: shield and/or renew on the entire party, spikes in damage might warrant a power word: shield followed by a penance in quick succession. How you handle healing is all down to the situation as well as your own instinctual reactions. Unless the party wipes, there is no wrong way.</p><br>
+						<h4>Cooldown Use</h4>
+						<br>
+						<dl class="dl-horizontal">
+							<dt>Shadowfiend</dt>
+							<dd>Shadowfiend is great. Use it to regen mana and as a damaging cooldown. Best used before BL or Heroism as those spells should effect your Shadowfiend.</dd><br>
+							<dt>Psychic Scream</dt>
+							<dd>If you're being attacked by mobs the tank refuses to pick up, feel free to use Psychic Scream to fear them.</dd><br>
+							<dt>Fade</dt>
+							<dd>Do you have aggro? Yes? Fade. Fade is your brilliant best friend.</dd><br>
+							<dt>Fear Ward</dt>
+							<dd>Best used on encounters you just know have a fear component. Like Blood Queen.</dd><br>				  
+						</dl>
+						<br>
+						<h4>But when do I use...</h4>
+						<br>
+						<dl class="dl-horizontal">
+							<dt>
+								...Shackle Undead
+							</dt>
+							<dd>
+								Is there an undead thing to CC? Perhaps a Valkyrie on the Lich King? Shackle.
+							</dd>
+							<br>
+							<dt>
+								...Abolish Disease
+							</dt>
+							<dd>
+								When there's a disease on a party member, unless this happens to be the Abomination of Professor Putricide.
+							</dd>
+							<br>
+							<dt>
+								...Dispel Magic/Mass Dispel
+							</dt>
+							<dd>
+								Whenever there is a magic effect on a party member, unless it needs to be dispelled away from the party. 
+							</dd>
+							<br>
+							<dt>
+								...Hymn of Hope
+							</dt>
+							<dd>
+								If you or any other healer are really boned on mana, like, legit oom with no hope in hell, use this. 
+							</dd>
+							<br>
+							<dt>
+								...Divine Hymn
+							</dt>
+							<dd>
+								Can be used in an "oh shit" moment or in a period of high damage. I'd rather use other healing methods though, I never feel save with Divine Hymn.
+							</dd>
+							<br>
+							<dt>
+								...Mind Control
+							</dt>
+							<dd>
+								Whenever you're duelling someone. Mind control them and run them off of a cliff. If possible, only duel next to cliffs.
+							</dd>
+							<br>
+							<dt>
+								...Power Word: Shield
+							</dt>
+							<dd>
+								Always. This is your bread and butter and should be use to react to damage and to prevent damage you know is incoming. It also increases the haste of your next spell.
+							</dd>
+							<br>
+							<dt>
+								...Penance
+							</dt>
+							<dd>
+								As much as possible. It's the healing of a Greater Heal for the cost of a Flash Heal. 
+							</dd>
+							<br>
+							<dt>
+								...Flash Heal
+							</dt>
+							<dd>
+								As a filler. If penance and power word: shield are on cooldown, this is your go to.
+							</dd>
+							<br>
+							<dt>
+								...Binding Heal
+							</dt>
+							<dd>
+								Are you and another member, for some reason, the only two people taking damage? Use this.
+							</dd>
+							<br>
+							<dt>
+								...Greater Heal
+							</dt>
+							<dd>
+								If someone is really down on health, like 15-20k down, use this.
+							</dd>
+							<br>
+							<dt>
+								...Prayer of Mending
+							</dt>
+							<dd>
+								All the bloody time. I mean, you could watch your PoM bounce about and put it on someone else if it stops on someone who is not taking damage. Otherwise, let it run its course. With time, you'll get a feel for how this can be used effectively.
+							</dd>
+							<br>
+							<dt>
+								...Prayer of Healing
+							</dt>
+							<dd>
+								If 3 or more members of the same party are down on health, use this. 
+							</dd>
+							<br>
+							<dt>
+								...Renew
+							</dt>
+							<dd>
+								Use at your discretion. Sometimes it works brilliantly if people are taking consistent damage, sometime it's just a huge over heal and a waste of mana.
+							</dd>
+							<br>
+						</dl>				
+						<hr>
+						<h3 id="disc-gearing"><u>Gearing</u></h3>
+						<p>I honestly don't believe there is any to gear and gem a healer that isn't totally subjective and up to the player's needs and playstyle.</p>
+						<h4>Raw Healing:</h4>
+						<p>If you find yourself doing well with mana but having shit output, try to increase your spell-power or your haste. Both of those will affect your HPS in different ways. Spell-power will increase the raw healing power of your heals; Haste will make the cast time faster. If all you were changing is gems, you'd notice that spell-power gems would leave you with the same mana efficiency while haste would reduce it. Keep that in mind when you're thinking about gems.</p>
+						<h4>Sustainability:</h4>
+						<p>If you find that your healing is acceptable, you're overhealing plenty, but no matter how hard you try you're totally hopeless when it comes to mana pool? Go for Intellect or Spirit. Intellect increases your total mana pool and offers spell crit; Spirit increases your mana regen rate and is affected by several of your talents. For discipline priests, focus on increasing Intellect as it increases your mana pool and also increases the mana returned on ticks from regeneration, shadowfiend, and hymn of hope.
+						</p><br>
+						<h4>Recommendation:</h4>
+						<p>Gem for intellect. You will gain the most benefit from having a larger mana pool, especially in a party that gives regeneration. Furthermore, you'll have a larger mana pool from which to spam insta cast spells like PW:S and Penance.</p>
+						<h4>Itemization:</h4>
+						<p>
+							For weapons it's user's choice. We can equip daggers, maces, and staves. A one hand with an offhand will always pull out ahead of a two handed. But, remember, an upgrade is an upgrade, and if a staff makes itself available to you that has vastly superior stats to your one hand/offhand combo, take it! Healers are nothing if not pragmatic. 
+						</p>
+						<p>
+							For armour: Every single piece you encounter should have Intellect on it with two of the following three: haste, crit, and spirit. In most cases I'd take the gear with spirit on it for the mana regeneration but if a great piece of non spirit gear appears, and a caster dps can't use it, take it. 
+						</p>
+						<br>
+						<h4>Gemming:</h4>
+						<p>Honestly, gems are fairly flexible. I personally like to have a spirit focused gem set, getting every slot bonus because "free stats." It also means I get a little bit of everything I'd want: spirit, spell-power, and haste. Of course, I'll gain the most spirit but that's my preference, you could prefer to run haste focus. </p>
+						<p>For meta I pick Insightful because I don't feel the 2% extra int of the Ember Skyflare diamond interests me. I'd take regen over a slightly larger mana pool any day.</p>
+						<dl>
+							<dt>Meta:</dt>
+							<dd><a href="http://wotlk.evowow.com/?item=41401">Insightful Earthsiege Diamond</a></dd>
+							<br>
+							<dt>Second Helmet Slot:</dt>
+							<dd><a href="http://wotlk.evowow.com/?item=49110">Nightmare Tear</a></dd>
+							<br>
+							<dt>Red:</dt>
+							<dd><a href="http://wotlk.evowow.com/?item=40123">Brilliant King's Amber</a></dd>
+							<br>
+							<dt>Yellow:</dt>
+							<dd><a href="http://wotlk.evowow.com/?item=40123">Brilliant King's Amber</a></dd>
+							<br>
+							<dt>Blue:</dt>
+							<dd><a href="http://wotlk.evowow.com/?item=40123">Brilliant King's Amber</a></dd>
+							<br>
+						</dl>
+						<p>I cannot stress this enough: think about what <i>you're</i> doing, how <i>your</i> spells are effected, and what stats <i>you</i> need more of. In very high level gear I find that most of my spells tend to over heal, that they seem to be quick enough, but I feel I need more mana regen to maintain them. I chose spirit because of this. If you're a bit of a munchkin and not having an optimized power healing build really bothers you, roll spell-power. If you feel that you're not casting Prayer of Healing quick enough, roll haste. If you really want to gamble with your class, the experiences of others, and constantly overhealing all of your spells, roll critical focus.</p>
+						<p>Priest is what you make of it. Don't be concerned with min/maxing or stat weighting here, feel the groove and define your focus based around your experiences healing. Good luck!</p>
+					</div>
+					<!-- Guide 1 Ends Here -->
+					<!-- Guide 2 Starts Here -->
+					<div id="holy" class="tab-pane fade">
+						<br>
+						<br>
+						<center>
+							<h2>Holy<small><br>Written by: FluffyPira</small></h2>
+						</center>
+						<br>
+						<h5>Contents</h5>
+						<div class="tab-content">
+							<ol>
+								<li><a href="#holy-intro">Introduction</a></li>
+								<li><a href="#holy-build">Build</a></li>
+								<li><a href="#holy-spells">Spells</a></li>
+								<li><a href="#holy-gearing">Gearing</a></li>
+							</ol>
+						</div>
+						<br>
+						<h3 id="holy-intro"><u>Introduction</u></h3>
+						<p>Do you like overly complicated mana intensive healing that pales in comparison to the relative easy of Druid and Shaman? Well then Holy Priest is for you! By choosing Holy Priest you gain access to some of the highest mana cost spells AND you'll hopefully have the highest mana regen of your entire raid! That counts for something, right?
+						</p>
+						<p>In all seriousness, holy is fun to play when you get into the groove of things, but it also requires skill, patience, foresight, and hopefully a group that takes consistent raid/tank damage. You will immediately feel when someone has fucked up and you will waste a lot of mana as you panic. 
+						</p>
+						<p>Always remember the basic tenants of holy priesthood: Be patient, act intelligently, blame the other healer.</p>
+						<hr>
+						<h3 id="holy-build"><u>Build</u></h3>
+						<h4>Talent:</h4>
+						<p>Don't expect too much variation here. You'll want to stick to holy or disc while avoiding shadow entirely. Shadow has literally nothing for you while Disc has mana regen.</p>
+						<p>If you want, you can take 14 talents in disc for inner focus but do you really need it? Like honestly?</p>
+						<div class="list-group">
+							<a href="http://wotlk.evowow.com/?talent#bVcbhZcxxcfMqihoeuVo" class="list-group-item">Standard Talents (13/58/0)</a>
+						</div>
+						<h4>Glyphs:</h4>
+						<p>Adjust according to your spec. Because I focus more on raid healing I've gone with these particular glyphs.</p>
+						<p>
+							<br>Major:
+							<ul>
+								<li>Glyph of Circle of Healing</li>
+								<li>Glyph of Prayer of Healing</li>
+								<li>Glyph of Guardian Spirit</li>
 							</ul>
+							Minor:
+							<ul>
+								<li>Glyph of Shadow Fiend</li>
+								<li>Glyph of Levitate</li>
+								<li>Glyph of Shadow Protection</li>
+							</ul><br>
+						</p>
+						<p>
+							There's an argument to be made that Circle of Healing and Guardian Spirit should be spec independent. Even if you're focusing most of your efforts on the tank, those glyphs are just that damn good. Prayer of Healing is excellent to leave a 20% of healing done HoT effect on the party members affected by the heal, but there are other glyphs that can be swapped in depending on playstyle.
 							<br>
-							<h4>Buffs:</h4>
-							<p>Before you even consider doing damage there are several spells you need to do.
-								<ol>
-									<li>Inner Fire</li>
-									<li>Prayer of Fortitude</li>
-									<li>Prayer of Spirit</li>
-									<li>Prayer of Shadow Protection</li>
-								</ol>
-								<br>
-								Make sure you're running all of those before you run into a fight. Trust me, all of those are important to your personal damage and raid survivability.
-							</p>
+							Hey! A class that allows a modicum of choice in 3.3.5? Weird, right? 
+						</p>
+						<hr>
+						<h3 id="holy-spells"><u>Spells</u></h3>
+						<h5><strong>Healing:</strong></h5>
+						<ul class="list-unstyled">
+							<li>Flash Heal</li>
+							<li>Greater Heal</li>
+							<li>Binding Heal</li>
+							<li>Renew</li>
+							<li>Power Word: Shield</li>
+							<li>Prayer of Healing</li>
+							<li>Prayer of Mending</li>
+							<li>Circle of Healing</li>
+							<li>Divine Hymn</li>
+							<li>Dispel Magic</li>
+							<li>Abolish Disease</li>
+						</ul>
+						<br>
+						<h5><strong>Cooldowns:</strong></h5>
+						<ul class="list-unstyled">
+							<li>Guardian Spirit</li>
+							<li>Shadowfiend</li>
+							<li>Hymn of Hope</li>
+							<li>Psychic Scream</li>
+							<li>Fade</li>
+							<li>Fear Ward</li>
+						</ul>
+						<br>
+						<h4>Buffs:</h4>
+						<p>Before you even consider doing damage there are several spells you need to do.
+							<ol>
+								<li>Inner Fire</li>
+								<li>Prayer of Fortitude</li>
+								<li>Prayer of Spirit</li>
+								<li>Prayer of Shadow Protection</li>
+							</ol>
 							<br>
-							<h4>Single Target</h4>
-							<p>For single target healing, focus on using Power Word: Shield on cooldown, Prayer of Mending on cooldown, Penance on cooldown, and filling in with Flash Heal, Greater Heal, and Renew as needed. If your tank is getting hit hard, and has a fair amount on threat on the target, Pain Suppression is basically a tanking cooldown that the priest can apply to them. 40% damage reduction for 8 seconds can go a long way in mitigating damage spikes and helping you catch up if your healing is behind. Similarly Inner Focus combined with a Greater Heal can provide massive healing in a pinch for literally no cost. Lastly, Power Infusion is great for spamming heals if your tank is taking heavy damage but will cost a great deal of mana. It should be used sparingly for that reason.</p><br>
-							<h4>Multi Target</h4>
-							<p>There is a high degree of flexibility as to how a discipline priest can approach multi-target healing. Prayer of Mending should be first and foremost as it will just bounce around passively to targets that require healing. Beyond that, the most common approach to healing is to use Power Word: Shield on individuals that need it and cover with flash heal or prayer of healing depending on the situation. While it is possible to heal through renew ticks, that does require waiting a few seconds. Because discipline priests do not have Empowered Renew, it is prudent to make sure the target has a shield before using a GCD to cast renew.</p>
-							<h5>Explanation:</h5>
-							<p>Healing is fluid moreso than any other role in the game. It is important that you understand what your spells do and their relative costs to others. There is no set in stone approach to healing and certain situations call for different approaches. For instance, constant light aoe such as on Festergut can be handled by casting power word: shield and/or renew on the entire party, spikes in damage might warrant a power word: shield followed by a penance in quick succession. How you handle healing is all down to the situation as well as your own instinctual reactions. Unless the party wipes, there is no wrong way.</p><br>
-							<h4>Cooldown Use</h4>
-							<br>
-							<dl class="dl-horizontal">
-								<dt>Shadowfiend</dt>
-								<dd>Shadowfiend is great. Use it to regen mana and as a damaging cooldown. Best used before BL or Heroism as those spells should effect your Shadowfiend.</dd><br>
+							Make sure you're running all of those before you run into a fight. Trust me, all of those are important to your personal damage and raid survivability.
+						</p>
+						<br>
+						<h4>Single Target</h4>
+						<p>For single target healing. Focus Flash Heal. Keep Renew up on the tank and have the tank your main target for any Prayer of Mending casts. If the tank is 100% all the time, slow down your Flash Heal casts until it's just on the edge of being near top/fully healed. If the tank is being healed but consistently losing a small amount of health, sub in some Greater Heals at 3 stacks of Serendipity or occasionally cast a Circle of Healing after a Flash. If the tank is losing larger amounts of health, or taking spikes in damage, use Guardian spirit and sub in a few more Greater Heals this time at 2 stacks.</p><br>
+						<h4>Multi Target</h4>
+						<p>This, my love, is where you shine. Make sure you have Prayer of Mending up at all times, or whenever the cooldown finishes. It's pretty great in terms of smart healing. In situation where the raid takes an immediate spike of damage, heal 2-3 people up with flash heal to get stacks of Serendipity, and then cast a Prayer of Healing at the party tat looks the worst off. Instantly after the Prayer of Healing cast, use a Circle of Healing. If you're taking lighter raid damage at more consistent intervals, Circle of Healing with Flash Heal to fill and perhaps some Renews. If you're taking consistent small raid damage such as 2-3k per 3 second tick, HoT everyone up with Renew and pretend you're a druid, or circle of healing the melee and flash/renew the ranged. Remember tha Flash Heals can be instants and so long as your FH cast time is higher than 1 second, it's worth spending the instant in lieu of another spell, especially if this results in another stack of Serendipity.</p>
+						<h5>Explanation:</h5>
+						<p>Remember, nothing is set in stone, and healing isn't a competition. But healing <i>can be</i> a competition. There are a lot of chart queens out there and a lot of DPS that get jumpy when their health drops below 100%. You'll want to beat other healers to the punch, whether it's a 3 stacks Serendipity Prayer of Healing, rolling HoTs with renew, or casting Circle of Healing immediately after a damage spike. This means you may use extra mana, but the way priests are designed if often means you use less. As daunting as a single Prayer of Healing cast can be on your mana pool, if you have 3+ targets in the same party to heal, it's more efficient than 3 flash heals or 3 renews. If you follow this up with a Circle of Healing you've potentially healed 11 targets for just over the cost of 3 flash heals. So while it may be scary to see 5-10% of your health pool diminish over 1.3-1.5 seconds (With 3 stacks of Serendipity), your party will be immediately full and you'll have some time to fill with flash heal or renew as you replenish your mana back.</p>
+						<p>I know, it can be scary as hell, but this is how we do things here. If you're lucky, and you don't have another healer taking all of your HPS and competing with you, you can just flash and renew, and keep your cool. I've never been afforded that luxury, so I just waste the mana and regen it back later. You're stacking spirit right?</p><br>
+						<h4>Cooldown Use</h4>
+						<br>
+						<dl class="dl-horizontal">
+							<dt>Guardian Spirit</dt>
+							<dd>Omg, who messed up? Cast this IMMEDIATELY on whomever messed up. Either you will heal them faster OR they'll die and be healed automagically.</dd><br>
+							<dt>Shadowfiend</dt>
+							<dd>Shadowfiend is great. Use it to regen mana and as a damaging cooldown. Best used before BL or Heroism as those spells should effect your Shadowfiend.</dd><br>
+							<dt>Power Word: Shield</dt>
+							<dd>Is someone temporarily soaking up damage like a fool? Use this on them to stop the bleeding and give you a moment to heal.<dd><br>
 								<dt>Psychic Scream</dt>
 								<dd>If you're being attacked by mobs the tank refuses to pick up, feel free to use Psychic Scream to fear them.</dd><br>
 								<dt>Fade</dt>
@@ -247,24 +506,10 @@
 								</dd>
 								<br>
 								<dt>
-									...Power Word: Shield
-								</dt>
-								<dd>
-									Always. This is your bread and butter and should be use to react to damage and to prevent damage you know is incoming. It also increases the haste of your next spell.
-								</dd>
-								<br>
-								<dt>
-									...Penance
-								</dt>
-								<dd>
-									As much as possible. It's the healing of a Greater Heal for the cost of a Flash Heal. 
-								</dd>
-								<br>
-								<dt>
 									...Flash Heal
 								</dt>
 								<dd>
-									As a filler. If penance and power word: shield are on cooldown, this is your go to.
+									Whenever. Seriously. Like, as much as possible if you can afford it. If you can't afford to spam Flash Heal, or want to use it sparingly, just use it a few times to get 3 stacks of Serendipity or whenever it is an instant cast.
 								</dd>
 								<br>
 								<dt>
@@ -296,130 +541,142 @@
 								</dd>
 								<br>
 								<dt>
+									...Circle of Healing
+								</dt>
+								<dd>
+									Use any time 2-3 people in the same physical area are down on health. Given the mechanics it may also be used to proc an instant Flash Heal.
+								</dd>
+								<br>
+								<dt>
 									...Renew
 								</dt>
 								<dd>
-									Use at your discretion. Sometimes it works brilliantly if people are taking consistent damage, sometime it's just a huge over heal and a waste of mana.
+									Use at your discretion. Sometimes it works brilliantly if people are taking consistent damage, sometime it's just a huge over heal and a waste of mana. Because of Improved Renew, it is also a small but capable direct heal although in this capacity it's also wildly inefficient.
+								</dd>
+								<br>
+								<dt>
+									...Power Word: Shield
+								</dt>
+								<dd>
+									Use this to stop a target from taking damage. Since this is so crap with holy, I hardly ever use it. I think Renew and Flash Heal probably provide more benefit per mana than PW:S does, and they all have roughly the same cast time.
+								</dd>
+								<br>
+								<dt>
+									...Lightwell
+								</dt>
+								<dd>
+									NEVER! Never use lightwell, don't even consider it. It's not worth it. Never expect DPS or Tanks to Heal themselves unless they're Shadow priests or Blood DK tanks, they will never ever do it. Healing is your role, and nobody is ever going to stop doing their role so they could do yours. All Lightwell becomes is a shiny 10 stack embarrassment sitting in the middle of the raiding area, constantly pointing out your shame to everyone.
 								</dd>
 								<br>
 							</dl>				
 							<hr>
-							<h3 id="disc-gearing"><u>Gearing</u></h3>
+							<h3 id="holy-gearing"><u>Gearing</u></h3>
 							<p>I honestly don't believe there is any to gear and gem a healer that isn't totally subjective and up to the player's needs and playstyle.</p>
 							<h4>Raw Healing:</h4>
 							<p>If you find yourself doing well with mana but having shit output, try to increase your spell-power or your haste. Both of those will affect your HPS in different ways. Spell-power will increase the raw healing power of your heals; Haste will make the cast time faster. If all you were changing is gems, you'd notice that spell-power gems would leave you with the same mana efficiency while haste would reduce it. Keep that in mind when you're thinking about gems.</p>
 							<h4>Sustainability:</h4>
-							<p>If you find that your healing is acceptable, you're overhealing plenty, but no matter how hard you try you're totally hopeless when it comes to mana pool? Go for Intellect or Spirit. Intellect increases your total mana pool and offers spell crit; Spirit increases your mana regen rate and is affected by several of your talents. For discipline priests, focus on increasing Intellect as it increases your mana pool and also increases the mana returned on ticks from regeneration, shadowfiend, and hymn of hope.
+							<p>If you find that your healing is acceptable, you're overhealing plenty, but no matter how hard you try you're totally hopeless when it comes to mana pool? Go for Intellect or Spirit. Intellect increases your total mana pool and offers spell crit; Spirit increases your mana regen rate and is affected by several of your talents. For holy priest, focus largely on spirit. Intellect will come very easily through gear, but spirit can be a bit harder to come by, especially since your pool of potential gear will include cloth dps items that lack hit but also lack spirit. Compared to Mp5, Spirit is what you want.
 							</p><br>
-							<h4>Recommendation:</h4>
-							<p>Gem for intellect. You will gain the most benefit from having a larger mana pool, especially in a party that gives regeneration. Furthermore, you'll have a larger mana pool from which to spam insta cast spells like PW:S and Penance.</p>
+							<h4>Middle Ground</h4>
+							<p>There's only one stat that will truly help both output and sustainability and that's spirit. 25% of your spirit is converted into extra spell-power. Although this is a fairly weak conversion, it's pretty much free spell-power on almost every time you should have equipped.</p>
+							<p>I mean, if you really want to be a pedant, intellect also increases spell crit but if there's one thing you should already know now about healing: 
+								<pre>Never count on crits!</pre>
+							</p>
 							<h4>Itemization:</h4>
 							<p>
 								For weapons it's user's choice. We can equip daggers, maces, and staves. A one hand with an offhand will always pull out ahead of a two handed. But, remember, an upgrade is an upgrade, and if a staff makes itself available to you that has vastly superior stats to your one hand/offhand combo, take it! Healers are nothing if not pragmatic. 
 							</p>
 							<p>
-								For armour: Every single piece you encounter should have Intellect on it with two of the following three: haste, crit, and spirit. In most cases I'd take the gear with spirit on it for the mana regeneration but if a great piece of non spirit gear appears, and a caster dps can't use it, take it. 
+								For armour: Every single piece you encounter should have Intellect on it with two of the following three: haste, crit, and spirit. In most cases I'd take the gear with spirit on it for reasons mentioned above. I really like spirit, I think spirit defines who we are as a class. Beyond this, I prefer haste but some people seem to like gambling and thus favour crit. Those people are wrong, take haste and spirit where possible.
 							</p>
 							<br>
 							<h4>Gemming:</h4>
 							<p>Honestly, gems are fairly flexible. I personally like to have a spirit focused gem set, getting every slot bonus because "free stats." It also means I get a little bit of everything I'd want: spirit, spell-power, and haste. Of course, I'll gain the most spirit but that's my preference, you could prefer to run haste focus. </p>
 							<p>For meta I pick Insightful because I don't feel the 2% extra int of the Ember Skyflare diamond interests me. I'd take regen over a slightly larger mana pool any day.</p>
 							<dl>
-								<dt>Meta:</dt>
-								<dd><a href="http://wotlk.evowow.com/?item=41401">Insightful Earthsiege Diamond</a></dd>
+								<dt>Meta:
+								</dt><dd><a href="http://wotlk.evowow.com/?item=41401">Insightful Earthsiege Diamond</a>
+								</dd>
 								<br>
-								<dt>Second Helmet Slot:</dt>
-								<dd><a href="http://wotlk.evowow.com/?item=49110">Nightmare Tear</a></dd>
-								<br>
-								<dt>Red:</dt>
-								<dd><a href="http://wotlk.evowow.com/?item=40123">Brilliant King's Amber</a></dd>
+								<dt>Red:
+								</dt><dd><a href="http://wotlk.evowow.com/?item=40133">Purified Dreadstone</a></dd>
 								<br>
 								<dt>Yellow:</dt>
-								<dd><a href="http://wotlk.evowow.com/?item=40123">Brilliant King's Amber</a></dd>
+								<dd><a href="http://wotlk.evowow.com/?item=40174">Intricate Eye of Zul</a>
+								</dd>
 								<br>
 								<dt>Blue:</dt>
-								<dd><a href="http://wotlk.evowow.com/?item=40123">Brilliant King's Amber</a></dd>
+								<dd><a href="http://wotlk.evowow.com/?item=40120">Sparkling Majestic Zircon</a></dd>
 								<br>
 							</dl>
-							<p>I cannot stress this enough: think about what <i>you're</i> doing, how <i>your</i> spells are effected, and what stats <i>you</i> need more of. In very high level gear I find that most of my spells tend to over heal, that they seem to be quick enough, but I feel I need more mana regen to maintain them. I chose spirit because of this. If you're a bit of a munchkin and not having an optimized power healing build really bothers you, roll spell-power. If you feel that you're not casting Prayer of Healing quick enough, roll haste. If you really want to gamble with your class, the experiences of others, and constantly overhealing all of your spells, roll critical focus.</p>
-							<p>Priest is what you make of it. Don't be concerned with min/maxing or stat weighting here, feel the groove and define your focus based around your experiences healing. Good luck!</p>
+							<p>I cannot stress this enough: think about what <i>you're</i> doing, how <i>your</i> spells are affected, and what stats <i>you</i> need more of. In very high level gear I find that most of my spells tend to over heal, that they seem to be quick enough, but I feel I need more mana regen to maintain them. I chose spirit because of this. If you're a bit of a munchkin and not having an optimized power healing build really bothers you, roll spell-power. If you feel that you're not casting Prayer of Healing quick enough, roll haste. If you really want to gamble with your class, the experiences of others, and constantly overhealing all of your spells, roll critical focus.</p>
+							<p>Priest is what you make of it. Don't be concerned with min/maxing or stat weighting here, feel the groove and define your focus based around your experiences healing. Good luck!</p> 
 						</div>
-						<!-- Guide 1 Ends Here -->
-						<!-- Guide 2 Starts Here -->
-						<div id="holy" class="tab-pane fade">
+						<!-- Guide 2 Ends Here -->
+						<!-- Guide 3 Starts Here -->
+						<div id="shadow" class="tab-pane fade">
 							<br>
 							<br>
 							<center>
-								<h2>Holy<small><br>Written by: FluffyPira</small></h2>
+								<h2>Shadow<small><br>Written by: FluffyPira</small></h2>
 							</center>
 							<br>
 							<h5>Contents</h5>
 							<div class="tab-content">
 								<ol>
-									<li><a href="#holy-intro">Introduction</a></li>
-									<li><a href="#holy-build">Build</a></li>
-									<li><a href="#holy-spells">Spells</a></li>
-									<li><a href="#holy-gearing">Gearing</a></li>
+									<li><a href="#shadow-intro">Introduction</a></li>
+									<li><a href="#shadow-build">Build</a></li>
+									<li><a href="#shadow-spells">Spells</a></li>
+									<li><a href="#shadow-gearing">Gearing</a></li>
 								</ol>
 							</div>
 							<br>
-							<h3 id="holy-intro"><u>Introduction</u></h3>
-							<p>Do you like overly complicated mana intensive healing that pales in comparison to the relative easy of Druid and Shaman? Well then Holy Priest is for you! By choosing Holy Priest you gain access to some of the highest mana cost spells AND you'll hopefully have the highest mana regen of your entire raid! That counts for something, right?
+							<h3 id="shadow-intro"><u>Introduction</u></h3>
+							<p>
+								Often underrated, the Shadow Priest brings high damage, big buffs, and a decent amount of raid healing to the party. Through an array of Damage Over Time effects, the Shadow spec will do consistent and reliable damage, even on fights where target switching and mobility are key. 
 							</p>
-							<p>In all seriousness, holy is fun to play when you get into the groove of things, but it also requires skill, patience, foresight, and hopefully a group that takes consistent raid/tank damage. You will immediately feel when someone has fucked up and you will waste a lot of mana as you panic. 
-							</p>
-							<p>Always remember the basic tenants of holy priesthood: Be patient, act intelligently, blame the other healer.</p>
 							<hr>
-							<h3 id="holy-build"><u>Build</u></h3>
+							<h3 id="shadow-build"><u>Build</u></h3>
 							<h4>Talent:</h4>
-							<p>Don't expect too much variation here. You'll want to stick to holy or disc while avoiding shadow entirely. Shadow has literally nothing for you while Disc has mana regen.</p>
-							<p>If you want, you can take 14 talents in disc for inner focus but do you really need it? Like honestly?</p>
+							<p>There's very little variation here. You want to go into discipline, you want Improved Inner Fire, you want Meditation. That leaves 58 points to play with, all of which should go to shadow.</p>
+							<p>That basically leave a talent spec optimized for 4pT10 timing of Mind Flay, and one that reduces Mind Blast to the bear minimum.</p>
 							<div class="list-group">
-								<a href="http://wotlk.evowow.com/?talent#bVcbhZcxxcfMqihoeuVo" class="list-group-item">Standard Talents (13/58/0)</a>
+								<a href="http://wotlk.evowow.com/?talent#bVcbhZZGxfcRfzffqfzAo" class="list-group-item">Standard Build (13/0/58)</a>
+								<a href="http://wotlk.evowow.com/?talent#bVcbhZZGxfVRfzcfqfzAo" class="list-group-item">Improved Mind Blast (13/0/58)</a>
 							</div>
 							<h4>Glyphs:</h4>
-							<p>Adjust according to your spec. Because I focus more on raid healing I've gone with these particular glyphs.</p>
-							<p>
-								<br>Major:
+							<p>Major:
 								<ul>
-									<li>Glyph of Circle of Healing</li>
-									<li>Glyph of Prayer of Healing</li>
-									<li>Glyph of Guardian Spirit</li>
+									<li>Glyph of Shadow</li>
+									<li>Glyph of Mind Flay</li>
+									<li>Glyph of Dispersion*</li>
 								</ul>
 								Minor:
 								<ul>
 									<li>Glyph of Shadow Fiend</li>
 									<li>Glyph of Levitate</li>
 									<li>Glyph of Shadow Protection</li>
-								</ul><br>
-							</p>
-							<p>
-								There's an argument to be made that Circle of Healing and Guardian Spirit should be spec independent. Even if you're focusing most of your efforts on the tank, those glyphs are just that damn good. Prayer of Healing is excellent to leave a 20% of healing done HoT effect on the party members affected by the heal, but there are other glyphs that can be swapped in depending on playstyle.
-								<br>
-								Hey! A class that allows a modicum of choice in 3.3.5? Weird, right? 
+								</ul>
+								<small>* = A small caveat with this. Do we really use Dispersion a whole lot? No. But Mind Sear and Shadow Word: Pain aren't a whole lot better.</small>
 							</p>
 							<hr>
-							<h3 id="holy-spells"><u>Spells</u></h3>
-							<h5><strong>Healing:</strong></h5>
+							<h3 id="shadow-spells"><u>Spells</u></h3>
+							<h5><strong>Damage:</strong></h5>
 							<ul class="list-unstyled">
-								<li>Flash Heal</li>
-								<li>Greater Heal</li>
-								<li>Binding Heal</li>
-								<li>Renew</li>
-								<li>Power Word: Shield</li>
-								<li>Prayer of Healing</li>
-								<li>Prayer of Mending</li>
-								<li>Circle of Healing</li>
-								<li>Divine Hymn</li>
-								<li>Dispel Magic</li>
-								<li>Abolish Disease</li>
+								<li>Shadow Word: Pain (SW:P)</li>
+								<li>Devouring Plague (DP)</li>
+								<li>Vampiric Touch (VT)</li>
+								<li>Mind Blast (MB)</li>
+								<li>Mind Flay (MF)</li>
+								<li>Shadow Word: Death(SW:D)</li>
+								<li>Mind Sear (MS)</li>
 							</ul>
 							<br>
 							<h5><strong>Cooldowns:</strong></h5>
 							<ul class="list-unstyled">
-								<li>Guardian Spirit</li>
+								<li>Dispersion</li>
 								<li>Shadowfiend</li>
-								<li>Hymn of Hope</li>
+								<li>Power Word: Shield</li>
 								<li>Psychic Scream</li>
 								<li>Fade</li>
 								<li>Fear Ward</li>
@@ -428,6 +685,8 @@
 							<h4>Buffs:</h4>
 							<p>Before you even consider doing damage there are several spells you need to do.
 								<ol>
+									<li>Shadowform!</li>
+									<li>Vampiric Embrace</li>
 									<li>Inner Fire</li>
 									<li>Prayer of Fortitude</li>
 									<li>Prayer of Spirit</li>
@@ -438,387 +697,127 @@
 							</p>
 							<br>
 							<h4>Single Target</h4>
-							<p>For single target healing. Focus Flash Heal. Keep Renew up on the tank and have the tank your main target for any Prayer of Mending casts. If the tank is 100% all the time, slow down your Flash Heal casts until it's just on the edge of being near top/fully healed. If the tank is being healed but consistently losing a small amount of health, sub in some Greater Heals at 3 stacks of Serendipity or occasionally cast a Circle of Healing after a Flash. If the tank is losing larger amounts of health, or taking spikes in damage, use Guardian spirit and sub in a few more Greater Heals this time at 2 stacks.</p><br>
+							<p>For single target damage, it's all about maintaining and playing with DoTs. Shadow Word: Pain can be maintained through Mind Flay filler. Vampiric Touch should be refreshed before it falls off. Devouring Plague works differently. Because of it's mechanics, "refreshing" the disease will overwrite the previous one meaning a potential loss of damage and healing. To play it safe, let DP fall off and refresh it within 3 seconds after it falls off. If you have all 3 dots up, Mind Blast on cool down and fill with Mind Flay.</p>
+							<h5>Opener:</h5>
+							<pre>VT -> SW:P -> DP -> MB -> MF</pre><br>
+							<h5>Simplified:</h5>
+							<pre>SW:P > VT > DP > MB > MF</pre><br>
 							<h4>Multi Target</h4>
-							<p>This, my love, is where you shine. Make sure you have Prayer of Mending up at all times, or whenever the cooldown finishes. It's pretty great in terms of smart healing. In situation where the raid takes an immediate spike of damage, heal 2-3 people up with flash heal to get stacks of Serendipity, and then cast a Prayer of Healing at the party tat looks the worst off. Instantly after the Prayer of Healing cast, use a Circle of Healing. If you're taking lighter raid damage at more consistent intervals, Circle of Healing with Flash Heal to fill and perhaps some Renews. If you're taking consistent small raid damage such as 2-3k per 3 second tick, HoT everyone up with Renew and pretend you're a druid, or circle of healing the melee and flash/renew the ranged. Remember tha Flash Heals can be instants and so long as your FH cast time is higher than 1 second, it's worth spending the instant in lieu of another spell, especially if this results in another stack of Serendipity.</p>
-							<h5>Explanation:</h5>
-							<p>Remember, nothing is set in stone, and healing isn't a competition. But healing <i>can be</i> a competition. There are a lot of chart queens out there and a lot of DPS that get jumpy when their health drops below 100%. You'll want to beat other healers to the punch, whether it's a 3 stacks Serendipity Prayer of Healing, rolling HoTs with renew, or casting Circle of Healing immediately after a damage spike. This means you may use extra mana, but the way priests are designed if often means you use less. As daunting as a single Prayer of Healing cast can be on your mana pool, if you have 3+ targets in the same party to heal, it's more efficient than 3 flash heals or 3 renews. If you follow this up with a Circle of Healing you've potentially healed 11 targets for just over the cost of 3 flash heals. So while it may be scary to see 5-10% of your health pool diminish over 1.3-1.5 seconds (With 3 stacks of Serendipity), your party will be immediately full and you'll have some time to fill with flash heal or renew as you replenish your mana back.</p>
-							<p>I know, it can be scary as hell, but this is how we do things here. If you're lucky, and you don't have another healer taking all of your HPS and competing with you, you can just flash and renew, and keep your cool. I've never been afforded that luxury, so I just waste the mana and regen it back later. You're stacking spirit right?</p><br>
+							<p>Mind Sear. That's it. That's really all you have. I guess you could start casting VT on every target, that'll be good for some damage on pulls with less than 4 mobs. Beyond that, Mind Sear.</p>
+							<h5>Simplified:</h5>
+							<pre>Mind Sear</pre><br>
 							<h4>Cooldown Use</h4>
 							<br>
 							<dl class="dl-horizontal">
-								<dt>Guardian Spirit</dt>
-								<dd>Omg, who messed up? Cast this IMMEDIATELY on whomever messed up. Either you will heal them faster OR they'll die and be healed automagically.</dd><br>
+								<dt>Dispersion</dt>
+								<dd>Are you OOM while your shadowfiend is on cooldown? Did you fuck up a mechanic and now find yourself taking loads of damage? Disperse!</dd><br>
 								<dt>Shadowfiend</dt>
 								<dd>Shadowfiend is great. Use it to regen mana and as a damaging cooldown. Best used before BL or Heroism as those spells should effect your Shadowfiend.</dd><br>
 								<dt>Power Word: Shield</dt>
-								<dd>Is someone temporarily soaking up damage like a fool? Use this on them to stop the bleeding and give you a moment to heal.<dd><br>
-									<dt>Psychic Scream</dt>
-									<dd>If you're being attacked by mobs the tank refuses to pick up, feel free to use Psychic Scream to fear them.</dd><br>
-									<dt>Fade</dt>
-									<dd>Do you have aggro? Yes? Fade. Fade is your brilliant best friend.</dd><br>
-									<dt>Fear Ward</dt>
-									<dd>Best used on encounters you just know have a fear component. Like Blood Queen.</dd><br>				  
-								</dl>
+								<dd>If you find yourself taking a lot of damage, or perhaps want to waste a GCD to help the healers along, use PW:S.</dd><br>
+								<dt>Psychic Scream</dt>
+								<dd>If you're being attacked by mobs the tank refuses to pick up, feel free to use Psychic Scream to fear them.</dd><br>
+								<dt>Fade</dt>
+								<dd>Do you have aggro? Yes? Fade. Fade is your brilliant best friend.</dd><br>
+								<dt>Fear Ward</dt>
+								<dd>Best used on encounters you just know have a fear component. Like Blood Queen.</dd><br>				  
+							</dl>
+							<br>
+							<h4>But when do I use...</h4>
+							<br>
+							<dl class="dl-horizontal">
+								<dt>
+									...Shackle Undead?
+								</dt>
+								<dd>
+									Is there an undead thing to CC? Perhaps a Valkyrie on the Lich King? Shackle.
+								</dd>
 								<br>
-								<h4>But when do I use...</h4>
+								<dt>
+									...Abolish Disease?
+								</dt>
+								<dd>
+									Only when you've been told to abolish disease. It's a waste of a GCD for you to be managing a thankless healer task.
+								</dd>
 								<br>
-								<dl class="dl-horizontal">
-									<dt>
-										...Shackle Undead
-									</dt>
-									<dd>
-										Is there an undead thing to CC? Perhaps a Valkyrie on the Lich King? Shackle.
-									</dd>
-									<br>
-									<dt>
-										...Abolish Disease
-									</dt>
-									<dd>
-										When there's a disease on a party member, unless this happens to be the Abomination of Professor Putricide.
-									</dd>
-									<br>
-									<dt>
-										...Dispel Magic/Mass Dispel
-									</dt>
-									<dd>
-										Whenever there is a magic effect on a party member, unless it needs to be dispelled away from the party. 
-									</dd>
-									<br>
-									<dt>
-										...Hymn of Hope
-									</dt>
-									<dd>
-										If you or any other healer are really boned on mana, like, legit oom with no hope in hell, use this. 
-									</dd>
-									<br>
-									<dt>
-										...Divine Hymn
-									</dt>
-									<dd>
-										Can be used in an "oh shit" moment or in a period of high damage. I'd rather use other healing methods though, I never feel save with Divine Hymn.
-									</dd>
-									<br>
-									<dt>
-										...Mind Control
-									</dt>
-									<dd>
-										Whenever you're duelling someone. Mind control them and run them off of a cliff. If possible, only duel next to cliffs.
-									</dd>
-									<br>
-									<dt>
-										...Flash Heal
-									</dt>
-									<dd>
-										Whenever. Seriously. Like, as much as possible if you can afford it. If you can't afford to spam Flash Heal, or want to use it sparingly, just use it a few times to get 3 stacks of Serendipity or whenever it is an instant cast.
-									</dd>
-									<br>
-									<dt>
-										...Binding Heal
-									</dt>
-									<dd>
-										Are you and another member, for some reason, the only two people taking damage? Use this.
-									</dd>
-									<br>
-									<dt>
-										...Greater Heal
-									</dt>
-									<dd>
-										If someone is really down on health, like 15-20k down, use this.
-									</dd>
-									<br>
-									<dt>
-										...Prayer of Mending
-									</dt>
-									<dd>
-										All the bloody time. I mean, you could watch your PoM bounce about and put it on someone else if it stops on someone who is not taking damage. Otherwise, let it run its course. With time, you'll get a feel for how this can be used effectively.
-									</dd>
-									<br>
-									<dt>
-										...Prayer of Healing
-									</dt>
-									<dd>
-										If 3 or more members of the same party are down on health, use this. 
-									</dd>
-									<br>
-									<dt>
-										...Circle of Healing
-									</dt>
-									<dd>
-										Use any time 2-3 people in the same physical area are down on health. Given the mechanics it may also be used to proc an instant Flash Heal.
-									</dd>
-									<br>
-									<dt>
-										...Renew
-									</dt>
-									<dd>
-										Use at your discretion. Sometimes it works brilliantly if people are taking consistent damage, sometime it's just a huge over heal and a waste of mana. Because of Improved Renew, it is also a small but capable direct heal although in this capacity it's also wildly inefficient.
-									</dd>
-									<br>
-									<dt>
-										...Power Word: Shield
-									</dt>
-									<dd>
-										Use this to stop a target from taking damage. Since this is so crap with holy, I hardly ever use it. I think Renew and Flash Heal probably provide more benefit per mana than PW:S does, and they all have roughly the same cast time.
-									</dd>
-									<br>
-									<dt>
-										...Lightwell
-									</dt>
-									<dd>
-										NEVER! Never use lightwell, don't even consider it. It's not worth it. Never expect DPS or Tanks to Heal themselves unless they're Shadow priests or Blood DK tanks, they will never ever do it. Healing is your role, and nobody is ever going to stop doing their role so they could do yours. All Lightwell becomes is a shiny 10 stack embarrassment sitting in the middle of the raiding area, constantly pointing out your shame to everyone.
-									</dd>
-									<br>
-								</dl>				
-								<hr>
-								<h3 id="holy-gearing"><u>Gearing</u></h3>
-								<p>I honestly don't believe there is any to gear and gem a healer that isn't totally subjective and up to the player's needs and playstyle.</p>
-								<h4>Raw Healing:</h4>
-								<p>If you find yourself doing well with mana but having shit output, try to increase your spell-power or your haste. Both of those will affect your HPS in different ways. Spell-power will increase the raw healing power of your heals; Haste will make the cast time faster. If all you were changing is gems, you'd notice that spell-power gems would leave you with the same mana efficiency while haste would reduce it. Keep that in mind when you're thinking about gems.</p>
-								<h4>Sustainability:</h4>
-								<p>If you find that your healing is acceptable, you're overhealing plenty, but no matter how hard you try you're totally hopeless when it comes to mana pool? Go for Intellect or Spirit. Intellect increases your total mana pool and offers spell crit; Spirit increases your mana regen rate and is affected by several of your talents. For holy priest, focus largely on spirit. Intellect will come very easily through gear, but spirit can be a bit harder to come by, especially since your pool of potential gear will include cloth dps items that lack hit but also lack spirit. Compared to Mp5, Spirit is what you want.
-								</p><br>
-								<h4>Middle Ground</h4>
-								<p>There's only one stat that will truly help both output and sustainability and that's spirit. 25% of your spirit is converted into extra spell-power. Although this is a fairly weak conversion, it's pretty much free spell-power on almost every time you should have equipped.</p>
-								<p>I mean, if you really want to be a pedant, intellect also increases spell crit but if there's one thing you should already know now about healing: 
-									<pre>Never count on crits!</pre>
-								</p>
-								<h4>Itemization:</h4>
-								<p>
-									For weapons it's user's choice. We can equip daggers, maces, and staves. A one hand with an offhand will always pull out ahead of a two handed. But, remember, an upgrade is an upgrade, and if a staff makes itself available to you that has vastly superior stats to your one hand/offhand combo, take it! Healers are nothing if not pragmatic. 
-								</p>
-								<p>
-									For armour: Every single piece you encounter should have Intellect on it with two of the following three: haste, crit, and spirit. In most cases I'd take the gear with spirit on it for reasons mentioned above. I really like spirit, I think spirit defines who we are as a class. Beyond this, I prefer haste but some people seem to like gambling and thus favour crit. Those people are wrong, take haste and spirit where possible.
-								</p>
+								<dt>
+									...Dispel Magic/Mass Dispel?
+								</dt>
+								<dd>
+									As above. Mass dispel can be great at taking away effects from players or bosses, Dispel Magic can also work to strop buffs from mobs and players, but that's not your job until you're told it is.
+								</dd>
 								<br>
-								<h4>Gemming:</h4>
-								<p>Honestly, gems are fairly flexible. I personally like to have a spirit focused gem set, getting every slot bonus because "free stats." It also means I get a little bit of everything I'd want: spirit, spell-power, and haste. Of course, I'll gain the most spirit but that's my preference, you could prefer to run haste focus. </p>
-								<p>For meta I pick Insightful because I don't feel the 2% extra int of the Ember Skyflare diamond interests me. I'd take regen over a slightly larger mana pool any day.</p>
-								<dl>
-									<dt>Meta:
-									</dt><dd><a href="http://wotlk.evowow.com/?item=41401">Insightful Earthsiege Diamond</a>
-									</dd>
-									<br>
-									<dt>Red:
-									</dt><dd><a href="http://wotlk.evowow.com/?item=40133">Purified Dreadstone</a></dd>
-									<br>
-									<dt>Yellow:</dt>
-									<dd><a href="http://wotlk.evowow.com/?item=40174">Intricate Eye of Zul</a>
-									</dd>
-									<br>
-									<dt>Blue:</dt>
-									<dd><a href="http://wotlk.evowow.com/?item=40120">Sparkling Majestic Zircon</a></dd>
-									<br>
-								</dl>
-								<p>I cannot stress this enough: think about what <i>you're</i> doing, how <i>your</i> spells are affected, and what stats <i>you</i> need more of. In very high level gear I find that most of my spells tend to over heal, that they seem to be quick enough, but I feel I need more mana regen to maintain them. I chose spirit because of this. If you're a bit of a munchkin and not having an optimized power healing build really bothers you, roll spell-power. If you feel that you're not casting Prayer of Healing quick enough, roll haste. If you really want to gamble with your class, the experiences of others, and constantly overhealing all of your spells, roll critical focus.</p>
-								<p>Priest is what you make of it. Don't be concerned with min/maxing or stat weighting here, feel the groove and define your focus based around your experiences healing. Good luck!</p> 
-							</div>
-							<!-- Guide 2 Ends Here -->
-							<!-- Guide 3 Starts Here -->
-							<div id="shadow" class="tab-pane fade">
+								<dt>
+									...Hymn of Hope?
+								</dt>
+								<dd>
+									Are you really that screwed for mana? Is both Dispersion and Shadowfiend on cooldown? I guess you can use it, this one time...
+								</dd>
 								<br>
+								<dt>
+									...Divine Hymn?
+								</dt>
+								<dd>
+									Basically never. If your group is so fucked that the Shadow Priest has to provide any healing beyond Vampiric Embrace, it's a wipe. Die fast so you can try again.
+								</dd>
 								<br>
-								<center>
-									<h2>Shadow<small><br>Written by: FluffyPira</small></h2>
-								</center>
+								<dt>
+									...Mind Control?
+								</dt>
+								<dd>
+									Whenever you're duelling someone. Mind control them and run them off of a cliff. If possible, only duel next to cliffs.
+								</dd>
 								<br>
-								<h5>Contents</h5>
-								<div class="tab-content">
-									<ol>
-										<li><a href="#shadow-intro">Introduction</a></li>
-										<li><a href="#shadow-build">Build</a></li>
-										<li><a href="#shadow-spells">Spells</a></li>
-										<li><a href="#shadow-gearing">Gearing</a></li>
-									</ol>
-								</div>
+								<dt>
+									...Shadow Word: Death
+								</dt>
+								<dd>
+									Whenever. I personally don't like using it the entire fight as it deals less damage than Mind Blast and adds an extra GCD to a near perfect rotation, but it is quite usable especially at lower boss health. If you can manage to kill a mob or boss with it, that's excellent.
+								</dd>
 								<br>
-								<h3 id="shadow-intro"><u>Introduction</u></h3>
-								<p>
-									Often underrated, the Shadow Priest brings high damage, big buffs, and a decent amount of raid healing to the party. Through an array of Damage Over Time effects, the Shadow spec will do consistent and reliable damage, even on fights where target switching and mobility are key. 
-								</p>
-								<hr>
-								<h3 id="shadow-build"><u>Build</u></h3>
-								<h4>Talent:</h4>
-								<p>There's very little variation here. You want to go into discipline, you want Improved Inner Fire, you want Meditation. That leaves 58 points to play with, all of which should go to shadow.</p>
-								<p>That basically leave a talent spec optimized for 4pT10 timing of Mind Flay, and one that reduces Mind Blast to the bear minimum.</p>
-								<div class="list-group">
-									<a href="http://wotlk.evowow.com/?talent#bVcbhZZGxfcRfzffqfzAo" class="list-group-item">Standard Build (13/0/58)</a>
-									<a href="http://wotlk.evowow.com/?talent#bVcbhZZGxfVRfzcfqfzAo" class="list-group-item">Improved Mind Blast (13/0/58)</a>
-								</div>
-								<h4>Glyphs:</h4>
-								<p>Major:
-									<ul>
-										<li>Glyph of Shadow</li>
-										<li>Glyph of Mind Flay</li>
-										<li>Glyph of Dispersion*</li>
-									</ul>
-									Minor:
-									<ul>
-										<li>Glyph of Shadow Fiend</li>
-										<li>Glyph of Levitate</li>
-										<li>Glyph of Shadow Protection</li>
-									</ul>
-									<small>* = A small caveat with this. Do we really use Dispersion a whole lot? No. But Mind Sear and Shadow Word: Pain aren't a whole lot better.</small>
-								</p>
-								<hr>
-								<h3 id="shadow-spells"><u>Spells</u></h3>
-								<h5><strong>Damage:</strong></h5>
-								<ul class="list-unstyled">
-									<li>Shadow Word: Pain (SW:P)</li>
-									<li>Devouring Plague (DP)</li>
-									<li>Vampiric Touch (VT)</li>
-									<li>Mind Blast (MB)</li>
-									<li>Mind Flay (MF)</li>
-									<li>Shadow Word: Death(SW:D)</li>
-									<li>Mind Sear (MS)</li>
-								</ul>
+							</dl>				
+							<hr>
+							<h3 id="shadow-gearing"><u>Gearing</u></h3>
+							<h4>Damage:</h4>
+							<p>Get hit capped as quick as you can. Your hit cap is very low for a caster (11%), so this shouldn't be a herculean task. After that haste becomes the amazing "go to" stat. Priests love haste and, to be honest, haste loves them right back.
+							</p>
+							<br>
+							<h5>Simplified:</h5>
+							<pre>289 hit rating (11%) > Haste Rating > Crit Rating > Spirit </pre><br>
+							<h4>Itemization:</h4>
+							<p>
+								Priests have limited choice as to what weapons they can equip. What you'll want preferably is a one handed mace or dagger and a decent offhand item. Barring this, find a good staff. One hand/Off hand items at the same ilvl of a staff, will be more beneficial spell-power wise.
+							</p>
+							<p>
+								After this you will need to stack up on spell-power. Every item you equip, barring trinkets, should have spell-power on it. Every cloth piece for sure, and properly itemized rings and necklaces will have spell-power on them. If it doesn't have spell-power, why are you needing it?
+							</p>
+							<br>
+							<h4>Gemming:</h4>
+							<p>
+								I typically follow the socket requirements because "free stats", but you could do 2x Purified Dreadstone and stack the rest with Runed Cardinal Ruby if you so desire. But... you know... free stats!
+							</p>
+							<dl>
+								<dt>Meta:
+								</dt><dd><a href="http://wotlk.evowow.com/?item=41285">Chaotic Skyflare Diamond</a>
+								</dd>
 								<br>
-								<h5><strong>Cooldowns:</strong></h5>
-								<ul class="list-unstyled">
-									<li>Dispersion</li>
-									<li>Shadowfiend</li>
-									<li>Power Word: Shield</li>
-									<li>Psychic Scream</li>
-									<li>Fade</li>
-									<li>Fear Ward</li>
-								</ul>
+								<dt>Red:
+								</dt><dd><a href="http://wotlk.evowow.com/?item=40113">Runed Cardinal Ruby</a></dd>
 								<br>
-								<h4>Buffs:</h4>
-								<p>Before you even consider doing damage there are several spells you need to do.
-									<ol>
-										<li>Shadowform!</li>
-										<li>Vampiric Embrace</li>
-										<li>Inner Fire</li>
-										<li>Prayer of Fortitude</li>
-										<li>Prayer of Spirit</li>
-										<li>Prayer of Shadow Protection</li>
-									</ol>
-									<br>
-									Make sure you're running all of those before you run into a fight. Trust me, all of those are important to your personal damage and raid survivability.
-								</p>
+								<dt>Yellow:</dt>
+								<dd><a href="http://wotlk.evowow.com/?item=40155">Reckless Ametrine</a>
+								</dd>
 								<br>
-								<h4>Single Target</h4>
-								<p>For single target damage, it's all about maintaining and playing with DoTs. Shadow Word: Pain can be maintained through Mind Flay filler. Vampiric Touch should be refreshed before it falls off. Devouring Plague works differently. Because of it's mechanics, "refreshing" the disease will overwrite the previous one meaning a potential loss of damage and healing. To play it safe, let DP fall off and refresh it within 3 seconds after it falls off. If you have all 3 dots up, Mind Blast on cool down and fill with Mind Flay.</p>
-								<h5>Opener:</h5>
-								<pre>VT -> SW:P -> DP -> MB -> MF</pre><br>
-								<h5>Simplified:</h5>
-								<pre>SW:P > VT > DP > MB > MF</pre><br>
-								<h4>Multi Target</h4>
-								<p>Mind Sear. That's it. That's really all you have. I guess you could start casting VT on every target, that'll be good for some damage on pulls with less than 4 mobs. Beyond that, Mind Sear.</p>
-								<h5>Simplified:</h5>
-								<pre>Mind Sear</pre><br>
-								<h4>Cooldown Use</h4>
+								<dt>Blue:</dt>
+								<dd><a href="http://wotlk.evowow.com/?item=40133">Purified Dreadstone</a></dd>
 								<br>
-								<dl class="dl-horizontal">
-									<dt>Dispersion</dt>
-									<dd>Are you OOM while your shadowfiend is on cooldown? Did you fuck up a mechanic and now find yourself taking loads of damage? Disperse!</dd><br>
-									<dt>Shadowfiend</dt>
-									<dd>Shadowfiend is great. Use it to regen mana and as a damaging cooldown. Best used before BL or Heroism as those spells should effect your Shadowfiend.</dd><br>
-									<dt>Power Word: Shield</dt>
-									<dd>If you find yourself taking a lot of damage, or perhaps want to waste a GCD to help the healers along, use PW:S.</dd><br>
-									<dt>Psychic Scream</dt>
-									<dd>If you're being attacked by mobs the tank refuses to pick up, feel free to use Psychic Scream to fear them.</dd><br>
-									<dt>Fade</dt>
-									<dd>Do you have aggro? Yes? Fade. Fade is your brilliant best friend.</dd><br>
-									<dt>Fear Ward</dt>
-									<dd>Best used on encounters you just know have a fear component. Like Blood Queen.</dd><br>				  
-								</dl>
-								<br>
-								<h4>But when do I use...</h4>
-								<br>
-								<dl class="dl-horizontal">
-									<dt>
-										...Shackle Undead?
-									</dt>
-									<dd>
-										Is there an undead thing to CC? Perhaps a Valkyrie on the Lich King? Shackle.
-									</dd>
-									<br>
-									<dt>
-										...Abolish Disease?
-									</dt>
-									<dd>
-										Only when you've been told to abolish disease. It's a waste of a GCD for you to be managing a thankless healer task.
-									</dd>
-									<br>
-									<dt>
-										...Dispel Magic/Mass Dispel?
-									</dt>
-									<dd>
-										As above. Mass dispel can be great at taking away effects from players or bosses, Dispel Magic can also work to strop buffs from mobs and players, but that's not your job until you're told it is.
-									</dd>
-									<br>
-									<dt>
-										...Hymn of Hope?
-									</dt>
-									<dd>
-										Are you really that screwed for mana? Is both Dispersion and Shadowfiend on cooldown? I guess you can use it, this one time...
-									</dd>
-									<br>
-									<dt>
-										...Divine Hymn?
-									</dt>
-									<dd>
-										Basically never. If your group is so fucked that the Shadow Priest has to provide any healing beyond Vampiric Embrace, it's a wipe. Die fast so you can try again.
-									</dd>
-									<br>
-									<dt>
-										...Mind Control?
-									</dt>
-									<dd>
-										Whenever you're duelling someone. Mind control them and run them off of a cliff. If possible, only duel next to cliffs.
-									</dd>
-									<br>
-									<dt>
-										...Shadow Word: Death
-									</dt>
-									<dd>
-										Whenever. I personally don't like using it the entire fight as it deals less damage than Mind Blast and adds an extra GCD to a near perfect rotation, but it is quite usable especially at lower boss health. If you can manage to kill a mob or boss with it, that's excellent.
-									</dd>
-									<br>
-								</dl>				
-								<hr>
-								<h3 id="shadow-gearing"><u>Gearing</u></h3>
-								<h4>Damage:</h4>
-								<p>Get hit capped as quick as you can. Your hit cap is very low for a caster (11%), so this shouldn't be a herculean task. After that haste becomes the amazing "go to" stat. Priests love haste and, to be honest, haste loves them right back.
-								</p>
-								<br>
-								<h5>Simplified:</h5>
-								<pre>289 hit rating (11%) > Haste Rating > Crit Rating > Spirit </pre><br>
-								<h4>Itemization:</h4>
-								<p>
-									Priests have limited choice as to what weapons they can equip. What you'll want preferably is a one handed mace or dagger and a decent offhand item. Barring this, find a good staff. One hand/Off hand items at the same ilvl of a staff, will be more beneficial spell-power wise.
-								</p>
-								<p>
-									After this you will need to stack up on spell-power. Every item you equip, barring trinkets, should have spell-power on it. Every cloth piece for sure, and properly itemized rings and necklaces will have spell-power on them. If it doesn't have spell-power, why are you needing it?
-								</p>
-								<br>
-								<h4>Gemming:</h4>
-								<p>
-									I typically follow the socket requirements because "free stats", but you could do 2x Purified Dreadstone and stack the rest with Runed Cardinal Ruby if you so desire. But... you know... free stats!
-								</p>
-								<dl>
-									<dt>Meta:
-									</dt><dd><a href="http://wotlk.evowow.com/?item=41285">Chaotic Skyflare Diamond</a>
-									</dd>
-									<br>
-									<dt>Red:
-									</dt><dd><a href="http://wotlk.evowow.com/?item=40113">Runed Cardinal Ruby</a></dd>
-									<br>
-									<dt>Yellow:</dt>
-									<dd><a href="http://wotlk.evowow.com/?item=40155">Reckless Ametrine</a>
-									</dd>
-									<br>
-									<dt>Blue:</dt>
-									<dd><a href="http://wotlk.evowow.com/?item=40133">Purified Dreadstone</a></dd>
-									<br>
-								</dl>
-							</div>
-							<!-- Guide 3 Ends Here -->
+							</dl>
 						</div>
-						<div class="col-md-3">
-						</div>
+						<!-- Guide 3 Ends Here -->
+					</div>
+					<div class="col-md-3">
 					</div>
 				</div>
-	</body>
-</html>
+			</div>
+		</body>
+	</html>

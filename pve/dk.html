@@ -1,17 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
-	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
-	<!-- http://getbootstrap.com/customize/?id=90eefd2995654c9117b7 -->
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="robots" content="" />
-	<meta name="author" content="Elizabeth Wetton" />
-	<link rel="shortcut icon" href="img/favicon.png" type="image/png" />
-	<title>Pira's WoW Guides</title>
-	<!-- Additional CSS to make thumbnails work -->
-	<style>
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+<!-- http://getbootstrap.com/customize/?id=90eefd2995654c9117b7 -->
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="" />
+<meta name="author" content="Elizabeth Wetton" />
+<link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+<title>Pira's WoW Guides</title>
+<!-- Additional CSS to make thumbnails work -->
+<style type="text/css">
 	.sq_thumb {
 		position:relative;
 		overflow:hidden;
@@ -25,9 +24,10 @@
 <body>
 
 	<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>	
-	<script src="/js/jquery.min.js" type="text/javascript"></script>
-	<script src="/js/bootstrap.js"></script>
-	<script src="/js/npm.js"></script>	
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/js/npm.js"></script>	
+
 	<!-- Here is where the Navbar starts -->
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
@@ -48,298 +48,95 @@
 					<li class="dropdown">
 						<a data-toggle="dropdown" class="dropdown-toggle" href="#">PvE Guides<b class="caret"></b></a>
 						<ul class="dropdown-menu">  
-							<li><a href="/pve/dk.html"><img src="/img/icons/Icon_DK.gif"> Death Knight</a></li>
-							<li class="disabled"><a href="/pve/druid.html"><img src="/img/icons/Icon_Druid.gif"> Druid</a></li>
-							<li><a href="/pve/hunter.html"><img src="/img/icons/Icon_Hunter.gif"> Hunter</a></li>
-							<li><a href="/pve/mage.html"><img src="/img/icons/Icon_Mage.gif"> Mage</a></li>
-							<li class="disabled"><a href="/pve/paladin.html"><img src="/img/icons/Icon_Paladin.gif"> Paladin</a></li>
-							<li><a href="/pve/priest.html"><img src="/img/icons/Icon_Priest.gif"> Priest</a></li>
-							<li class="disabled"><a href="/pve/rogue.html"><img src="/img/icons/Icon_Rogue.gif"> Rogue</a></li>
-							<li class="disabled"><a href="/pve/shaman.html"><img src="/img/icons/Icon_Shaman.gif"> Shaman</a></li>
-							<li class="disabled"><a href="/pve/warlock.html"><img src="/img/icons/Icon_Warlock.gif"> Warlock</a></li>
-							<li><a href="/pve/warrior.html"><img src="/img/icons/Icon_Warrior.gif"> Warrior</a></li>				
+							<li><a href="/pve/dk.html"><img src="/img/icons/Icon_DK.gif" alt="Death Knight Icon"> Death Knight</a></li>
+							<li class="disabled"><a href="/pve/druid.html"><img src="/img/icons/Icon_Druid.gif" alt="Druid Icon"> Druid</a></li>
+							<li><a href="/pve/hunter.html"><img src="/img/icons/Icon_Hunter.gif" alt="Hunter Icon"> Hunter</a></li>
+							<li><a href="/pve/mage.html"><img src="/img/icons/Icon_Mage.gif" alt="Mage Icon"> Mage</a></li>
+							<li class="disabled"><a href="/pve/paladin.html"><img src="/img/icons/Icon_Paladin.gif" alt="Paladin Icon"> Paladin</a></li>
+							<li><a href="/pve/priest.html"><img src="/img/icons/Icon_Priest.gif" alt="Priest Icon"> Priest</a></li>
+							<li class="disabled"><a href="/pve/rogue.html"><img src="/img/icons/Icon_Rogue.gif" alt="Rogue Icon"> Rogue</a></li>
+							<li class="disabled"><a href="/pve/shaman.html"><img src="/img/icons/Icon_Shaman.gif" alt="Shaman Icon"> Shaman</a></li>
+							<li class="disabled"><a href="/pve/warlock.html"><img src="/img/icons/Icon_Warlock.gif" alt="Warlock Icon"> Warlock</a></li>
+							<li><a href="/pve/warrior.html"><img src="/img/icons/Icon_Warrior.gif" alt="Warrior Icon"> Warrior</a></li>				
 						</ul>
 					</li>
 					<!-- 
-					<li class="dropdown">
+						<li class="dropdown">
 						<a data-toggle="dropdown" class="dropdown-toggle" href="#">PvP Guides<b class="caret"></b></a>
 						<ul class="dropdown-menu">  
-							<li class="disabled"><a href="/pvp/dk.html"><img src="/img/icons/Icon_DK.gif"> Death Knight</a></li>
-							<li class="disabled"><a href="/pvp/druid.html"><img src="/img/icons/Icon_Druid.gif"> Druid</a></li>
-							<li class="disabled"><a href="/pvp/hunter.html"><img src="/img/icons/Icon_Hunter.gif"> Hunter</a></li>
-							<li class="disabled"><a href="/pvp/mage.html"><img src="/img/icons/Icon_Mage.gif"> Mage</a></li>
-							<li class="disabled"><a href="/pvp/paladin.html"><img src="/img/icons/Icon_Paladin.gif"> Paladin</a></li>
-							<li class="disabled"><a href="/pvp/priest.html"><img src="/img/icons/Icon_Priest.gif"> Priest</a></li>
-							<li class="disabled"><a href="/pvp/rogue.html"><img src="/img/icons/Icon_Rogue.gif"> Rogue</a></li>
-							<li class="disabled"><a href="/pvp/shaman.html"><img src="/img/icons/Icon_Shaman.gif"> Shaman</a></li>
-							<li class="disabled"><a href="/pvp/warlock.html"><img src="/img/icons/Icon_Warlock.gif"> Warlock</a></li>
-							<li class="disabled"><a href="/pvp/warrior.html"><img src="/img/icons/Icon_Warrior.gif"> Warrior</a></li>				
+						<li class="disabled"><a href="/pvp/dk.html"><img src="/img/icons/Icon_DK.gif"> Death Knight</a></li>
+						<li class="disabled"><a href="/pvp/druid.html"><img src="/img/icons/Icon_Druid.gif"> Druid</a></li>
+						<li class="disabled"><a href="/pvp/hunter.html"><img src="/img/icons/Icon_Hunter.gif"> Hunter</a></li>
+						<li class="disabled"><a href="/pvp/mage.html"><img src="/img/icons/Icon_Mage.gif"> Mage</a></li>
+						<li class="disabled"><a href="/pvp/paladin.html"><img src="/img/icons/Icon_Paladin.gif"> Paladin</a></li>
+						<li class="disabled"><a href="/pvp/priest.html"><img src="/img/icons/Icon_Priest.gif"> Priest</a></li>
+						<li class="disabled"><a href="/pvp/rogue.html"><img src="/img/icons/Icon_Rogue.gif"> Rogue</a></li>
+						<li class="disabled"><a href="/pvp/shaman.html"><img src="/img/icons/Icon_Shaman.gif"> Shaman</a></li>
+						<li class="disabled"><a href="/pvp/warlock.html"><img src="/img/icons/Icon_Warlock.gif"> Warlock</a></li>
+						<li class="disabled"><a href="/pvp/warrior.html"><img src="/img/icons/Icon_Warrior.gif"> Warrior</a></li>				
 						</ul>
-					</li> -->
-					<li><a href="addons.html">Addon Packs</a></li>
-					<li><a href="glossary.html">Additional Information</a></li>
-					<li><a href="submit.html">Submit a Guide</a></li>
+						</li> -->
+						<li><a href="addons.html">Addon Packs</a></li>
+						<li><a href="glossary.html">Additional Information</a></li>
+						<li><a href="submit.html">Submit a Guide</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+		<!-- Here is where the Navbar ends -->
+		<div class="row">
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-6">
+				<center><h1>3.3.5 DK PvE Guides</h1></center>
+				<br>
+				<ul class="nav nav-pills nav-justified">
+					<li role="presentation" class="active"><a data-toggle="tab" href="#blood-tank"><img src="/img/icons/Death Knight/Blood.png"> Blood Tank</a></li>
+					<li role="presentation"><a data-toggle="tab" href="#blood-dps"><img src="/img/icons/Death Knight/Blood.png"> Blood DPS</a></li>
+					<li role="presentation"><a data-toggle="tab" href="#frost-tank"><img src="/img/icons/Death Knight/Frost.png"> Frost Tank</a></li>
+					<li role="presentation"><a data-toggle="tab" href="#frost-dps"><img src="/img/icons/Death Knight/Frost.png"> Frost DPS</a></li>
+					<li role="presentation"><a data-toggle="tab" href="#unholy"><img src="/img/icons/Death Knight/Unholy.png"> Unholy</a></li>
 				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
-	</nav>
-	<!-- Here is where the Navbar ends -->
-	<div class="row">
-		<div class="col-md-3">
-		</div>
-		<div class="col-md-6">
-			<center><h1>3.3.5 DK PvE Guides</h1></center>
-			<br>
-			<ul class="nav nav-pills nav-justified">
-				<li role="presentation" class="active"><a data-toggle="tab" href="#blood-tank"><img src="/img/icons/Death Knight/Blood.png"> Blood Tank</a></li>
-				<li role="presentation"><a data-toggle="tab" href="#blood-dps"><img src="/img/icons/Death Knight/Blood.png"> Blood DPS</a></li>
-				<li role="presentation"><a data-toggle="tab" href="#frost-tank"><img src="/img/icons/Death Knight/Frost.png"> Frost Tank</a></li>
-				<li role="presentation"><a data-toggle="tab" href="#frost-dps"><img src="/img/icons/Death Knight/Frost.png"> Frost DPS</a></li>
-				<li role="presentation"><a data-toggle="tab" href="#unholy"><img src="/img/icons/Death Knight/Unholy.png"> Unholy</a></li>
-			</ul>
-			<div class="tab-content">
-				<div id="blood-tank" class="tab-pane fade in active">
-					<br>
-					<br>
-					<center>
-						<h2>Blood Tank<small><br>Written by: FluffyPira</small></h2>
-					</center>
-					<br>
-					<h5>Contents</h5>
-					<div class="tab-content">
-						<ol>
-							<li><a href="#bloodtank-intro">Introduction</a></li>
-							<li><a href="#bloodtank-build">Build</a></li>
-							<li><a href="#bloodtank-spells">Spells</a></li>
-							<li><a href="#bloodtank-gearing">Gearing</a></li>
-						</ol>
-					</div>
-					<br>
-					<h3 id="bloodtank-intro"><u>Introduction</u></h3>
-					<p>Welcome to the brave new world of Death Knight tanking, my friend. It's a scary world, but with this guide you should be able to conquer it with relative ease. Death Knights are versatile tanks; both able to mitigate physical damage normally, and mitigate magical damage via talents and spells. This makes the Death Knight one of the most utilized tanks for magic heavy fights.</p>
-					<p>The main draw back to Death Knight tanks is the lack of a shield, however, by choosing blood, you allow youself to quickly heal any damage taken before the healer even notices it's missing. Through reflexive healing, we can make up what we lose by lacking the ability to block.</p>
-					<hr>
-					<h3 id="bloodtank-build"><u>Build</u></h3>
-					<h4>Talent:</h4>
-					<p>Blood Death Knights, and Death Knights in general, have a glut of choices when it comes to building their talent tree. The base talents that any death knight should have are <a href="http://wotlk.openwow.com/talent#j0xZ0xZ0x">(5/5/5)</a></p>
-					<p>A more fleshed out, base version, of the blood tank can be found here: <a href="http://wotlk.openwow.com/talent#j0ERqI0Is0MbssZ0xZ0x">(47/5/5)</a></p>
-					<p>That build leaves 14 points left over for the individual user to assign depending on situation and playstyle. A death kngiht who wishes an extra cooldown may push into Frost for <a href="http://wotlk.openwow.com/spell=50397">[Lichborne]</a>. Others who wish to maximize threat may put remaining points into the Blood or Unholy trees. Blood tanks concerned with magic damage may put points into <a href="http://wotlk.openwow.com/spell=49497">[Spell Deflection]</a>. There's a great number of ways to build depending on how you wish to tank.</p>
-					<div class="list-group">
-						<a href="http://wotlk.openwow.com/talent#j0ERqI0Is0MbssZ0xZ0x" class="list-group-item">Base Build (47/5/5)</a>
-						<a href="http://wotlk.openwow.com/talent#j0ERqIhIs0MbssZhg0zZ0gh" class="list-group-item">Survivability Build (50/11/10)</a>
-						<a href="http://wotlk.openwow.com/talent#jcERqI0IsbRbssZhxZ0g0h" class="list-group-item">Pira's Old Utility Build (53/8/10)</a>
-						<a href="http://wotlk.openwow.com/talent#j0ERqI0IsbRbssZhg0zZ0gh" class="list-group-item">Pira's Survivutility Build (50/11/10)</a>
-						<a href="http://wotlk.openwow.com/talent#jsxGoIIcofRbsRbhg0zZ0gh" class="list-group-item">Kdrina's Build (50/11/10)</a>
-					</div>
-					<h4>Glyphs:</h4>
-					<p>Major:
-						<ul>
-							<li>Glyph of Rune Tap</li>
-							<li>Glyph of Vampiric Blood</li>
-							<li>Glyph of Dark Death</li>
-						</ul>
-						Minor:
-						<ul>
-							<li>Glyph of Blood Tap</li>
-							<li>Glyph of Death's Embrace</li>
-							<li>Glyph of Pestilence</li>
-						</ul>
-					</p>
-					<hr>
-					<h3 id="bloodtank-spells"><u>Spells</u></h3>
-					<h5><strong>Presence:</strong> Frost</h5>
-					<br>
-					<h5><strong>Threat Generation:</strong></h5>
-					<ul class="list-unstyled">
-						<li>Icy Touch (IT)</li>
-						<li>Plague Strike (PS)</li>
-						<li>Heart Strike (HS)</li>
-						<li>Death Stirke (DS)</li>
-						<li>Death Coil (DC)</li>
-						<li>Rune Strike (RS)</li>
-						<li>Death and Decay (Dnd)</li>
-						<li>Pestillence (Pest)</li>
-						<li>Blood Boil (BB)</li>
-					</ul>
-					<br>
-					<h5><strong>Cooldowns:</strong></h5>
-					<ul class="list-unstyled">
-						<li>Icebound Fortitude</li>
-						<li>Vampiric Blood</li>
-						<li>Anti-Magic Shell</li>
-						<li>Blood Tap</li>
-						<li>Rune Tap</li>
-						<li>Lichborne</li>
-						<li>Raise Dead</li>
-						<li>Death Pact</li>
-						<li>Mark of Blood</li>
-						<li>Hysteria</li>
-					</ul>
-					<br>
-					<h4>Single Target</h4>
-					<p>For single target threat generation, the most important spell is likely Icy Touch. Icy Touch develops absolutely bonkers amounts of threat, something like 6x it's damage. On the server I play on, a single Icy Touch can net me about 20-30k threat. Beyond that, make sure you apply blood plague with Plague Strike and keep both of your blood runes on cooldown using Heart Strike, Rune Tap, or Blood Tap. If you're not having threat issues, use frost and unholy runes to Death Strike after being hit. The diseases must be on the target for Death Strike to work, so bear that in mind.
-					</p><br>
-					<h5>Simplified:</h5>
-					<pre>DS > HS > Diseases > IT > PS > RS > DC</pre><br>
-					<h4>Multi Target</h4>
-					<p>For multi-target pulls Death and Decay becomes your bread and butter. Drop it under the offending pile of mobs and run in. Icy touch and Plague Strike the priority target and then use Pestilence to spread your diseases. After that quickly cycle targets, lobbing death coils or rune strikes at mobs whose aggro you may be in danger of losing. For the second cycle, use Blood Boil, Heart Strike, Death Strike, or whatever else you wish to maintain aggro.
-					</p><br>
-					<h5>Simplified:</h5>
-					<pre>DnD > Diseases > DS > BB/HS > RS > DC</pre><br>
-					<h4>Cooldown Use</h4>
-					<br>
-					<dl class="dl-horizontal">
-						<dt>Icebound Fortitude</dt>
-						<dd>This is your largest source of damage reduction. Use this as an "oh shit button" when you notice your health dropping rapidly, your healer is out of mana, or your healer is completely lost. It will save your life.</dd><br>
-						<dt>Vampiric Blood</dt>
-						<dd>This will increase your healing taken. Since the cooldown is short, use this whenever you think it will be helpful. High damage phases, add phases, beginning of the fight, etc. This will also consume a blood rune.</dd><br>
-						<dt>Anti-Magic Shell</dt>
-						<dd>Use this to help endure periods of high magic damage, or prevent a spell based debuff effect from being applied to you. Its use is very subjective and depends largely on the fight mechanics.</dd><br>
-						<dt>Blood Tap</dt>
-						<dd>This is a free death rune and will remove one of your blood runes meaning you only need to get rid of the other for Blade Barrier. With 4pc T10 tank gear, it'll offer an additional 12% damage reduction for 10 seconds when used, turning it into another damage reduction cooldown.</dd><br>
-						<dt>Rune Tap</dt>
-						<dd>This will heal you for 20% your health. With the glyph of Rune Tap, you will also heal your party. Use this skill as a blood rune after being dealt a heavy strike to negate the need for healing.</dd><br>
-						<dt>Lichborne</dt>
-						<dd>This will turn you undead for 10 seconds, negating fear, charm, and sleep effects. As a bonus, if you target yourself and use death coil the death coils will heal you. Can be used as a great way to negate fight mechanics or as an "oh shit" self-heal.</dd><br>
-						<dt>Raise Dead</dt>
-						<dd>This will summon a tiny ghoul guardian to fight with you.</dd><br>
-						<dt>Death Pact</dt>
-						<dd>This will consume your ghoul guardian, giving you 40% your maximum health. Use this as a life saving "oh shit" self-heal in conjuction with raise dead.</dd><br>
-						<dt>Mark of Blood</dt>
-						<dd>This puts a mark on an enemy, causing them to heal whomever they hit each time they deal damage. Best utilized on quick foes, or foes with a large aoes. When used properly, mark of blood can provide both single target and raid healing.</dd><br>
-						<dt>Hysteria</dt>
-						<dd>Increases physical damage but also damages the player it's applied to. Should be applied to highest physical damage dps OR Death Knight tank if they are having threat issues.</dd><br>
-						<dt>Empower Rune Weapon</dt>
-						<dd>Immediately refreshes all of your runes. Best used either as an "oh shit" to refresh runes for Death Strike, Rune Tap, or Vampiric Blood usage. Can also be used early in the fight to ensure high threat.</dd><br>						  
-					</dl>
-					<hr>
-					<h3 id="bloodtank-gearing"><u>Gearing</u></h3>
-					<h4>Threat:</h4>
-					<p>
-						If you worry about your threat, the best thing you can do is get hit and expertise capped. Not that it's as imporant with a Death Knight, since we don't lose our runes when we miss, it's still the best way you can ensure you have high threat. The expertise cap is 26 for dodge and 56 exprtise for parry. Although you'll be tanking, the dodge cap is enough. Hit cap is 8%. 
-					</p>
-					<br>
-					<h5>Simplified:</h5>
-					<pre>263 hit rating > 200 Expertise rating > *</pre><br>
-					<h4>Defense:</h4>
-					<p>Most importantly, above all else, is to get defense capped. If you're not at the cap, there is a chance that raid bosses will critically strike you, dealing bonkers amounts of damage to you and scaring the healers. To prevent this you MUST reach a defense of 540. Beyond this, you'll be looking for stamina primarily followed by parry and dodge. Dodge rating will result in slightly better returns than parry, however, as both have a diminising return it's best not to go too hard in a single direction. 
-					</p>
-					<br>
-					<h5>Simplified:</h5>
-					<pre>540 Defense > Stamina > Dodge = Parry > Defense Rating*</pre><small>* = Beyond 540 defense</small><br>
-					<h4>Itemization:</h4>
-					<p>With this build you will want to play with any slow (3.5 speed +) two-handed weapon. Ideally a two-handed sword, mace, or axe, with strength and stamina on it. Agility/Stam polearms can be used, albiet at a loss of threat and parry. The runeforge on the weapon should either be Stoneskin Gargoyle or Swordshattering at the player's discretion. Stoneskin Gargoyle will net more stamina and thus always come out above Swordshattering even if the defense cap is already met through gear.</p>
-					<p>Beyond weapon, every single item on your character should be a plate tanking item. These items should have some combination of Strength, Stamina, Bonus Armor, Defense, Dodge, Parry, Hit, and Expertise. You will never see Armor Penetration, Crit, or Haste on tank armor, jewelery, or trinkets. Unless you are extremely experienced and know the risks associated with running dps and pvp gear, please stick to tanking gear only.</p><br>
-					<h4>Gemming:</h4>
-					<dl>
-						<dt>Meta:</dt>
-						<dd><a href="http://wotlk.openwow.com/item=41380">Austere Earthsiege Diamond</a></dd><br>
-						<dt>Red:</dt>
-						<dd>1x <a href="http://wotlk.openwow.com/item=40139">Defender's</a> or <a href="http://wotlk.openwow.com/item=40138">Regal Dreadstone</a>,<br><a href="http://wotlk.openwow.com/item=40119">Solid Majestic Zircon</a></dd><br>
-						<dt>Yellow:</dt>
-						<dd><a href="http://wotlk.openwow.com/item=40119">Solid Majestic Zircon</a></dd><br>
-						<dt>Blue:</dt>
-						<dd><a href="http://wotlk.openwow.com/item=40119">Solid Majestic Zircon</a></dd><br>
-					</dl>
-				</div>
-				<div id="blood-dps" class="tab-pane fade">
-					<br>
-					<br>
-					<center>
-						<h2>Blood DPS<small><br>Written by: FluffyPira</small></h2>
-					</center>
-					<br>
-					<h5>Contents</h5>
-					<div class="tab-content">
-						<ol>
-							<li><a href="#intro">Introduction</a></li>
-							<li><a href="#build">Build</a></li>
-							<li><a href="#spells">Spells</a></li>
-							<li><a href="#gearing">Gearing</a></li>
-						</ol>
-					</div>
-					<br>
-					<h3 id="intro">Introduction</h3>
-					<p>Friends, Romans, countrymen, lend me your ears;<br>
-						I come to bury Caesar, not to praise him.<br>
-						The evil that men do lives after them;<br>
-						The good is oft interred with their bones;<br>
-						So let it be with Caesar. The noble Brutus<br>
-						Hath told you Caesar was ambitious:<br>
-						If it were so, it was a grievous fault,<br>
-						And grievously hath Caesar answered it.<br>
-						Here, under leave of Brutus and the rest-<br>
-						For Brutus is an honourable man;<br>
-						So are they all, all honourable men-<br>
-						Come I to speak in Caesar's funeral.</p>
-						<hr>
-						<h3 id="build">Build</h3>
-						<p>He was my friend, faithful and just to me: But Brutus says he was ambitious; And Brutus is an honourable man. He hath brought many captives home to Rome Whose ransoms did the general coffers fill: Did this in Caesar seem ambitious? When that the poor have cried, Caesar hath wept: Ambition should be made of sterner stuff:</p>
-						<hr>
-						<h3 id="spells">Spells</h3>
-						<p>
-							<ul class="list-unstyled">
-								<li>Yet Brutus says he was ambitious;</li>
-								<li>And Brutus is an honourable man.</li>
-								<li>You all did see that on the Lupercal</li>
-								<li>I thrice presented him a kingly crown,</li>
-								<li>Which he did thrice refuse: was this ambition?</li>
-							</ul>
-						</p>
-						<hr>
-						<h3 id="gearing">Gearing</h3>
-						<p>
-							Yet Brutus says he was ambitious;<br>
-							And, sure, he is an honourable man.<br>
-							I speak not to disprove what Brutus spoke,<br>
-							But here I am to speak what I do know.<br>
-							You all did love him once, not without cause:<br>
-							What cause withholds you then, to mourn for him?<br>
-							O judgment! thou art fled to brutish beasts,<br>
-							And men have lost their reason. Bear with me;<br>
-							My heart is in the coffin there with Caesar,<br>
-							And I must pause till it come back to me.<br>
-						</p>
-						<hr>
-					</div>
-					<div id="frost-tank" class="tab-pane fade">
+				<div class="tab-content">
+					<div id="blood-tank" class="tab-pane fade in active">
 						<br>
 						<br>
 						<center>
-							<h2>Frost Tank<small><br>Written by: FluffyPira</small></h2>
+							<h2>Blood Tank<small><br>Written by: FluffyPira</small></h2>
 						</center>
 						<br>
 						<h5>Contents</h5>
 						<div class="tab-content">
 							<ol>
-								<li><a href="#frosttank-intro">Introduction</a></li>
-								<li><a href="#frosttank-build">Build</a></li>
-								<li><a href="#frosttank-spells">Spells</a></li>
-								<li><a href="#frosttank-gearing">Gearing</a></li>
+								<li><a href="#bloodtank-intro">Introduction</a></li>
+								<li><a href="#bloodtank-build">Build</a></li>
+								<li><a href="#bloodtank-spells">Spells</a></li>
+								<li><a href="#bloodtank-gearing">Gearing</a></li>
 							</ol>
 						</div>
 						<br>
-						<h3 id="frosttank-intro"><u>Introduction</u></h3>
+						<h3 id="bloodtank-intro"><u>Introduction</u></h3>
 						<p>Welcome to the brave new world of Death Knight tanking, my friend. It's a scary world, but with this guide you should be able to conquer it with relative ease. Death Knights are versatile tanks; both able to mitigate physical damage normally, and mitigate magical damage via talents and spells. This makes the Death Knight one of the most utilized tanks for magic heavy fights.</p>
 						<p>The main draw back to Death Knight tanks is the lack of a shield, however, by choosing blood, you allow youself to quickly heal any damage taken before the healer even notices it's missing. Through reflexive healing, we can make up what we lose by lacking the ability to block.</p>
 						<hr>
-						<h3 id="frosttank-build"><u>Build</u></h3>
+						<h3 id="bloodtank-build"><u>Build</u></h3>
 						<h4>Talent:</h4>
-						<p>Frost Death Knights, and Death Knights in general, have a glut of choices when it comes to building their talent tree. The base talents that any death knight should have are <a href="http://wotlk.openwow.com/talent#j0xZ0xZ0x">(5/5/5)</a></p>
-						<p>A more fleshed out, base version, of the frost tank tree can be found here: <a href="http://wotlk.openwow.com/talent#j0xZutx0AdI0c0buzAo0x">(5/15/5)</a></p>
-						<p>That build leaves 10 points left over for the individual user to assign depending on situation and playstyle.</p>
+						<p>Blood Death Knights, and Death Knights in general, have a glut of choices when it comes to building their talent tree. The base talents that any death knight should have are <a href="http://wotlk.openwow.com/talent#j0xZ0xZ0x">(5/5/5)</a></p>
+						<p>A more fleshed out, base version, of the blood tank can be found here: <a href="http://wotlk.openwow.com/talent#j0ERqI0Is0MbssZ0xZ0x">(47/5/5)</a></p>
+						<p>That build leaves 14 points left over for the individual user to assign depending on situation and playstyle. A death kngiht who wishes an extra cooldown may push into Frost for <a href="http://wotlk.openwow.com/spell=50397">[Lichborne]</a>. Others who wish to maximize threat may put remaining points into the Blood or Unholy trees. Blood tanks concerned with magic damage may put points into <a href="http://wotlk.openwow.com/spell=49497">[Spell Deflection]</a>. There's a great number of ways to build depending on how you wish to tank.</p>
 						<div class="list-group">
-							<a href="http://wotlk.openwow.com/talent#j0xZutx0AdI0c0buzAo0x" class="list-group-item">Base Build (5/51/5)</a>
-							<a href="http://wotlk.openwow.com/talent#j0EMoZhxxzArI0c0buzAo0g" class="list-group-item">Two-Handed Weapon Build (13/51/7)</a>
-							<a href="http://wotlk.openwow.com/talent#j0E0oZhxezAbI0c0fuzAo0x" class="list-group-item">Dual-Wield Build (11/55/5)</a>
-							<a href="http://wotlk.openwow.com/talent#jcZG0fxNRckc0fuzAofM0hxz" class="list-group-item">Kdrina's DW Frost Build (3/52/16)</a>
+							<a href="http://wotlk.openwow.com/talent#j0ERqI0Is0MbssZ0xZ0x" class="list-group-item">Base Build (47/5/5)</a>
+							<a href="http://wotlk.openwow.com/talent#j0ERqIhIs0MbssZhg0zZ0gh" class="list-group-item">Survivability Build (50/11/10)</a>
+							<a href="http://wotlk.openwow.com/talent#jcERqI0IsbRbssZhxZ0g0h" class="list-group-item">Pira's Old Utility Build (53/8/10)</a>
+							<a href="http://wotlk.openwow.com/talent#j0ERqI0IsbRbssZhg0zZ0gh" class="list-group-item">Pira's Survivutility Build (50/11/10)</a>
+							<a href="http://wotlk.openwow.com/talent#jsxGoIIcofRbsRbhg0zZ0gh" class="list-group-item">Kdrina's Build (50/11/10)</a>
 						</div>
 						<h4>Glyphs:</h4>
 						<p>Major:
 							<ul>
-								<li>Glyph of Obliterate</li>
-								<li>Glyph of Frost Strike</li>
-								<li>Glyph of Unbreakable Armor</li>
+								<li>Glyph of Rune Tap</li>
+								<li>Glyph of Vampiric Blood</li>
+								<li>Glyph of Dark Death</li>
 							</ul>
 							Minor:
 							<ul>
@@ -349,53 +146,53 @@
 							</ul>
 						</p>
 						<hr>
-						<h3 id="frosttank-spells"><u>Spells</u></h3>
+						<h3 id="bloodtank-spells"><u>Spells</u></h3>
 						<h5><strong>Presence:</strong> Frost</h5>
 						<br>
 						<h5><strong>Threat Generation:</strong></h5>
 						<ul class="list-unstyled">
 							<li>Icy Touch (IT)</li>
 							<li>Plague Strike (PS)</li>
-							<li>Blood Strike (BS)</li>
-							<li>Obliterate (OB)</li>
-							<li>Frost STrike (FS)</li>
+							<li>Heart Strike (HS)</li>
+							<li>Death Stirke (DS)</li>
 							<li>Death Coil (DC)</li>
 							<li>Rune Strike (RS)</li>
 							<li>Death and Decay (Dnd)</li>
 							<li>Pestillence (Pest)</li>
 							<li>Blood Boil (BB)</li>
-							<li>Howling Blast (HB)</li>
 						</ul>
 						<br>
 						<h5><strong>Cooldowns:</strong></h5>
 						<ul class="list-unstyled">
 							<li>Icebound Fortitude</li>
-							<li>Unbreakable Armor</li>
+							<li>Vampiric Blood</li>
 							<li>Anti-Magic Shell</li>
 							<li>Blood Tap</li>
 							<li>Rune Tap</li>
 							<li>Lichborne</li>
 							<li>Raise Dead</li>
 							<li>Death Pact</li>
+							<li>Mark of Blood</li>
+							<li>Hysteria</li>
 						</ul>
 						<br>
 						<h4>Single Target</h4>
-						<p>Keep diseases on your target as much as possible. Use Howling Blast when rime procs. Use Blood Strike to keep blood runes on cooldown. Fill in the rest with Obliterate (for damage) and Icy Touch (for threat) where needed. Runic power dump with Frost Strike when in melee range, and Death Coil when kiting or aggroing a ranged mob.
+						<p>For single target threat generation, the most important spell is likely Icy Touch. Icy Touch develops absolutely bonkers amounts of threat, something like 6x it's damage. On the server I play on, a single Icy Touch can net me about 20-30k threat. Beyond that, make sure you apply blood plague with Plague Strike and keep both of your blood runes on cooldown using Heart Strike, Rune Tap, or Blood Tap. If you're not having threat issues, use frost and unholy runes to Death Strike after being hit. The diseases must be on the target for Death Strike to work, so bear that in mind.
 						</p><br>
 						<h5>Simplified:</h5>
-						<pre>HB (proc) > Diseases > BS > OB > IT > PS > RP Dump (FS/DC)</pre><br>
+						<pre>DS > HS > Diseases > IT > PS > RS > DC</pre><br>
 						<h4>Multi Target</h4>
-						<p>Drop Death and Decay under the offending mob pile to start the pull. Spread diseases to your targets ASAP. Use Howling Blast when available, but prioritize it highly on rime proc. Waste blood runes with Blood Boil. RP dump when all else is on cooldown.
+						<p>For multi-target pulls Death and Decay becomes your bread and butter. Drop it under the offending pile of mobs and run in. Icy touch and Plague Strike the priority target and then use Pestilence to spread your diseases. After that quickly cycle targets, lobbing death coils or rune strikes at mobs whose aggro you may be in danger of losing. For the second cycle, use Blood Boil, Heart Strike, Death Strike, or whatever else you wish to maintain aggro.
 						</p><br>
 						<h5>Simplified:</h5>
-						<pre>HB (proc) > Diseases > DnD > HB > BB > RP Dump (FS/DC)</pre><br>
+						<pre>DnD > Diseases > DS > BB/HS > RS > DC</pre><br>
 						<h4>Cooldown Use</h4>
 						<br>
 						<dl class="dl-horizontal">
 							<dt>Icebound Fortitude</dt>
 							<dd>This is your largest source of damage reduction. Use this as an "oh shit button" when you notice your health dropping rapidly, your healer is out of mana, or your healer is completely lost. It will save your life.</dd><br>
-							<dt>Unbreakable Armor</dt>
-							<dd>This will increase your armor by a significant amount. Since it is a short cooldown, it should be used in less dire situations such as: initial pulling, aoe encounters, and medium damage periods.</dd><br>
+							<dt>Vampiric Blood</dt>
+							<dd>This will increase your healing taken. Since the cooldown is short, use this whenever you think it will be helpful. High damage phases, add phases, beginning of the fight, etc. This will also consume a blood rune.</dd><br>
 							<dt>Anti-Magic Shell</dt>
 							<dd>Use this to help endure periods of high magic damage, or prevent a spell based debuff effect from being applied to you. Its use is very subjective and depends largely on the fight mechanics.</dd><br>
 							<dt>Blood Tap</dt>
@@ -408,13 +205,18 @@
 							<dd>This will summon a tiny ghoul guardian to fight with you.</dd><br>
 							<dt>Death Pact</dt>
 							<dd>This will consume your ghoul guardian, giving you 40% your maximum health. Use this as a life saving "oh shit" self-heal in conjuction with raise dead.</dd><br>
+							<dt>Mark of Blood</dt>
+							<dd>This puts a mark on an enemy, causing them to heal whomever they hit each time they deal damage. Best utilized on quick foes, or foes with a large aoes. When used properly, mark of blood can provide both single target and raid healing.</dd><br>
+							<dt>Hysteria</dt>
+							<dd>Increases physical damage but also damages the player it's applied to. Should be applied to highest physical damage dps OR Death Knight tank if they are having threat issues.</dd><br>
 							<dt>Empower Rune Weapon</dt>
-							<dd>Immediately refreshes all of your runes. Best used either as an "oh shit" to refresh runes for Death Strike, Rune Tap, or Unbreakable usage. Can also be used early in the fight to ensure high threat.</dd><br>						  
+							<dd>Immediately refreshes all of your runes. Best used either as an "oh shit" to refresh runes for Death Strike, Rune Tap, or Vampiric Blood usage. Can also be used early in the fight to ensure high threat.</dd><br>						  
 						</dl>
 						<hr>
-						<h3 id="frosttank-gearing"><u>Gearing</u></h3>
+						<h3 id="bloodtank-gearing"><u>Gearing</u></h3>
 						<h4>Threat:</h4>
-						<p>If you worry about your threat, the best thing you can do is get hit and expertise capped. Not that it's as imporant with a Death Knight, since we don't lose our runes when we miss, it's still the best way you can ensure you have high threat. The expertise cap is 26 for dodge and 56 exprtise for parry. Although you'll be tanking, the dodge cap is enough. Hit cap is 8%. 
+						<p>
+							If you worry about your threat, the best thing you can do is get hit and expertise capped. Not that it's as imporant with a Death Knight, since we don't lose our runes when we miss, it's still the best way you can ensure you have high threat. The expertise cap is 26 for dodge and 56 exprtise for parry. Although you'll be tanking, the dodge cap is enough. Hit cap is 8%. 
 						</p>
 						<br>
 						<h5>Simplified:</h5>
@@ -426,7 +228,7 @@
 						<h5>Simplified:</h5>
 						<pre>540 Defense > Stamina > Dodge = Parry > Defense Rating*</pre><small>* = Beyond 540 defense</small><br>
 						<h4>Itemization:</h4>
-						<p>Depending on the build, you will either be using a two handed mace, sword, or axe, or a dual one handed maces, swords, or axes. Agility/Stam polearms can be used in lieu of strength two-handers, albiet at a loss of threat and parry. The runeforge on the weapon should either be Stoneskin Gargoyle/Swordshattering for two-handers or Neurbian Carapace/Swordbreaking for one-handers at the player's discretion. Stoneskin Gargoyle and Nerubian Carapace will net more stamina and thus always come out above Swordshattering/breaking even if the defense cap is already met through gear.</p>
+						<p>With this build you will want to play with any slow (3.5 speed +) two-handed weapon. Ideally a two-handed sword, mace, or axe, with strength and stamina on it. Agility/Stam polearms can be used, albiet at a loss of threat and parry. The runeforge on the weapon should either be Stoneskin Gargoyle or Swordshattering at the player's discretion. Stoneskin Gargoyle will net more stamina and thus always come out above Swordshattering even if the defense cap is already met through gear.</p>
 						<p>Beyond weapon, every single item on your character should be a plate tanking item. These items should have some combination of Strength, Stamina, Bonus Armor, Defense, Dodge, Parry, Hit, and Expertise. You will never see Armor Penetration, Crit, or Haste on tank armor, jewelery, or trinkets. Unless you are extremely experienced and know the risks associated with running dps and pvp gear, please stick to tanking gear only.</p><br>
 						<h4>Gemming:</h4>
 						<dl>
@@ -440,135 +242,333 @@
 							<dd><a href="http://wotlk.openwow.com/item=40119">Solid Majestic Zircon</a></dd><br>
 						</dl>
 					</div>
-					<div id="frost-dps" class="tab-pane fade">
+					<div id="blood-dps" class="tab-pane fade">
 						<br>
 						<br>
 						<center>
-							<h2>Frost DPS<small><br>Written by: </small></h2>
-						</center>
-					</div>
-					<div id="unholy" class="tab-pane fade">
-						<br>
-						<br>
-						<center>
-							<h2>Unholy DPS<small><br>Written by: FluffyPira</small></h2>
+							<h2>Blood DPS<small><br>Written by: FluffyPira</small></h2>
 						</center>
 						<br>
 						<h5>Contents</h5>
 						<div class="tab-content">
 							<ol>
-								<li><a href="#unholy-intro">Introduction</a></li>
-								<li><a href="#unholy-build">Build</a></li>
-								<li><a href="#unholy-spells">Spells</a></li>
-								<li><a href="#unholy-gearing">Gearing</a></li>
+								<li><a href="#intro">Introduction</a></li>
+								<li><a href="#build">Build</a></li>
+								<li><a href="#spells">Spells</a></li>
+								<li><a href="#gearing">Gearing</a></li>
 							</ol>
 						</div>
 						<br>
-						<h3 id="unholy-intro"><u>Introduction</u></h3>
-						<p>Hello friend! Thank you for choosing Unholy, possibly the most under-utilized but highest damage death knight spec on the server. If you can work around all of the bugs and problems that is.</p>
-						<p>Unholy focuses on maximizing disease and shadow damage, while still doing incredible melee damage with a two-handed weapon. It offers raid utility in a 13% damage increase to any targets affected by blood plague and thus this spec is a caster's best friend.</p>
-						<hr>
-						<h3 id="unholy-build"><u>Build</u></h3>
-						<h4>Talent:</h4>
-						<p>There's little variation to the possible talent for Unholy. Most have settled on a solitary spec that forgoes points in Reaping to place them in Endless Witner</p>
-						<div class="list-group">
-							<a href="http://wotlk.openwow.com/talent#jZG0xx0MZfMhIxcbx0zx0uIqo" class="list-group-item">Standard Build (0/17/54)</a>
+						<h3 id="intro">Introduction</h3>
+						<p>Friends, Romans, countrymen, lend me your ears;<br>
+							I come to bury Caesar, not to praise him.<br>
+							The evil that men do lives after them;<br>
+							The good is oft interred with their bones;<br>
+							So let it be with Caesar. The noble Brutus<br>
+							Hath told you Caesar was ambitious:<br>
+							If it were so, it was a grievous fault,<br>
+							And grievously hath Caesar answered it.<br>
+							Here, under leave of Brutus and the rest-<br>
+							For Brutus is an honourable man;<br>
+							So are they all, all honourable men-<br>
+							Come I to speak in Caesar's funeral.</p>
+							<hr>
+							<h3 id="build">Build</h3>
+							<p>He was my friend, faithful and just to me: But Brutus says he was ambitious; And Brutus is an honourable man. He hath brought many captives home to Rome Whose ransoms did the general coffers fill: Did this in Caesar seem ambitious? When that the poor have cried, Caesar hath wept: Ambition should be made of sterner stuff:</p>
+							<hr>
+							<h3 id="spells">Spells</h3>
+							<p>
+								<ul class="list-unstyled">
+									<li>Yet Brutus says he was ambitious;</li>
+									<li>And Brutus is an honourable man.</li>
+									<li>You all did see that on the Lupercal</li>
+									<li>I thrice presented him a kingly crown,</li>
+									<li>Which he did thrice refuse: was this ambition?</li>
+								</ul>
+							</p>
+							<hr>
+							<h3 id="gearing">Gearing</h3>
+							<p>
+								Yet Brutus says he was ambitious;<br>
+								And, sure, he is an honourable man.<br>
+								I speak not to disprove what Brutus spoke,<br>
+								But here I am to speak what I do know.<br>
+								You all did love him once, not without cause:<br>
+								What cause withholds you then, to mourn for him?<br>
+								O judgment! thou art fled to brutish beasts,<br>
+								And men have lost their reason. Bear with me;<br>
+								My heart is in the coffin there with Caesar,<br>
+								And I must pause till it come back to me.<br>
+							</p>
+							<hr>
 						</div>
-						<h4>Glyphs:</h4>
-						<p>Major:
-							<ul>
-								<li>Glyph of Disease</li>
-								<li>Glyph of Icy Touch</li>
-								<li>Glyph of Dark Death</li>
+						<div id="frost-tank" class="tab-pane fade">
+							<br>
+							<br>
+							<center>
+								<h2>Frost Tank<small><br>Written by: FluffyPira</small></h2>
+							</center>
+							<br>
+							<h5>Contents</h5>
+							<div class="tab-content">
+								<ol>
+									<li><a href="#frosttank-intro">Introduction</a></li>
+									<li><a href="#frosttank-build">Build</a></li>
+									<li><a href="#frosttank-spells">Spells</a></li>
+									<li><a href="#frosttank-gearing">Gearing</a></li>
+								</ol>
+							</div>
+							<br>
+							<h3 id="frosttank-intro"><u>Introduction</u></h3>
+							<p>Welcome to the brave new world of Death Knight tanking, my friend. It's a scary world, but with this guide you should be able to conquer it with relative ease. Death Knights are versatile tanks; both able to mitigate physical damage normally, and mitigate magical damage via talents and spells. This makes the Death Knight one of the most utilized tanks for magic heavy fights.</p>
+							<p>The main draw back to Death Knight tanks is the lack of a shield, however, by choosing blood, you allow youself to quickly heal any damage taken before the healer even notices it's missing. Through reflexive healing, we can make up what we lose by lacking the ability to block.</p>
+							<hr>
+							<h3 id="frosttank-build"><u>Build</u></h3>
+							<h4>Talent:</h4>
+							<p>Frost Death Knights, and Death Knights in general, have a glut of choices when it comes to building their talent tree. The base talents that any death knight should have are <a href="http://wotlk.openwow.com/talent#j0xZ0xZ0x">(5/5/5)</a></p>
+							<p>A more fleshed out, base version, of the frost tank tree can be found here: <a href="http://wotlk.openwow.com/talent#j0xZutx0AdI0c0buzAo0x">(5/15/5)</a></p>
+							<p>That build leaves 10 points left over for the individual user to assign depending on situation and playstyle.</p>
+							<div class="list-group">
+								<a href="http://wotlk.openwow.com/talent#j0xZutx0AdI0c0buzAo0x" class="list-group-item">Base Build (5/51/5)</a>
+								<a href="http://wotlk.openwow.com/talent#j0EMoZhxxzArI0c0buzAo0g" class="list-group-item">Two-Handed Weapon Build (13/51/7)</a>
+								<a href="http://wotlk.openwow.com/talent#j0E0oZhxezAbI0c0fuzAo0x" class="list-group-item">Dual-Wield Build (11/55/5)</a>
+								<a href="http://wotlk.openwow.com/talent#jcZG0fxNRckc0fuzAofM0hxz" class="list-group-item">Kdrina's DW Frost Build (3/52/16)</a>
+							</div>
+							<h4>Glyphs:</h4>
+							<p>Major:
+								<ul>
+									<li>Glyph of Obliterate</li>
+									<li>Glyph of Frost Strike</li>
+									<li>Glyph of Unbreakable Armor</li>
+								</ul>
+								Minor:
+								<ul>
+									<li>Glyph of Blood Tap</li>
+									<li>Glyph of Death's Embrace</li>
+									<li>Glyph of Pestilence</li>
+								</ul>
+							</p>
+							<hr>
+							<h3 id="frosttank-spells"><u>Spells</u></h3>
+							<h5><strong>Presence:</strong> Frost</h5>
+							<br>
+							<h5><strong>Threat Generation:</strong></h5>
+							<ul class="list-unstyled">
+								<li>Icy Touch (IT)</li>
+								<li>Plague Strike (PS)</li>
+								<li>Blood Strike (BS)</li>
+								<li>Obliterate (OB)</li>
+								<li>Frost STrike (FS)</li>
+								<li>Death Coil (DC)</li>
+								<li>Rune Strike (RS)</li>
+								<li>Death and Decay (Dnd)</li>
+								<li>Pestillence (Pest)</li>
+								<li>Blood Boil (BB)</li>
+								<li>Howling Blast (HB)</li>
 							</ul>
-							Minor:
-							<ul>
-								<li>Glyph of Blood Tap</li>
-								<li>Glyph of Horn of Winter</li>
-								<li>Glyph of Pestilence</li>
+							<br>
+							<h5><strong>Cooldowns:</strong></h5>
+							<ul class="list-unstyled">
+								<li>Icebound Fortitude</li>
+								<li>Unbreakable Armor</li>
+								<li>Anti-Magic Shell</li>
+								<li>Blood Tap</li>
+								<li>Rune Tap</li>
+								<li>Lichborne</li>
+								<li>Raise Dead</li>
+								<li>Death Pact</li>
 							</ul>
-						</p>
-						<hr>
-						<h3 id="unholy-spells"><u>Spells</u></h3>
-						<h5><strong>Presence:</strong> Blood</h5>
-						<br>
-						<h5><strong>Damage Abilities:</strong></h5>
-						<ul class="list-unstyled">
-							<li>Icy Touch (IT)</li>
-							<li>Plague Strike (PS)</li>
-							<li>Blood Strike (BS)</li>
-							<li>Scourge Strike (SS)</li>
-							<li>Death Coil (DC)</li>
-							<li>Death and Decay (Dnd)</li>
-							<li>Pestillence (Pest)</li>
-							<li>Blood Boil (BB)</li>
-						</ul>
-						<br>
-						<h5><strong>Cooldowns:</strong></h5>
-						<ul class="list-unstyled">
-							<li>Army of the Dead</li>
-							<li>Raise Dead</li>
-							<li>Death Pact</li>
-							<li>Summon Gargoyle</li>
-							<li>Anti-Magic Shell</li>
-						</ul>
-						<br>
-						<h4>Single Target</h4>
-						<p>For single target damage, you want to focus on keeping diseases up, refreshing them with pestillence, and scourge striking away. That's basically all there is to it.
-						</p><br>
-						<h5>Simplified:</h5>
-						<p>Your opener should be:</p>
-						<pre>PS -> IT -> SS -> BS -> BS -> RP Dump (Gargoyle or DC)</pre>
-						<p>After that, your continued rotation should look like:</p>
-						<pre>SS -> SS -> BS -> Pest -> RP Dump</pre>
-						<p>You can substitute Pest for BS in the first rotation if you're certian you can hit Pest again before diseases fall off</p><br>
-						<h4>Multi Target</h4>
-						<p>Here's the fun thing. For multi target dps, just spread your diseases to everything and stand back. Wandering Plague will basically do all of your damage, so keep diseases refreshed and use Blood Boil and DnD for filler. Scourge Strike if you have nothing else to do with frost and unholy runes.
-						</p><br>
-						<h5>Simplified:</h5>
-						<pre>Diseases > DnD > BB > SS > RP Dump</pre><br>
-						<h4>Cooldown Use</h4>
-						<br>
-						<dl class="dl-horizontal">
-							<dt>Amry of the Dead</dt>
-							<dd>Use either just before or as you're running into combat. It's chaotic and fun, but not always necessary.</dd><br>
-							<dt>Summon Gargoyle</dt>
-							<dd>Use ASAP, either as your first runic power dump or your second. Does a fair bit of dps, quit helpful before the fight normalises.</dd>			
-							<dt>Anti-Magic Shell</dt>
-							<dd>Use when heavy spell damage is incoming. Generates quite a bit of RP and may save your life.</dd>
-							<dt>Raise Dead</dt>
-							<dd>Should be used immediately upon switching to this spec. Technically a cooldown but Unholy is a hell of a lot weaker without the permanent pet so treat it more as a buff.</dd>
-							<dt>Death Pact</dt>
-							<dd>Use as your about to die and in no other instances. You will do less damage without a pet, but dead dps do no dps.</dd>
-						</dl>
-						<hr>
-						<h3 id="unholy-gearing"><u>Gearing</u></h3>
-						<h4>Stats:</h4>
-						<p>First and foremost, get expertise and hit capped. The expertise cap is 26 for dodge and the hit cap is 8%. After that, crit, 
-						</p>
-						<br>
-						<h5>Simplified:</h5>
-						<pre>263 hit rating > 200 Expertise rating > Crit >= Haste > Armor Penetration</pre><br>
-						<h4>Itemization:</h4>
-						<p>With this build you will want to play with any slow (3.5 speed +) two-handed weapon. Always a two-handed sword, mace, or axe, with strength and stamina on it.</p>
-						<p>Beyond weapon, every single item on your character should be a plate DPS item. These items should have some combination of Strength, Stamina, Critical, Haste, Armor Penetration, Hit, and Expertise. You will never see Dodge, Parry, or Defense on dps armor, jewelery, or trinkets. Try to avoid leather gear with Agility on it. Death Knigts do not nearly benefit enough from agility to make agi gear a viable upgrade, even if it has better secondary stats or a higher item level.</p><br>
-						<h4>Gemming:</h4>
-						<dl>
-							<dt>Meta:</dt>
-							<dd><a href="http://wotlk.openwow.com/item=41285">Chaotic Skyflare Diamond</a></dd><br>
-							<dt>Red:</dt>
-							<dd><a href="http://wotlk.openwow.com/item=40111">Bold Cardinal Ruby</a></dd><br>
-							<dt>Yellow:</dt>
-							<dd><a href="http://wotlk.openwow.com/item=40111">Bold Cardinal Ruby</a></dd><br>
-							<dt>Blue:</dt>
-							<dd>2x <a href="http://wotlk.openwow.com/item=40129">Sovereign Dreadstone</a>,<br> <a href="http://wotlk.openwow.com/item=40111">Bold Cardinal Ruby</a></dd><br>
-						</dl>
+							<br>
+							<h4>Single Target</h4>
+							<p>Keep diseases on your target as much as possible. Use Howling Blast when rime procs. Use Blood Strike to keep blood runes on cooldown. Fill in the rest with Obliterate (for damage) and Icy Touch (for threat) where needed. Runic power dump with Frost Strike when in melee range, and Death Coil when kiting or aggroing a ranged mob.
+							</p><br>
+							<h5>Simplified:</h5>
+							<pre>HB (proc) > Diseases > BS > OB > IT > PS > RP Dump (FS/DC)</pre><br>
+							<h4>Multi Target</h4>
+							<p>Drop Death and Decay under the offending mob pile to start the pull. Spread diseases to your targets ASAP. Use Howling Blast when available, but prioritize it highly on rime proc. Waste blood runes with Blood Boil. RP dump when all else is on cooldown.
+							</p><br>
+							<h5>Simplified:</h5>
+							<pre>HB (proc) > Diseases > DnD > HB > BB > RP Dump (FS/DC)</pre><br>
+							<h4>Cooldown Use</h4>
+							<br>
+							<dl class="dl-horizontal">
+								<dt>Icebound Fortitude</dt>
+								<dd>This is your largest source of damage reduction. Use this as an "oh shit button" when you notice your health dropping rapidly, your healer is out of mana, or your healer is completely lost. It will save your life.</dd><br>
+								<dt>Unbreakable Armor</dt>
+								<dd>This will increase your armor by a significant amount. Since it is a short cooldown, it should be used in less dire situations such as: initial pulling, aoe encounters, and medium damage periods.</dd><br>
+								<dt>Anti-Magic Shell</dt>
+								<dd>Use this to help endure periods of high magic damage, or prevent a spell based debuff effect from being applied to you. Its use is very subjective and depends largely on the fight mechanics.</dd><br>
+								<dt>Blood Tap</dt>
+								<dd>This is a free death rune and will remove one of your blood runes meaning you only need to get rid of the other for Blade Barrier. With 4pc T10 tank gear, it'll offer an additional 12% damage reduction for 10 seconds when used, turning it into another damage reduction cooldown.</dd><br>
+								<dt>Rune Tap</dt>
+								<dd>This will heal you for 20% your health. With the glyph of Rune Tap, you will also heal your party. Use this skill as a blood rune after being dealt a heavy strike to negate the need for healing.</dd><br>
+								<dt>Lichborne</dt>
+								<dd>This will turn you undead for 10 seconds, negating fear, charm, and sleep effects. As a bonus, if you target yourself and use death coil the death coils will heal you. Can be used as a great way to negate fight mechanics or as an "oh shit" self-heal.</dd><br>
+								<dt>Raise Dead</dt>
+								<dd>This will summon a tiny ghoul guardian to fight with you.</dd><br>
+								<dt>Death Pact</dt>
+								<dd>This will consume your ghoul guardian, giving you 40% your maximum health. Use this as a life saving "oh shit" self-heal in conjuction with raise dead.</dd><br>
+								<dt>Empower Rune Weapon</dt>
+								<dd>Immediately refreshes all of your runes. Best used either as an "oh shit" to refresh runes for Death Strike, Rune Tap, or Unbreakable usage. Can also be used early in the fight to ensure high threat.</dd><br>						  
+							</dl>
+							<hr>
+							<h3 id="frosttank-gearing"><u>Gearing</u></h3>
+							<h4>Threat:</h4>
+							<p>If you worry about your threat, the best thing you can do is get hit and expertise capped. Not that it's as imporant with a Death Knight, since we don't lose our runes when we miss, it's still the best way you can ensure you have high threat. The expertise cap is 26 for dodge and 56 exprtise for parry. Although you'll be tanking, the dodge cap is enough. Hit cap is 8%. 
+							</p>
+							<br>
+							<h5>Simplified:</h5>
+							<pre>263 hit rating > 200 Expertise rating > *</pre><br>
+							<h4>Defense:</h4>
+							<p>Most importantly, above all else, is to get defense capped. If you're not at the cap, there is a chance that raid bosses will critically strike you, dealing bonkers amounts of damage to you and scaring the healers. To prevent this you MUST reach a defense of 540. Beyond this, you'll be looking for stamina primarily followed by parry and dodge. Dodge rating will result in slightly better returns than parry, however, as both have a diminising return it's best not to go too hard in a single direction. 
+							</p>
+							<br>
+							<h5>Simplified:</h5>
+							<pre>540 Defense > Stamina > Dodge = Parry > Defense Rating*</pre><small>* = Beyond 540 defense</small><br>
+							<h4>Itemization:</h4>
+							<p>Depending on the build, you will either be using a two handed mace, sword, or axe, or a dual one handed maces, swords, or axes. Agility/Stam polearms can be used in lieu of strength two-handers, albiet at a loss of threat and parry. The runeforge on the weapon should either be Stoneskin Gargoyle/Swordshattering for two-handers or Neurbian Carapace/Swordbreaking for one-handers at the player's discretion. Stoneskin Gargoyle and Nerubian Carapace will net more stamina and thus always come out above Swordshattering/breaking even if the defense cap is already met through gear.</p>
+							<p>Beyond weapon, every single item on your character should be a plate tanking item. These items should have some combination of Strength, Stamina, Bonus Armor, Defense, Dodge, Parry, Hit, and Expertise. You will never see Armor Penetration, Crit, or Haste on tank armor, jewelery, or trinkets. Unless you are extremely experienced and know the risks associated with running dps and pvp gear, please stick to tanking gear only.</p><br>
+							<h4>Gemming:</h4>
+							<dl>
+								<dt>Meta:</dt>
+								<dd><a href="http://wotlk.openwow.com/item=41380">Austere Earthsiege Diamond</a></dd><br>
+								<dt>Red:</dt>
+								<dd>1x <a href="http://wotlk.openwow.com/item=40139">Defender's</a> or <a href="http://wotlk.openwow.com/item=40138">Regal Dreadstone</a>,<br><a href="http://wotlk.openwow.com/item=40119">Solid Majestic Zircon</a></dd><br>
+								<dt>Yellow:</dt>
+								<dd><a href="http://wotlk.openwow.com/item=40119">Solid Majestic Zircon</a></dd><br>
+								<dt>Blue:</dt>
+								<dd><a href="http://wotlk.openwow.com/item=40119">Solid Majestic Zircon</a></dd><br>
+							</dl>
+						</div>
+						<div id="frost-dps" class="tab-pane fade">
+							<br>
+							<br>
+							<center>
+								<h2>Frost DPS<small><br>Written by: </small></h2>
+							</center>
+						</div>
+						<div id="unholy" class="tab-pane fade">
+							<br>
+							<br>
+							<center>
+								<h2>Unholy DPS<small><br>Written by: FluffyPira</small></h2>
+							</center>
+							<br>
+							<h5>Contents</h5>
+							<div class="tab-content">
+								<ol>
+									<li><a href="#unholy-intro">Introduction</a></li>
+									<li><a href="#unholy-build">Build</a></li>
+									<li><a href="#unholy-spells">Spells</a></li>
+									<li><a href="#unholy-gearing">Gearing</a></li>
+								</ol>
+							</div>
+							<br>
+							<h3 id="unholy-intro"><u>Introduction</u></h3>
+							<p>Hello friend! Thank you for choosing Unholy, possibly the most under-utilized but highest damage death knight spec on the server. If you can work around all of the bugs and problems that is.</p>
+							<p>Unholy focuses on maximizing disease and shadow damage, while still doing incredible melee damage with a two-handed weapon. It offers raid utility in a 13% damage increase to any targets affected by blood plague and thus this spec is a caster's best friend.</p>
+							<hr>
+							<h3 id="unholy-build"><u>Build</u></h3>
+							<h4>Talent:</h4>
+							<p>There's little variation to the possible talent for Unholy. Most have settled on a solitary spec that forgoes points in Reaping to place them in Endless Witner</p>
+							<div class="list-group">
+								<a href="http://wotlk.openwow.com/talent#jZG0xx0MZfMhIxcbx0zx0uIqo" class="list-group-item">Standard Build (0/17/54)</a>
+							</div>
+							<h4>Glyphs:</h4>
+							<p>Major:
+								<ul>
+									<li>Glyph of Disease</li>
+									<li>Glyph of Icy Touch</li>
+									<li>Glyph of Dark Death</li>
+								</ul>
+								Minor:
+								<ul>
+									<li>Glyph of Blood Tap</li>
+									<li>Glyph of Horn of Winter</li>
+									<li>Glyph of Pestilence</li>
+								</ul>
+							</p>
+							<hr>
+							<h3 id="unholy-spells"><u>Spells</u></h3>
+							<h5><strong>Presence:</strong> Blood</h5>
+							<br>
+							<h5><strong>Damage Abilities:</strong></h5>
+							<ul class="list-unstyled">
+								<li>Icy Touch (IT)</li>
+								<li>Plague Strike (PS)</li>
+								<li>Blood Strike (BS)</li>
+								<li>Scourge Strike (SS)</li>
+								<li>Death Coil (DC)</li>
+								<li>Death and Decay (Dnd)</li>
+								<li>Pestillence (Pest)</li>
+								<li>Blood Boil (BB)</li>
+							</ul>
+							<br>
+							<h5><strong>Cooldowns:</strong></h5>
+							<ul class="list-unstyled">
+								<li>Army of the Dead</li>
+								<li>Raise Dead</li>
+								<li>Death Pact</li>
+								<li>Summon Gargoyle</li>
+								<li>Anti-Magic Shell</li>
+							</ul>
+							<br>
+							<h4>Single Target</h4>
+							<p>For single target damage, you want to focus on keeping diseases up, refreshing them with pestillence, and scourge striking away. That's basically all there is to it.
+							</p><br>
+							<h5>Simplified:</h5>
+							<p>Your opener should be:</p>
+							<pre>PS -> IT -> SS -> BS -> BS -> RP Dump (Gargoyle or DC)</pre>
+							<p>After that, your continued rotation should look like:</p>
+							<pre>SS -> SS -> BS -> Pest -> RP Dump</pre>
+							<p>You can substitute Pest for BS in the first rotation if you're certian you can hit Pest again before diseases fall off</p><br>
+							<h4>Multi Target</h4>
+							<p>Here's the fun thing. For multi target dps, just spread your diseases to everything and stand back. Wandering Plague will basically do all of your damage, so keep diseases refreshed and use Blood Boil and DnD for filler. Scourge Strike if you have nothing else to do with frost and unholy runes.
+							</p><br>
+							<h5>Simplified:</h5>
+							<pre>Diseases > DnD > BB > SS > RP Dump</pre><br>
+							<h4>Cooldown Use</h4>
+							<br>
+							<dl class="dl-horizontal">
+								<dt>Amry of the Dead</dt>
+								<dd>Use either just before or as you're running into combat. It's chaotic and fun, but not always necessary.</dd><br>
+								<dt>Summon Gargoyle</dt>
+								<dd>Use ASAP, either as your first runic power dump or your second. Does a fair bit of dps, quit helpful before the fight normalises.</dd>			
+								<dt>Anti-Magic Shell</dt>
+								<dd>Use when heavy spell damage is incoming. Generates quite a bit of RP and may save your life.</dd>
+								<dt>Raise Dead</dt>
+								<dd>Should be used immediately upon switching to this spec. Technically a cooldown but Unholy is a hell of a lot weaker without the permanent pet so treat it more as a buff.</dd>
+								<dt>Death Pact</dt>
+								<dd>Use as your about to die and in no other instances. You will do less damage without a pet, but dead dps do no dps.</dd>
+							</dl>
+							<hr>
+							<h3 id="unholy-gearing"><u>Gearing</u></h3>
+							<h4>Stats:</h4>
+							<p>First and foremost, get expertise and hit capped. The expertise cap is 26 for dodge and the hit cap is 8%. After that, crit, 
+							</p>
+							<br>
+							<h5>Simplified:</h5>
+							<pre>263 hit rating > 200 Expertise rating > Crit >= Haste > Armor Penetration</pre><br>
+							<h4>Itemization:</h4>
+							<p>With this build you will want to play with any slow (3.5 speed +) two-handed weapon. Always a two-handed sword, mace, or axe, with strength and stamina on it.</p>
+							<p>Beyond weapon, every single item on your character should be a plate DPS item. These items should have some combination of Strength, Stamina, Critical, Haste, Armor Penetration, Hit, and Expertise. You will never see Dodge, Parry, or Defense on dps armor, jewelery, or trinkets. Try to avoid leather gear with Agility on it. Death Knigts do not nearly benefit enough from agility to make agi gear a viable upgrade, even if it has better secondary stats or a higher item level.</p><br>
+							<h4>Gemming:</h4>
+							<dl>
+								<dt>Meta:</dt>
+								<dd><a href="http://wotlk.openwow.com/item=41285">Chaotic Skyflare Diamond</a></dd><br>
+								<dt>Red:</dt>
+								<dd><a href="http://wotlk.openwow.com/item=40111">Bold Cardinal Ruby</a></dd><br>
+								<dt>Yellow:</dt>
+								<dd><a href="http://wotlk.openwow.com/item=40111">Bold Cardinal Ruby</a></dd><br>
+								<dt>Blue:</dt>
+								<dd>2x <a href="http://wotlk.openwow.com/item=40129">Sovereign Dreadstone</a>,<br> <a href="http://wotlk.openwow.com/item=40111">Bold Cardinal Ruby</a></dd><br>
+							</dl>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-3">
+				<div class="col-md-3">
+				</div>
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>
